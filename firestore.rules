@@ -1,0 +1,74 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ── Helper functions ───────────────────────────────────────────────────
+    function isSignedIn()  { return request.auth != null; }
+    function uid()         { return request.auth.uid; }
+    function isEmailAdmin() {
+      return isSignedIn() &&
+             (request.auth.token.email in ['kruebbe527@gmail.com', 'kellakruebbe@gmail.com'] ||
+              (request.auth.token.keys().hasAll(['email']) &&
+               request.auth.token.email.lower() in ['kruebbe527@gmail.com', 'kellakruebbe@gmail.com']));
+    }
+    function isAdmin() {
+      return isSignedIn() &&
+             (isEmailAdmin() ||
+              (exists(/databases/$(database)/documents/users/$(uid())) &&
+               get(/databases/$(database)/documents/users/$(uid())).data.get('role', '') == 'admin'));
+    }
+    function isApproved() {
+      return isSignedIn() &&
+             (isAdmin() ||
+              (exists(/databases/$(database)/documents/users/$(uid())) &&
+               get(/databases/$(database)/documents/users/$(uid())).data.get('role', '') in ['approved', 'admin']));
+    }
+
+    // ── DVDs ───────────────────────────────────────────────────────────────
+    // Anyone (even unauthenticated) can read the catalogue
+    match /dvds/{dvdId} {
+      allow read:   if true;
+      allow create: if isAdmin();
+      allow update: if isAdmin();
+      allow delete: if isAdmin();
+    }
+
+    // ── Checkouts ──────────────────────────────────────────────────────────
+    match /checkouts/{checkoutId} {
+      // Users can read their own checkouts; admins see all
+      allow read:   if (isSignedIn() && resource.data.requesterId == uid()) || isAdmin();
+      // Approved users and admins can create a request for themselves
+      allow create: if isApproved()
+                    && request.resource.data.requesterId == uid()
+                    && request.resource.data.status in ['pending', 'queued'];
+      // Only admins can change status (approve / deny / return)
+      allow update: if isAdmin();
+      allow delete: if isAdmin();
+    }
+
+    // ── Open Requests (Queue / Concurrency Lock) ───────────────────────────
+    // One lock per DVD and borrower prevents duplicate open requests.
+    match /openRequests/{requestId} {
+      allow read:   if (isSignedIn() && resource.data.requesterId == uid()) || isAdmin();
+      allow create: if isApproved()
+                    && request.resource.data.requesterId == uid()
+                    && request.resource.data.status in ['pending', 'queued'];
+      allow update: if isAdmin();
+      allow delete: if isAdmin() || (isSignedIn() && resource.data.requesterId == uid());
+    }
+
+    // ── Users ──────────────────────────────────────────────────────────────
+    match /users/{userId} {
+      // Users can read their own profile; admins read all
+      allow read:   if isSignedIn() && (userId == uid() || isAdmin());
+      // New user document created on registration — allow self-create
+      allow create: if isSignedIn() && userId == uid();
+      // Admins can change roles; configured admins can self-heal; users can update non-role fields
+      allow update: if isAdmin()
+                    || (isSignedIn() && userId == uid() && isEmailAdmin() && request.resource.data.role == 'admin')
+                    || (isSignedIn() && userId == uid()
+                    && !('role' in request.resource.data.diff(resource.data).affectedKeys()));
+      allow delete: if isAdmin();
+    }
+  }
+}
