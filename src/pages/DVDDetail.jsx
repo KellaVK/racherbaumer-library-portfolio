@@ -4,7 +4,10 @@ import { doc, onSnapshot, collection, query, where, getDocs } from 'firebase/fir
 import { db } from '../firebase/config'
 import { useAuth } from '../contexts/AuthContext'
 import { requestCheckout } from '../services/checkouts'
-import { normalizeDVD, displayValue } from '../utils/dvd'
+import { displayValue } from '../utils/dvd'
+import { enrichCatalogDVD } from '../utils/catalogData'
+import enrichment from '../data/catalog-enrichment.json'
+import CatalogEvidence from '../components/dvds/CatalogEvidence'
 import StatusBadge from '../components/ui/StatusBadge'
 
 export default function DVDDetail() {
@@ -23,7 +26,7 @@ export default function DVDDetail() {
     if (!id) return
     const unsub = onSnapshot(doc(db, 'dvds', id), snap => {
       if (snap.exists()) {
-        const normalized = normalizeDVD({ id: snap.id, ...snap.data() })
+        const normalized = enrichCatalogDVD({ id: snap.id, ...snap.data() }, enrichment)
         setDvd(normalized)
         document.title = `${normalized.title} — Jon Racherbaumer Magic DVD Library`
       } else {
@@ -246,6 +249,8 @@ export default function DVDDetail() {
         </details>
       )}
 
+      <CatalogEvidence dvd={dvd} />
+
       {/* Collapsible: AI Summary */}
       {dvd.aiSummary && (
         <details style={{ marginBottom: '1.5rem' }} open>
@@ -261,6 +266,7 @@ export default function DVDDetail() {
             padding: '1rem',
           }}>
             <p style={{ margin: 0 }}>{dvd.aiSummary}</p>
+            <small>AI-generated description; details and suggested skill levels may be inaccurate. Check the collection notes and original source.</small>
           </div>
         </details>
       )}

@@ -3,6 +3,7 @@ import { collection, onSnapshot, query, orderBy } from 'firebase/firestore';
 import { db } from '../firebase/config';
 import { useCatalogQuery } from '../hooks/useCatalogQuery';
 import CatalogFilters from '../components/dvds/CatalogFilters';
+import DiscoveryPanel from '../components/dvds/DiscoveryPanel';
 import DVDCard from '../components/DVDCard';
 import DVDListRow from '../components/dvds/DVDListRow';
 
@@ -42,6 +43,7 @@ export default function Home() {
 
   const {
     state,
+    discoveryIndex,
     results,
     facets,
     activeFilterCount,
@@ -61,6 +63,7 @@ export default function Home() {
     state.availability,
     state.type,
     state.era,
+    state.magician,
     state.letter,
     state.sort,
   ]);
@@ -154,6 +157,8 @@ export default function Home() {
         setView={setView}
         setSort={setSort}
       />
+
+      {!loading && !loadError && <DiscoveryPanel index={discoveryIndex} filters={state} />}
 
       {/* Results View */}
       {loading ? (

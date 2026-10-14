@@ -1,0 +1,404 @@
+{
+  "retrievedAt": "2026-10-14",
+  "source": "Racherbaumers DVD's — descriptive columns A:F only",
+  "unmatched": [
+    {
+      "title": "Resturuant Magic - Vol.1",
+      "tab": "DVD List",
+      "row": 4,
+      "reason": "no reviewed match"
+    },
+    {
+      "title": "The Daniel Garcia Project 3",
+      "tab": "DVD List",
+      "row": 232,
+      "reason": "no reviewed match"
+    },
+    {
+      "title": "?",
+      "tab": "CD List",
+      "row": 5,
+      "reason": "no reviewed match"
+    },
+    {
+      "title": "The Side Steal",
+      "tab": "CD List",
+      "row": 56,
+      "reason": "no reviewed match"
+    },
+    {
+      "title": "Unknown",
+      "tab": "CD List",
+      "row": 76,
+      "reason": "no reviewed match"
+    },
+    {
+      "title": "A Series of Unfortunate Events",
+      "tab": "In Progress Additions",
+      "row": 22,
+      "reason": "no reviewed match"
+    },
+    {
+      "title": "?",
+      "tab": "In Progress Additions",
+      "row": 243,
+      "reason": "no reviewed match"
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "cSJJvP62NxPwFLdtdUPV",
+      "title": "Remarkable Coin Magic",
+      "field": "magician",
+      "sourceValue": "Boris Wild",
+      "catalogValue": [
+        "Michael Rubinstein"
+      ],
+      "tab": "DVD List",
+      "row": 22
+    },
+    {
+      "id": "BluLBR2B6PDaKnhElIAZ",
+      "title": "Cabaret Connivery",
+      "field": "magician",
+      "sourceValue": "Dan Garret",
+      "catalogValue": [
+        "Dan Garrett"
+      ],
+      "tab": "DVD List",
+      "row": 37
+    },
+    {
+      "id": "hsc36docCFPqpx0GfPrT",
+      "title": "Siete Diamantes",
+      "field": "magician",
+      "sourceValue": "Goncalo Gabriel Lopez",
+      "catalogValue": [
+        "Gonzalo Gabriel Lopez"
+      ],
+      "tab": "DVD List",
+      "row": 77
+    },
+    {
+      "id": "5u1rNzCkSOQ2eddq4BRr",
+      "title": "The Best of Johnny Carson and Friends",
+      "field": "magician",
+      "sourceValue": "Johhny Carson",
+      "catalogValue": [
+        "Johnny Carson"
+      ],
+      "tab": "DVD List",
+      "row": 125
+    },
+    {
+      "id": "RAlp0V2Gpjp4m34cwHIQ",
+      "title": "Commercial Classics of Magic - Vol.2",
+      "field": "magician",
+      "sourceValue": "Johhny Thompson",
+      "catalogValue": [
+        "Johnny Thompson"
+      ],
+      "tab": "DVD List",
+      "row": 126
+    },
+    {
+      "id": "17LQDGL6QufIYfupcn9W",
+      "title": "Johnny Thompson - The Great Tomsoni",
+      "field": "magician",
+      "sourceValue": "Johnny Thomspon",
+      "catalogValue": [
+        "Johnny Thompson"
+      ],
+      "tab": "DVD List",
+      "row": 131
+    },
+    {
+      "id": "6tjHXJIFMokTzXeohSkO",
+      "title": "Revolution",
+      "field": "magician",
+      "sourceValue": "Kevin Parker",
+      "catalogValue": [
+        "Aaron Fisher"
+      ],
+      "tab": "DVD List",
+      "row": 136
+    },
+    {
+      "id": "BofraF2BnsuRUOtQIRYV",
+      "title": "Penn & Teller - B.S.!",
+      "field": "magician",
+      "sourceValue": "Penn and Teller",
+      "catalogValue": [
+        "Penn",
+        "Teller"
+      ],
+      "tab": "DVD List",
+      "row": 177
+    },
+    {
+      "id": "l9OeTHdyWIo7ASSukcfN",
+      "title": "Live at the Jailhouse: A Guide to Restaurant Magic",
+      "field": "magician",
+      "sourceValue": "Various",
+      "catalogValue": [
+        "Dan Fleshmann",
+        "Garrett Thomas",
+        "Dan Tong",
+        "Kirk Charles",
+        "Paul Green",
+        "Justin Miller"
+      ],
+      "tab": "DVD List",
+      "row": 222
+    },
+    {
+      "id": "PVMyTBXwyTnKPTaQjkzJ",
+      "title": "Women in Boxes",
+      "field": "magician",
+      "sourceValue": "Various",
+      "catalogValue": [
+        "Bill McIlhany",
+        "Blaire Larsen"
+      ],
+      "tab": "DVD List",
+      "row": 225
+    },
+    {
+      "id": "1NnD2ekbDPDHe7UQVvng",
+      "title": "Wings",
+      "field": "magician",
+      "sourceValue": "Matt Mello",
+      "catalogValue": [
+        "Matthew Mello",
+        "Paul Harris"
+      ],
+      "tab": "DVD List",
+      "row": 235
+    },
+    {
+      "id": "EM0ttptNEerNb1aHjuUa",
+      "title": "Visu-antics: Eye Popping Magic",
+      "field": "magician",
+      "sourceValue": "Jim Paces",
+      "catalogValue": [
+        "Jim Pace"
+      ],
+      "tab": "DVD List",
+      "row": 241
+    },
+    {
+      "id": "l9OeTHdyWIo7ASSukcfN",
+      "title": "Live at the Jailhouse: A Guide to Restaurant Magic",
+      "field": "magician",
+      "sourceValue": "Various",
+      "catalogValue": [
+        "Dan Fleshmann",
+        "Garrett Thomas",
+        "Dan Tong",
+        "Kirk Charles",
+        "Paul Green",
+        "Justin Miller"
+      ],
+      "tab": "DVD List",
+      "row": 246
+    },
+    {
+      "id": "LohGyWyJgqR42fvoqUs8",
+      "title": "Bertini",
+      "field": "magician",
+      "sourceValue": "Giancomo Bertini",
+      "catalogValue": [
+        "Giacomo Bertini"
+      ],
+      "tab": "CD List",
+      "row": 16
+    },
+    {
+      "id": "xf1r4N1Qtg88hQIeMX0n",
+      "title": "Basic Coin Magic",
+      "field": "magician",
+      "sourceValue": "Michael Rubinstein",
+      "catalogValue": [
+        "David Stone"
+      ],
+      "tab": "CD List",
+      "row": 28
+    },
+    {
+      "id": "zf4ImUhRf9ow312ezQDO",
+      "title": "Diamond Deck",
+      "field": "magician",
+      "sourceValue": "Penn & Teller",
+      "catalogValue": [
+        "Diamond Jim Tyler"
+      ],
+      "tab": "CD List",
+      "row": 38
+    },
+    {
+      "id": "bfWEJBQGjRkW14T0Xo8m",
+      "title": "Wayne Dobson & Daniel Garcia",
+      "field": "magician",
+      "sourceValue": "Wayne Dobson & Daniel Garcia",
+      "catalogValue": [
+        "Wayne Dobson",
+        "Daniel Garcia"
+      ],
+      "tab": "CD List",
+      "row": 46
+    },
+    {
+      "id": "8nfwBDutYxy5enWaE5Qr",
+      "title": "A Dream Of Aces",
+      "field": "magician",
+      "sourceValue": "Gary Oullet",
+      "catalogValue": [
+        "Gary Ouellet"
+      ],
+      "tab": "CD List",
+      "row": 57
+    },
+    {
+      "id": "rzmehvqYyQ7SuM7pnX9z",
+      "title": "Coin Magic",
+      "field": "magician",
+      "sourceValue": "Giancomo Bertini",
+      "catalogValue": [
+        "Giacomo Bertini"
+      ],
+      "tab": "CD List",
+      "row": 63
+    },
+    {
+      "id": "ksHmJ3CbsXQ2mGAnqocB",
+      "title": "Cheating Exposed",
+      "field": "magician",
+      "sourceValue": "Geno",
+      "catalogValue": [
+        "Geno Munari",
+        "Michael Weber"
+      ],
+      "tab": "CD List",
+      "row": 70
+    },
+    {
+      "id": "LohGyWyJgqR42fvoqUs8",
+      "title": "Bertini",
+      "field": "magician",
+      "sourceValue": "Giancomo Bertini",
+      "catalogValue": [
+        "Giacomo Bertini"
+      ],
+      "tab": "CD List",
+      "row": 82
+    },
+    {
+      "id": "t1mCDplG08B2HKRRiCVG",
+      "title": "The Legend",
+      "field": "magician",
+      "sourceValue": "Karrel Fox",
+      "catalogValue": [
+        "Karrell Fox"
+      ],
+      "tab": "CD List",
+      "row": 84
+    },
+    {
+      "id": "LD4qJ9FqQ2GgXKQ2Fiwm",
+      "title": "Magic of Italy",
+      "field": "magician",
+      "sourceValue": "Stevens Magic",
+      "catalogValue": [
+        "Aurelio Paviato",
+        "Marco Aimone",
+        "Marco Duca"
+      ],
+      "tab": "CD List",
+      "row": 94
+    },
+    {
+      "id": "h4pGXmpr2zxlfGXdyXjh",
+      "title": "Live From London",
+      "field": "magician",
+      "sourceValue": "Carl Clouter",
+      "catalogValue": [
+        "Carl Cloutier"
+      ],
+      "tab": "CD List",
+      "row": 125
+    },
+    {
+      "id": "EeusOLi4deenJTBsHwy8",
+      "title": "Our Best #1",
+      "field": "magician",
+      "sourceValue": "The Greater Magic Video Library",
+      "catalogValue": [
+        "Various"
+      ],
+      "tab": "In Progress Additions",
+      "row": 97
+    },
+    {
+      "id": "GeOHlQ0k3pdyGdeDUhmP",
+      "title": "Salvano",
+      "field": "magician",
+      "sourceValue": "The Greater Magic Video Library",
+      "catalogValue": [
+        "Salvano"
+      ],
+      "tab": "In Progress Additions",
+      "row": 98
+    },
+    {
+      "id": "1NnD2ekbDPDHe7UQVvng",
+      "title": "Wings",
+      "field": "magician",
+      "sourceValue": "Matt Mello",
+      "catalogValue": [
+        "Matthew Mello",
+        "Paul Harris"
+      ],
+      "tab": "In Progress Additions",
+      "row": 176
+    },
+    {
+      "id": "OIMQsbKjqfYskTCXaDHm",
+      "title": "The New York Magic Symposium DVD",
+      "field": "magician",
+      "sourceValue": "Various",
+      "catalogValue": [
+        "Lisa Menna"
+      ],
+      "tab": "In Progress Additions",
+      "row": 188
+    },
+    {
+      "id": "e4utWwS2kGjywlzA6Kdd",
+      "title": "Heroes of Magic",
+      "field": "magician",
+      "sourceValue": "Jon Racherbaumer",
+      "catalogValue": [
+        "John Fisher"
+      ],
+      "tab": "In Progress Additions",
+      "row": 194
+    },
+    {
+      "id": "uQpAiuPfIfw11j7knclC",
+      "title": "Old Magic Books",
+      "field": "magician",
+      "sourceValue": "Various",
+      "catalogValue": [
+        "Dominic Reyes"
+      ],
+      "tab": "In Progress Additions",
+      "row": 225
+    }
+  ],
+  "stats": {
+    "sourceRows": 654,
+    "matchedRows": 617,
+    "enrichedTitles": 598,
+    "catalogTitles": 637
+  }
+}

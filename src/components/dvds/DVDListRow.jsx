@@ -25,6 +25,8 @@ export default function DVDListRow({ dvd = {} }) {
         </div>
       </div>
 
+      {dvd.discoveryMatch && <p className="search-match"><strong>{dvd.discoveryMatch.source}</strong> · {dvd.discoveryMatch.snippet}</p>}
+
       <div className="list-row-tags">
         {types.slice(0, 3).map((t) => (
           <span key={t} className="badge-type">

@@ -1,26 +1,15 @@
 import { useMemo, useCallback } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import Fuse from 'fuse.js';
-import { normalizeDVD, filterDVDs } from '../utils/dvd';
-
-const FUSE_OPTIONS = {
-  keys: [
-    { name: 'title', weight: 3 },
-    { name: 'magician', weight: 2 },
-    { name: 'magicType', weight: 1.5 },
-    { name: 'notes', weight: 1 },
-    { name: 'producer', weight: 0.8 },
-    { name: 'aiSummary', weight: 0.8 },
-  ],
-  threshold: 0.35,
-  includeScore: true,
-};
+import { filterDVDs } from '../utils/dvd';
+import { createDiscoveryIndex, searchCatalog } from '../utils/discovery';
+import { enrichCatalogDVD } from '../utils/catalogData';
+import enrichment from '../data/catalog-enrichment.json';
 
 export function useCatalogQuery(rawDvds = []) {
   const [searchParams, setSearchParams] = useSearchParams();
 
   const normalizedDvds = useMemo(() => {
-    return rawDvds.map((d) => normalizeDVD(d));
+    return rawDvds.map((d) => enrichCatalogDVD(d, enrichment));
   }, [rawDvds]);
 
   // Read state from URL search params
@@ -113,11 +102,7 @@ export function useCatalogQuery(rawDvds = []) {
     [updateParams],
   );
 
-  // Fuse instance for fuzzy search
-  const fuse = useMemo(
-    () => new Fuse(normalizedDvds, FUSE_OPTIONS),
-    [normalizedDvds],
-  );
+  const discoveryIndex = useMemo(() => createDiscoveryIndex(normalizedDvds), [normalizedDvds]);
 
   // Calculate faceted counts and available values
   const facets = useMemo(() => {
@@ -177,10 +162,9 @@ export function useCatalogQuery(rawDvds = []) {
   const results = useMemo(() => {
     let list = normalizedDvds;
 
-    // If search term is present, use Fuse.js to rank
+    // If search term is present, use the enriched index to rank
     if (state.query.trim()) {
-      const searchResults = fuse.search(state.query.trim());
-      list = searchResults.map((r) => r.item);
+      list = searchCatalog(discoveryIndex, state.query);
     }
 
     // Apply structured filters
@@ -190,9 +174,9 @@ export function useCatalogQuery(rawDvds = []) {
       magician: state.magician,
       era: state.era,
       letter: state.letter,
-      sort: state.query.trim() ? undefined : state.sort, // if searched, preserve Fuse score ranking
+      sort: state.query.trim() ? undefined : state.sort, // if searched, preserve relevance ranking
     });
-  }, [normalizedDvds, state, fuse]);
+  }, [normalizedDvds, state, discoveryIndex]);
 
   const activeFilterCount =
     (state.availability !== 'all' ? 1 : 0) +
@@ -203,6 +187,7 @@ export function useCatalogQuery(rawDvds = []) {
 
   return {
     state,
+    discoveryIndex,
     results,
     facets,
     activeFilterCount,
