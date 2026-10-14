@@ -1,0 +1,1628 @@
+{
+  "schemaVersion": "1.0",
+  "sourceSnapshotDate": "2026-10-14",
+  "records": 637,
+  "embeddingDocuments": 637,
+  "reconciliation": {
+    "sourceRows": 654,
+    "matchedRows": 617,
+    "enrichedTitles": 598,
+    "catalogTitles": 637
+  },
+  "unmatched": [
+    {
+      "title": "Resturuant Magic - Vol.1",
+      "tab": "DVD List",
+      "row": 4,
+      "reason": "no reviewed match"
+    },
+    {
+      "title": "The Daniel Garcia Project 3",
+      "tab": "DVD List",
+      "row": 232,
+      "reason": "no reviewed match"
+    },
+    {
+      "title": "?",
+      "tab": "CD List",
+      "row": 5,
+      "reason": "no reviewed match"
+    },
+    {
+      "title": "The Side Steal",
+      "tab": "CD List",
+      "row": 56,
+      "reason": "no reviewed match"
+    },
+    {
+      "title": "Unknown",
+      "tab": "CD List",
+      "row": 76,
+      "reason": "no reviewed match"
+    },
+    {
+      "title": "A Series of Unfortunate Events",
+      "tab": "In Progress Additions",
+      "row": 22,
+      "reason": "no reviewed match"
+    },
+    {
+      "title": "?",
+      "tab": "In Progress Additions",
+      "row": 243,
+      "reason": "no reviewed match"
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "cSJJvP62NxPwFLdtdUPV",
+      "title": "Remarkable Coin Magic",
+      "field": "magician",
+      "sourceValue": "Boris Wild",
+      "catalogValue": [
+        "Michael Rubinstein"
+      ],
+      "tab": "DVD List",
+      "row": 22
+    },
+    {
+      "id": "BluLBR2B6PDaKnhElIAZ",
+      "title": "Cabaret Connivery",
+      "field": "magician",
+      "sourceValue": "Dan Garret",
+      "catalogValue": [
+        "Dan Garrett"
+      ],
+      "tab": "DVD List",
+      "row": 37
+    },
+    {
+      "id": "hsc36docCFPqpx0GfPrT",
+      "title": "Siete Diamantes",
+      "field": "magician",
+      "sourceValue": "Goncalo Gabriel Lopez",
+      "catalogValue": [
+        "Gonzalo Gabriel Lopez"
+      ],
+      "tab": "DVD List",
+      "row": 77
+    },
+    {
+      "id": "5u1rNzCkSOQ2eddq4BRr",
+      "title": "The Best of Johnny Carson and Friends",
+      "field": "magician",
+      "sourceValue": "Johhny Carson",
+      "catalogValue": [
+        "Johnny Carson"
+      ],
+      "tab": "DVD List",
+      "row": 125
+    },
+    {
+      "id": "RAlp0V2Gpjp4m34cwHIQ",
+      "title": "Commercial Classics of Magic - Vol.2",
+      "field": "magician",
+      "sourceValue": "Johhny Thompson",
+      "catalogValue": [
+        "Johnny Thompson"
+      ],
+      "tab": "DVD List",
+      "row": 126
+    },
+    {
+      "id": "17LQDGL6QufIYfupcn9W",
+      "title": "Johnny Thompson - The Great Tomsoni",
+      "field": "magician",
+      "sourceValue": "Johnny Thomspon",
+      "catalogValue": [
+        "Johnny Thompson"
+      ],
+      "tab": "DVD List",
+      "row": 131
+    },
+    {
+      "id": "6tjHXJIFMokTzXeohSkO",
+      "title": "Revolution",
+      "field": "magician",
+      "sourceValue": "Kevin Parker",
+      "catalogValue": [
+        "Aaron Fisher"
+      ],
+      "tab": "DVD List",
+      "row": 136
+    },
+    {
+      "id": "BofraF2BnsuRUOtQIRYV",
+      "title": "Penn & Teller - B.S.!",
+      "field": "magician",
+      "sourceValue": "Penn and Teller",
+      "catalogValue": [
+        "Penn",
+        "Teller"
+      ],
+      "tab": "DVD List",
+      "row": 177
+    },
+    {
+      "id": "l9OeTHdyWIo7ASSukcfN",
+      "title": "Live at the Jailhouse: A Guide to Restaurant Magic",
+      "field": "magician",
+      "sourceValue": "Various",
+      "catalogValue": [
+        "Dan Fleshmann",
+        "Garrett Thomas",
+        "Dan Tong",
+        "Kirk Charles",
+        "Paul Green",
+        "Justin Miller"
+      ],
+      "tab": "DVD List",
+      "row": 222
+    },
+    {
+      "id": "PVMyTBXwyTnKPTaQjkzJ",
+      "title": "Women in Boxes",
+      "field": "magician",
+      "sourceValue": "Various",
+      "catalogValue": [
+        "Bill McIlhany",
+        "Blaire Larsen"
+      ],
+      "tab": "DVD List",
+      "row": 225
+    },
+    {
+      "id": "1NnD2ekbDPDHe7UQVvng",
+      "title": "Wings",
+      "field": "magician",
+      "sourceValue": "Matt Mello",
+      "catalogValue": [
+        "Matthew Mello",
+        "Paul Harris"
+      ],
+      "tab": "DVD List",
+      "row": 235
+    },
+    {
+      "id": "EM0ttptNEerNb1aHjuUa",
+      "title": "Visu-antics: Eye Popping Magic",
+      "field": "magician",
+      "sourceValue": "Jim Paces",
+      "catalogValue": [
+        "Jim Pace"
+      ],
+      "tab": "DVD List",
+      "row": 241
+    },
+    {
+      "id": "l9OeTHdyWIo7ASSukcfN",
+      "title": "Live at the Jailhouse: A Guide to Restaurant Magic",
+      "field": "magician",
+      "sourceValue": "Various",
+      "catalogValue": [
+        "Dan Fleshmann",
+        "Garrett Thomas",
+        "Dan Tong",
+        "Kirk Charles",
+        "Paul Green",
+        "Justin Miller"
+      ],
+      "tab": "DVD List",
+      "row": 246
+    },
+    {
+      "id": "LohGyWyJgqR42fvoqUs8",
+      "title": "Bertini",
+      "field": "magician",
+      "sourceValue": "Giancomo Bertini",
+      "catalogValue": [
+        "Giacomo Bertini"
+      ],
+      "tab": "CD List",
+      "row": 16
+    },
+    {
+      "id": "xf1r4N1Qtg88hQIeMX0n",
+      "title": "Basic Coin Magic",
+      "field": "magician",
+      "sourceValue": "Michael Rubinstein",
+      "catalogValue": [
+        "David Stone"
+      ],
+      "tab": "CD List",
+      "row": 28
+    },
+    {
+      "id": "zf4ImUhRf9ow312ezQDO",
+      "title": "Diamond Deck",
+      "field": "magician",
+      "sourceValue": "Penn & Teller",
+      "catalogValue": [
+        "Diamond Jim Tyler"
+      ],
+      "tab": "CD List",
+      "row": 38
+    },
+    {
+      "id": "bfWEJBQGjRkW14T0Xo8m",
+      "title": "Wayne Dobson & Daniel Garcia",
+      "field": "magician",
+      "sourceValue": "Wayne Dobson & Daniel Garcia",
+      "catalogValue": [
+        "Wayne Dobson",
+        "Daniel Garcia"
+      ],
+      "tab": "CD List",
+      "row": 46
+    },
+    {
+      "id": "8nfwBDutYxy5enWaE5Qr",
+      "title": "A Dream Of Aces",
+      "field": "magician",
+      "sourceValue": "Gary Oullet",
+      "catalogValue": [
+        "Gary Ouellet"
+      ],
+      "tab": "CD List",
+      "row": 57
+    },
+    {
+      "id": "rzmehvqYyQ7SuM7pnX9z",
+      "title": "Coin Magic",
+      "field": "magician",
+      "sourceValue": "Giancomo Bertini",
+      "catalogValue": [
+        "Giacomo Bertini"
+      ],
+      "tab": "CD List",
+      "row": 63
+    },
+    {
+      "id": "ksHmJ3CbsXQ2mGAnqocB",
+      "title": "Cheating Exposed",
+      "field": "magician",
+      "sourceValue": "Geno",
+      "catalogValue": [
+        "Geno Munari",
+        "Michael Weber"
+      ],
+      "tab": "CD List",
+      "row": 70
+    },
+    {
+      "id": "LohGyWyJgqR42fvoqUs8",
+      "title": "Bertini",
+      "field": "magician",
+      "sourceValue": "Giancomo Bertini",
+      "catalogValue": [
+        "Giacomo Bertini"
+      ],
+      "tab": "CD List",
+      "row": 82
+    },
+    {
+      "id": "t1mCDplG08B2HKRRiCVG",
+      "title": "The Legend",
+      "field": "magician",
+      "sourceValue": "Karrel Fox",
+      "catalogValue": [
+        "Karrell Fox"
+      ],
+      "tab": "CD List",
+      "row": 84
+    },
+    {
+      "id": "LD4qJ9FqQ2GgXKQ2Fiwm",
+      "title": "Magic of Italy",
+      "field": "magician",
+      "sourceValue": "Stevens Magic",
+      "catalogValue": [
+        "Aurelio Paviato",
+        "Marco Aimone",
+        "Marco Duca"
+      ],
+      "tab": "CD List",
+      "row": 94
+    },
+    {
+      "id": "h4pGXmpr2zxlfGXdyXjh",
+      "title": "Live From London",
+      "field": "magician",
+      "sourceValue": "Carl Clouter",
+      "catalogValue": [
+        "Carl Cloutier"
+      ],
+      "tab": "CD List",
+      "row": 125
+    },
+    {
+      "id": "EeusOLi4deenJTBsHwy8",
+      "title": "Our Best #1",
+      "field": "magician",
+      "sourceValue": "The Greater Magic Video Library",
+      "catalogValue": [
+        "Various"
+      ],
+      "tab": "In Progress Additions",
+      "row": 97
+    },
+    {
+      "id": "GeOHlQ0k3pdyGdeDUhmP",
+      "title": "Salvano",
+      "field": "magician",
+      "sourceValue": "The Greater Magic Video Library",
+      "catalogValue": [
+        "Salvano"
+      ],
+      "tab": "In Progress Additions",
+      "row": 98
+    },
+    {
+      "id": "1NnD2ekbDPDHe7UQVvng",
+      "title": "Wings",
+      "field": "magician",
+      "sourceValue": "Matt Mello",
+      "catalogValue": [
+        "Matthew Mello",
+        "Paul Harris"
+      ],
+      "tab": "In Progress Additions",
+      "row": 176
+    },
+    {
+      "id": "OIMQsbKjqfYskTCXaDHm",
+      "title": "The New York Magic Symposium DVD",
+      "field": "magician",
+      "sourceValue": "Various",
+      "catalogValue": [
+        "Lisa Menna"
+      ],
+      "tab": "In Progress Additions",
+      "row": 188
+    },
+    {
+      "id": "e4utWwS2kGjywlzA6Kdd",
+      "title": "Heroes of Magic",
+      "field": "magician",
+      "sourceValue": "Jon Racherbaumer",
+      "catalogValue": [
+        "John Fisher"
+      ],
+      "tab": "In Progress Additions",
+      "row": 194
+    },
+    {
+      "id": "uQpAiuPfIfw11j7knclC",
+      "title": "Old Magic Books",
+      "field": "magician",
+      "sourceValue": "Various",
+      "catalogValue": [
+        "Dominic Reyes"
+      ],
+      "tab": "In Progress Additions",
+      "row": 225
+    }
+  ],
+  "coverage": {
+    "subjects": 230,
+    "settings": 24,
+    "formats": 332,
+    "levels": 0
+  },
+  "reviewQueue": [
+    {
+      "id": "0f3rWllWjiQixhc2KnNE",
+      "title": "Stars of Magic #3",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "0lYBtWGNw9E0wwGzvOMS",
+      "title": "Ammar Card Tricks - Vol.8",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "0nAQQjNFkaJA1IdmSHXs",
+      "title": "The Great Flydini",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "17LQDGL6QufIYfupcn9W",
+      "title": "Johnny Thompson - The Great Tomsoni",
+      "flags": [
+        "no_reconciled_spreadsheet_row",
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "1NIpdCELO7bA2Q64VKYS",
+      "title": "Eddie and Anna Adams",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "1NnD2ekbDPDHe7UQVvng",
+      "title": "Wings",
+      "flags": [
+        "no_reconciled_spreadsheet_row",
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "1NqdUiE0WcBjXhlYeDlv",
+      "title": "Nemoto 1994",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "1wzqMQToitnainRQMNZk",
+      "title": "Close Up Sketches - Vol.1",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "24qMf9qcpBCBm2HjoSLI",
+      "title": "Mnemonica Miracles",
+      "flags": [
+        "no_reconciled_spreadsheet_row"
+      ]
+    },
+    {
+      "id": "2VVvTwJAMLAEPK4EBChg",
+      "title": "Dave Neighbors - Tape 3",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "3iFK2CgeqRrsFaWb4nU4",
+      "title": "Control Freak",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "50ARGiFX2UJAy7eogGuO",
+      "title": "Learn the Ambitious Card",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "5FuvwPoFMfUjmQ6QChG3",
+      "title": "Richiaridi",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "5u1rNzCkSOQ2eddq4BRr",
+      "title": "The Best of Johnny Carson and Friends",
+      "flags": [
+        "no_reconciled_spreadsheet_row",
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "5VlzudqUV2iHKYhglJFI",
+      "title": "Impromptu Magic - Vol.1",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "6tjHXJIFMokTzXeohSkO",
+      "title": "Revolution",
+      "flags": [
+        "no_reconciled_spreadsheet_row",
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "7aZgrxtmCTCqDMGzDcoy",
+      "title": "Electric Heart Best of Magic",
+      "flags": [
+        "no_descriptive_notes",
+        "missing_creator"
+      ]
+    },
+    {
+      "id": "8nfwBDutYxy5enWaE5Qr",
+      "title": "A Dream Of Aces",
+      "flags": [
+        "no_reconciled_spreadsheet_row",
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "8TZq8FcR0lgV0ynQved0",
+      "title": "Various",
+      "flags": [
+        "ambiguous_title"
+      ]
+    },
+    {
+      "id": "8wm8zgvmz7vXOdm2spmz",
+      "title": "Heinsight",
+      "flags": [
+        "no_reconciled_spreadsheet_row"
+      ]
+    },
+    {
+      "id": "9lTtHUuAUHH43Gy7Dzgi",
+      "title": "Easy to Master Card Miracles Vol.3",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "9t8YpzhZ1U9AbB5zoDlj",
+      "title": "Martin Nash - Vol.1&2 Video Series",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "Ag9kXi0O8yOtOVlVfq75",
+      "title": "Robert Swandling Magic",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "ASH1wgjvBGoeEUhauzEs",
+      "title": "Feb.26 2002 - Marlophile",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "av5hthEAIerzhKhvGrlL",
+      "title": "Terry Roses, John Scarne, Luiz Zingone",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "AxlLYedeWbNcdpwBNMWY",
+      "title": "Ideas",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "bfWEJBQGjRkW14T0Xo8m",
+      "title": "Wayne Dobson & Daniel Garcia",
+      "flags": [
+        "no_reconciled_spreadsheet_row",
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "BluLBR2B6PDaKnhElIAZ",
+      "title": "Cabaret Connivery",
+      "flags": [
+        "no_reconciled_spreadsheet_row",
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "BLutkFKvk0uylroY119L",
+      "title": "Alex Elmsley - Vol.1",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "BMcuclO7iUzNLJ1eQnm0",
+      "title": "Magic of Spain - Vol.1",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "BofraF2BnsuRUOtQIRYV",
+      "title": "Penn & Teller - B.S.!",
+      "flags": [
+        "no_reconciled_spreadsheet_row",
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "c2JK4EluLLdpkZlNDIGM",
+      "title": "Art of Levitation",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "cD6QPZ1irBDahmkBoY52",
+      "title": "Two Nights at Casey's",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "ckTlzOXNwabsgC6YFOVD",
+      "title": "Magicians in Black, Greatest Magic 2",
+      "flags": [
+        "missing_creator"
+      ]
+    },
+    {
+      "id": "CLSVKPRvGSpvQ3znk0kM",
+      "title": "Green Magic - Vol.2",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "Cqt4W4uwviwnmrzXmwW3",
+      "title": "Deluxe Legends of Magic",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "cSJJvP62NxPwFLdtdUPV",
+      "title": "Remarkable Coin Magic",
+      "flags": [
+        "no_reconciled_spreadsheet_row",
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "CViwTdIZ4w4X7e3jhcVx",
+      "title": "5 Card Mystery",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "dBS1loXlQdk9V7wvx4WB",
+      "title": "Richard Marotta...",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "dcvhT8WNBNb6s62ZVuRm",
+      "title": "Bar Magic - Vol.49",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "Df4zCrVZga5EP8kn4LKt",
+      "title": "An Evening at the Tom Foolery",
+      "flags": [
+        "no_reconciled_spreadsheet_row"
+      ]
+    },
+    {
+      "id": "DsFZhBW4HHMyiZ4AolP7",
+      "title": "Revelations - Vol. 1&2",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "e4utWwS2kGjywlzA6Kdd",
+      "title": "Heroes of Magic",
+      "flags": [
+        "no_reconciled_spreadsheet_row",
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "E7xHYUqAO5GvP6jUMaxw",
+      "title": "Frank Zak",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "e8kMIRMTIHoKUzeu5cin",
+      "title": "Larry Jennings ++",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "ebCLJ136r4V4xYrIIEYT",
+      "title": "Alakazam Magic Catalogue",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "EEFYXO3PYrn8w3evVDqR",
+      "title": "The Mysterious Wold of Alain Nu - Episodes 1-4",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "EeusOLi4deenJTBsHwy8",
+      "title": "Our Best #1",
+      "flags": [
+        "no_reconciled_spreadsheet_row",
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "EjUlrRefPKT2W6nDLvoK",
+      "title": "Exact Change",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "EM0ttptNEerNb1aHjuUa",
+      "title": "Visu-antics: Eye Popping Magic",
+      "flags": [
+        "no_reconciled_spreadsheet_row"
+      ]
+    },
+    {
+      "id": "ePfc8XiYEfdBUGwr064h",
+      "title": "X-Act",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "erUX8LGgNwNXsmdtHyht",
+      "title": "The Blue Crown",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "EtNPCoGm49Te3ZmZW7zh",
+      "title": "Elastic Stories - Vol.1",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "FDNnhJs7NT8tmZbRJC5d",
+      "title": "Kaufman Footage - Jay Sankey - Tape #2",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "fNRupL5aclx82z4hhtq4",
+      "title": "Learned Pigs",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "fNZog8e16BppbFHIjgkE",
+      "title": "Colorado Close Up - Coin Man",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "Fp3J6gEwXtUxej3g1mJh",
+      "title": "The Secret Stuff",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "FpcmR2ZDHTjBQxfoYrDU",
+      "title": "Irish Tales",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "FpkJhTjQpK7frimxPGkp",
+      "title": "Pablo Kusnetzoff",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "G806c5hW0ditVr2Bbmbk",
+      "title": "Ammar Card Tricks - Vol.9",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "GeOHlQ0k3pdyGdeDUhmP",
+      "title": "Salvano",
+      "flags": [
+        "no_reconciled_spreadsheet_row",
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "GFS0NsaV47HLIvGpCTHR",
+      "title": "Tom Snyder - Magic Special",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "giChFH4qc8ph0Elv5BuE",
+      "title": "Audio",
+      "flags": [
+        "ambiguous_title"
+      ]
+    },
+    {
+      "id": "gjbQpctvJEGEZzfmMPtl",
+      "title": "Charlie McFarland",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "gTgaKFOUsHwowgqpyi4H",
+      "title": "Best of Duvivier - For America",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "GTQecbIBc593kKbINC8y",
+      "title": "Keith Fields",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "gUEiN5Dixl6iozuBYlQs",
+      "title": "Chad Long For Kaufman",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "h4pGXmpr2zxlfGXdyXjh",
+      "title": "Live From London",
+      "flags": [
+        "no_reconciled_spreadsheet_row",
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "Hez8vUzLL4PpYNAXYg8l",
+      "title": "Daryls Card Reveleations - Vol.3",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "HQ4Pav0MpHFImGQ9ARP6",
+      "title": "Hoodwinked Show",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "hsc36docCFPqpx0GfPrT",
+      "title": "Siete Diamantes",
+      "flags": [
+        "no_reconciled_spreadsheet_row",
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "i53pVo9eEP4t9gJbkizV",
+      "title": "Daryl's Ambitious Card",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "IiL5IoG7D1tg6mXOUJoX",
+      "title": "Antimony CD Annual 2007",
+      "flags": [
+        "no_descriptive_notes",
+        "missing_creator"
+      ]
+    },
+    {
+      "id": "IQ00HCGsHCirxWpTxHJG",
+      "title": "Kaufman Footage - Jay Sankey - Tape #1",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "IqZX7RlAIdBpfcme89bm",
+      "title": "European Coin Magic Symposium - Vol.2",
+      "flags": [
+        "missing_creator"
+      ]
+    },
+    {
+      "id": "Iw5BFBX7S5tVcg4GvOJg",
+      "title": "Mark Aspiazu - Oct '98",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "iZAZyqNjZUf4nUnEHiG2",
+      "title": "Magic of Spain Vol.2",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "j02dRKNagndAtPAI8nNQ",
+      "title": "Bob Elliot",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "JOoEdLb36t8dhefO8A3f",
+      "title": "Gabriele Gentile Close-Up Demo",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "jROXNlecm9tG1C9DTPaN",
+      "title": "Rubberband Magic",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "k2Id0nA6IlDsNvbmJ0qO",
+      "title": "Unchained - Houdini",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "KbUMYxM3sA6VKfEBgW4v",
+      "title": "Big Blind Media DVD Samples",
+      "flags": [
+        "no_descriptive_notes",
+        "missing_creator"
+      ]
+    },
+    {
+      "id": "kBYeIzCFAb4TrjLPw4M5",
+      "title": "Clock Stuff",
+      "flags": [
+        "no_descriptive_notes",
+        "missing_creator"
+      ]
+    },
+    {
+      "id": "kcr82c4foWEJ78CvlbL4",
+      "title": "Biob Fitch",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "KEASF643r8mt8xDOUXiM",
+      "title": "40 Ways to Force",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "kFxu4fnWejdvBjaD1fCC",
+      "title": "Uri Geller Trilogy",
+      "flags": [
+        "no_reconciled_spreadsheet_row"
+      ]
+    },
+    {
+      "id": "ksHmJ3CbsXQ2mGAnqocB",
+      "title": "Cheating Exposed",
+      "flags": [
+        "no_reconciled_spreadsheet_row",
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "KSvjbnuzHc3nNsxQkDsF",
+      "title": "Green Magic - Vol.3",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "KYg2pzVQqMclV1wekaGM",
+      "title": "Geno Munari For Parade",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "l8FrhrNEiepiQ7EuXI50",
+      "title": "Foreign Coins Routine",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "l9OeTHdyWIo7ASSukcfN",
+      "title": "Live at the Jailhouse: A Guide to Restaurant Magic",
+      "flags": [
+        "no_reconciled_spreadsheet_row"
+      ]
+    },
+    {
+      "id": "lBDpkhPmm8plh7Tdce1q",
+      "title": "Kozmo Article",
+      "flags": [
+        "no_descriptive_notes",
+        "missing_creator"
+      ]
+    },
+    {
+      "id": "LD4qJ9FqQ2GgXKQ2Fiwm",
+      "title": "Magic of Italy",
+      "flags": [
+        "no_reconciled_spreadsheet_row",
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "LohGyWyJgqR42fvoqUs8",
+      "title": "Bertini",
+      "flags": [
+        "no_reconciled_spreadsheet_row",
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "LVWILrgrfPFcpLog3t0Z",
+      "title": "Kevin James - Magic Castle Lecture",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "LZDs9Aittp8Sk8k65E8h",
+      "title": "Simon Lovell - Linking Ring Parade",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "m3VjNPWX37JkZzLVuhwW",
+      "title": "The Palming CD - Disc 2",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "MPwC7xVRCkS2YUwjKP3V",
+      "title": "?",
+      "flags": [
+        "no_reconciled_spreadsheet_row",
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "mXekCOfUy9or0pz4droa",
+      "title": "A Celebration of the Life of Patrick Page",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "nAmlY71JZvVyqffrStQh",
+      "title": "Ascancio - Vol.55",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "nLpC7Z4IksdJ7p0rUZ06",
+      "title": "The War Wizard",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "NQDprDg0xvSgiTmXC3vA",
+      "title": "Impromptu",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "NRNQAB6BXfBJj9do9UhJ",
+      "title": "Restless Colors",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "nxvrvtao1zO4q5Bj1fxL",
+      "title": "Educating Archer",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "NZfuiIPKOrMsJQXHqqB0",
+      "title": "European Coin Magic Symposium - Vol.1",
+      "flags": [
+        "missing_creator"
+      ]
+    },
+    {
+      "id": "oeTbBpisFSQy4UaGkrCF",
+      "title": "Radical Korn - Vol.2",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "ogBDgPy0hW6hYFyvxIem",
+      "title": "The Secrets of Oil & Water",
+      "flags": [
+        "missing_creator"
+      ]
+    },
+    {
+      "id": "OIMQsbKjqfYskTCXaDHm",
+      "title": "The New York Magic Symposium DVD",
+      "flags": [
+        "no_reconciled_spreadsheet_row",
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "p3OizwcO2btWuLGLJ9oN",
+      "title": "Mahatma",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "PPWAoNu0PVSu7Imr7LRM",
+      "title": "Alex Elmsley - Vol.2",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "PVMyTBXwyTnKPTaQjkzJ",
+      "title": "Women in Boxes",
+      "flags": [
+        "no_reconciled_spreadsheet_row",
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "pz4vBknbDlUsuZqm2X3i",
+      "title": "Jon - Happy Birthday",
+      "flags": [
+        "missing_creator"
+      ]
+    },
+    {
+      "id": "Q4VOWSSY04JrOCzfWrtl",
+      "title": "Easy to Master Card Miracles Vol.2",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "qAhX6zDizkoDdBAGvJkJ",
+      "title": "Magic of the Sideshow - Vol.52",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "QEvTMZD7HmWcIPjmeoSZ",
+      "title": "Magic of Canada - Vol.50 - No.1",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "qjDF5bAWBtRByw3XO5ip",
+      "title": "Jason Ace",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "qTRzgwfYd9wRIJ3Onuxp",
+      "title": "The Dick Oslund School Show",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "quKbnGskS6ZEDQsHU6ZR",
+      "title": "Jimmy \"Cards\" - Lecture 1",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "QvFhatZgPnVB95cRJ0cL",
+      "title": "Secret Sessions",
+      "flags": [
+        "no_reconciled_spreadsheet_row"
+      ]
+    },
+    {
+      "id": "QWLU37LiSlcV5gcakhg7",
+      "title": "A Series of Unfortunate Effects",
+      "flags": [
+        "no_reconciled_spreadsheet_row",
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "QZ6zSJ3GUSoRxPZfAxZt",
+      "title": "Easy to Master Card Miracles Vol.1",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "R54banGzWqxKWZ4TNiYs",
+      "title": "The Cardjurer",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "RAlp0V2Gpjp4m34cwHIQ",
+      "title": "Commercial Classics of Magic - Vol.2",
+      "flags": [
+        "no_reconciled_spreadsheet_row",
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "Rcy8wAtmSKDr57V321L3",
+      "title": "Sylvan Mirouf",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "rEuUPBcqcjhiF4AbPmn5",
+      "title": "World of Illusion",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "RhyfiYhrNMNCFEhMcHB5",
+      "title": "Cardini Sullivan (Magic) Gali, Gali- etc.",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "rzmehvqYyQ7SuM7pnX9z",
+      "title": "Coin Magic",
+      "flags": [
+        "no_reconciled_spreadsheet_row",
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "SdNA1f7unTjIv1CxZUrw",
+      "title": "Eric Anderson Lecture",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "shsmCOt3oXYt4StsyjuA",
+      "title": "Ammar Card Tricks - Vol.7",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "sqidFFg6AY4e0Jh81i64",
+      "title": "Woldenberg Village - Family Magic Show",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "t1mCDplG08B2HKRRiCVG",
+      "title": "The Legend",
+      "flags": [
+        "no_reconciled_spreadsheet_row",
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "t7p1SHwgDi8EMltPi5WI",
+      "title": "Bob Yarbourg Magic",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "tc2v3bRCOmPAFLmprH9z",
+      "title": "Unlabeled - Jay Sankey",
+      "flags": [
+        "ambiguous_title"
+      ]
+    },
+    {
+      "id": "TcOgWM3wzSHt8rcMdZL0",
+      "title": "Rocky Mountain Magic",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "TkIa3TasSvqbajiyObuC",
+      "title": "Randy Wakeman - Part 2",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "TphHEujyiVgWPXVFvnkj",
+      "title": "Restaurant Magic - Vol.1",
+      "flags": [
+        "no_reconciled_spreadsheet_row",
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "TRp1y6iLgPxP0ARN4GiY",
+      "title": "Validate",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "tUPQJpzShA4wIUoHgTkn",
+      "title": "",
+      "flags": [
+        "no_reconciled_spreadsheet_row",
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "tWkmF2sPiYDlj9MqmG7E",
+      "title": "Magic of Canada - Vol.51 - No.2",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "TzquPpFjaHR1kkfubbKu",
+      "title": "The Gambler",
+      "flags": [
+        "missing_creator"
+      ]
+    },
+    {
+      "id": "Un8qvcGwAWNgOdDe1Wfy",
+      "title": "IBM SAM DVD",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "uOOjCYKC8CDpunKSFMJR",
+      "title": "(2) Moves",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "uQpAiuPfIfw11j7knclC",
+      "title": "Old Magic Books",
+      "flags": [
+        "no_reconciled_spreadsheet_row",
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "Us1KoK7ynA80OWuAaLIM",
+      "title": "The Magic Circle Centenary Celebrations",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "v2FD4XbuS2sVIXmVsHcy",
+      "title": "Copper - Brass - Silver Delusion",
+      "flags": [
+        "no_reconciled_spreadsheet_row",
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "VFb9LvFkrIYIfM9Ubw4L",
+      "title": "Martin Lewis - Linking Ring Parade",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "vIBLQ7vwgka5PhoEKEGF",
+      "title": "Various Radio DVDs",
+      "flags": [
+        "missing_creator",
+        "ambiguous_title"
+      ]
+    },
+    {
+      "id": "vIDCopl8WLgYitfTQUtP",
+      "title": "Sigfried and Roy",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "vTjfelIx3JFegesSKc5W",
+      "title": "Slydini Private party Performance",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "VWVC0UDk0Gacrgrp0qaP",
+      "title": "Jim Chester",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "w3SdY7M8Qh3ah4yRSRfG",
+      "title": "Tricks and a Treat",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "wR37fSjIRmwmhB10JK1c",
+      "title": "Bilis",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "xf1r4N1Qtg88hQIeMX0n",
+      "title": "Basic Coin Magic",
+      "flags": [
+        "no_reconciled_spreadsheet_row",
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "xGR0DtgopNsdcEszO1M1",
+      "title": "Racherbaumer 60th Birthday",
+      "flags": [
+        "no_descriptive_notes",
+        "missing_creator"
+      ]
+    },
+    {
+      "id": "XQPxTCsnZ57uzXsRiyo3",
+      "title": "Dr.Magic",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "Ybj7tJBolmrtVaXWYi7j",
+      "title": "Material",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "YbMy39zVLbRtTu3CX6IR",
+      "title": "Ben Robinson Magic",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "Z38xpVnHxBzzLiGo37X9",
+      "title": "Wonder By Design",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "Z6gKjTWnPvsWuVrq12Wr",
+      "title": "The Unreal Work",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "zabLUQ1oSqCuYcZrGvdZ",
+      "title": "J.C. Hiatt",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "ZahPFhIbRQc2lUYwoRRL",
+      "title": "Educating Archer #1",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "zaNbVW8B2vIB0j8FB29i",
+      "title": "Malone meets Marlo - Vol's 1-6",
+      "flags": [
+        "no_reconciled_spreadsheet_row"
+      ]
+    },
+    {
+      "id": "zf4ImUhRf9ow312ezQDO",
+      "title": "Diamond Deck",
+      "flags": [
+        "no_reconciled_spreadsheet_row",
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "Zr7jeXBeulxLrCjJiVyY",
+      "title": "Rambler",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "ZRRrK1ux5XLyZACnJSJU",
+      "title": "Advanced Card Magic",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "zsQdaxYShNJz2NPVlfBn",
+      "title": "Ivory Connection",
+      "flags": [
+        "no_reconciled_spreadsheet_row"
+      ]
+    },
+    {
+      "id": "zTkdlLHuXp7eCyWCtRBO",
+      "title": "Thoughts Across",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    },
+    {
+      "id": "zZmozDAr3uuRfWiHMssd",
+      "title": "Mind, Myth, Magic",
+      "flags": [
+        "no_descriptive_notes"
+      ]
+    }
+  ],
+  "policy": "Source mentions are unverified, not suitability guarantees. AI descriptions are retained separately and excluded from embedding documents. No private fields are copied."
+}
