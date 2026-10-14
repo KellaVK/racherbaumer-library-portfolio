@@ -1,0 +1,11 @@
+{
+  "processed": 637,
+  "statuses": {
+    "needs_review": 81,
+    "no_candidate": 467,
+    "source_unavailable": 82,
+    "previously_reviewed": 7
+  },
+  "machineEnriched": 0,
+  "trickDocuments": 0
+}

@@ -20,7 +20,8 @@
     "catalog:prepare-embeddings": "node scripts/prepareEmbeddingCatalog.js",
     "catalog:extract": "node scripts/research/runExtraction.js",
     "catalog:research": "node scripts/research/buildResearch.js",
-    "catalog:import-html": "node scripts/research/importHtml.js"
+    "catalog:import-html": "node scripts/research/importHtml.js",
+    "catalog:pipeline": "node scripts/research/pipeline/run.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.95.2",
