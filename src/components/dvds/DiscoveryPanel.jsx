@@ -40,8 +40,7 @@ export default function DiscoveryPanel({ index, filters }) {
       <summary>Find something for you</summary>
       <div className="discovery-body">
         <p className="discovery-help">
-          Choose what interests you, or a DVD you enjoy. Suggestions use catalog
-          notes and descriptions, and follow your current catalog filters.
+          Choose an interest or a favorite DVD for suggestions from the collection.
         </p>
         <fieldset className="discovery-interests">
           <legend>What would you like to explore?</legend>

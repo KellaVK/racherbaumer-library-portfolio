@@ -17,7 +17,7 @@ export default function CatalogFilters({
   const [filtersOpen, setFiltersOpen] = useState(false)
 
   return (
-    <div className="catalog-filters-container" style={{ marginBottom: '2rem' }}>
+    <div className="catalog-filters-container">
       {/* Search Bar & View Toggle */}
       <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center', marginBottom: '1rem' }}>
         <div style={{ position: 'relative', flex: 1 }}>
@@ -35,7 +35,7 @@ export default function CatalogFilters({
             type="text"
             value={state.query}
             onChange={e => setSearch(e.target.value)}
-            placeholder="Search by title, magician, magic type, contents…"
+            placeholder="Search titles, magicians, or tricks…"
             className="input"
             style={{ paddingLeft: '2.5rem', paddingRight: state.query ? '2.5rem' : '1rem', fontSize: '0.875rem' }}
           />
@@ -130,6 +130,15 @@ export default function CatalogFilters({
           )}
         </button>
 
+        <span className="catalog-result-count" role="status">
+          {totalResults} title{totalResults !== 1 ? 's' : ''}
+        </span>
+
+      </div>
+
+      {/* Collapsible Filter Panel */}
+      {filtersOpen && (
+        <div id="catalog-filter-panel" className="catalog-filter-panel">
         {/* Alphabet quick navigation */}
         <nav className="alphabet-bar" aria-label="Quick alphabet filter">
           <button
@@ -150,11 +159,6 @@ export default function CatalogFilters({
             </button>
           ))}
         </nav>
-      </div>
-
-      {/* Collapsible Filter Panel */}
-      {filtersOpen && (
-        <div id="catalog-filter-panel" className="catalog-filter-panel">
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', alignItems: 'center' }}>
             {/* Availability */}
             <div>
@@ -293,19 +297,6 @@ export default function CatalogFilters({
         </div>
       )}
 
-      {/* Results count indicator */}
-      <div style={{
-        fontFamily: "'Josefin Sans', sans-serif",
-        fontSize: '0.68rem',
-        letterSpacing: '0.1em',
-        color: 'var(--text-muted)',
-        textTransform: 'uppercase',
-        marginTop: '1rem',
-      }}>
-        {totalResults} title{totalResults !== 1 ? 's' : ''} found
-        {state.query && <span style={{ color: 'var(--gold)' }}> · matching “{state.query}”</span>}
-        {state.letter !== 'all' && <span style={{ color: 'var(--gold)' }}> · starting with {state.letter}</span>}
-      </div>
     </div>
   )
 }
