@@ -1,0 +1,22 @@
+[
+ {"query":"Three Ring Concerto","expected":["ubkZqjDXmOVcCup3CKQY"],"kind":"exact title"},
+ {"query":"Shoot Ogawa muscle pass","expected":["NB5AYIpMlQlG1RcSxJ7m"],"kind":"creator and topic"},
+ {"query":"coin purse routine","expected":["aQymkYYWmk6PH3EGj5Gr"],"kind":"sheet notes"},
+ {"query":"card case changes bill business card","expected":["oXNLSuEAP0YYdcBKsSFo"],"kind":"sheet notes"},
+ {"query":"scotch soda","expected":["d7R7uEVA0SjeCeIKLGaS"],"kind":"sheet notes"},
+ {"query":"coins across gimmick","expected":["ttYC7FFPim2RYCJJ8Fwy"],"kind":"sheet notes"},
+ {"query":"card prediction photo","expected":["dZ2Fidqw0PeINMCpwZkD"],"kind":"sheet notes and typo"},
+ {"query":"restaurant getting gigs","expected":["l9OeTHdyWIo7ASSukcfN"],"kind":"multiword intent"},
+ {"query":"linking rings Colombini","expected":["ubkZqjDXmOVcCup3CKQY"],"kind":"topic and creator"},
+ {"query":"muscle pass coin moves","expected":["NB5AYIpMlQlG1RcSxJ7m"],"kind":"catalog over AI error"},
+ {"query":"Neo Purse Frame Routine","expected":["aQymkYYWmk6PH3EGj5Gr"],"kind":"exact title"},
+ {"query":"Captain & Coke 2.0","expected":["d7R7uEVA0SjeCeIKLGaS"],"kind":"punctuation and numbers"},
+ {"query":"Glen Miller hypnosis","expected":["o53cXzBXfijHMliLv9vr"],"kind":"creator typo"},
+ {"query":"Rubberband Magic","expected":["jROXNlecm9tG1C9DTPaN"],"kind":"exact title"},
+ {"query":"Black Envelope Kohler","expected":["gUUro5zl5P3VTkldUm7l"],"kind":"creator and title"},
+ {"query":"Bertini","expected":["LohGyWyJgqR42fvoqUs8"],"kind":"exact title"},
+ {"query":"Incredible Self Working Card Tricks Vol. 1","expected":["GdJHNGLNa47Ykb9ZdD6G"],"kind":"exact volume"},
+ {"query":"live jailhouse restaurant","expected":["l9OeTHdyWIo7ASSukcfN"],"kind":"title fragments"},
+ {"query":"optical deluson","expected":["dZ2Fidqw0PeINMCpwZkD"],"kind":"title typo"},
+ {"query":"Ice Coins","expected":["ttYC7FFPim2RYCJJ8Fwy"],"kind":"exact title"}
+]

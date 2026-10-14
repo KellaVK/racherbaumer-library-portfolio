@@ -98,6 +98,8 @@ export default function DVDCard({ dvd = {} }) {
             </div>
           )}
 
+          {dvd.discoveryMatch && <p className="search-match"><strong>{dvd.discoveryMatch.source}</strong> · {dvd.discoveryMatch.snippet}</p>}
+
           {/* Footer */}
           <div
             style={{

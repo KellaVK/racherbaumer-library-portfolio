@@ -136,7 +136,7 @@ export default function Navbar() {
           {/* Desktop nav */}
           <div className="hidden sm:flex items-center gap-8">
             {navLink('/', 'Browse')}
-            {user && navLink('/profile', 'My Checkouts')}
+          {navLink('/library', 'My Library')}
             {isAdmin && navLink('/admin', 'Admin')}
 
             <div
@@ -256,7 +256,7 @@ export default function Navbar() {
             }}
           >
             {navLink('/', 'Browse')}
-            {user && navLink('/profile', 'My Checkouts')}
+          {navLink('/library', 'My Library')}
             {isAdmin && navLink('/admin', 'Admin')}
             <div
               style={{

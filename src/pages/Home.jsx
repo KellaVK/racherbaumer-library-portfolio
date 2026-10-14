@@ -1,8 +1,10 @@
+import CollectionBrowse from '../components/dvds/CollectionBrowse';
 import { useState, useEffect } from 'react';
 import { collection, onSnapshot, query, orderBy } from 'firebase/firestore';
 import { db } from '../firebase/config';
 import { useCatalogQuery } from '../hooks/useCatalogQuery';
 import CatalogFilters from '../components/dvds/CatalogFilters';
+import DiscoveryPanel from '../components/dvds/DiscoveryPanel';
 import DVDCard from '../components/DVDCard';
 import DVDListRow from '../components/dvds/DVDListRow';
 
@@ -42,6 +44,7 @@ export default function Home() {
 
   const {
     state,
+    discoveryIndex,
     results,
     facets,
     activeFilterCount,
@@ -61,68 +64,21 @@ export default function Home() {
     state.availability,
     state.type,
     state.era,
+    state.magician,
     state.letter,
     state.sort,
   ]);
 
+  const showShelves = !state.query.trim() && !activeFilterCount && !state.collection && state.view !== 'list' && state.sort === 'discovery';
   const visibleResults = results.slice(0, visibleLimit);
   const hasMore = visibleLimit < results.length;
 
   return (
-    <div
-      className="page-enter"
-      style={{
-        maxWidth: '80rem',
-        margin: '0 auto',
-        padding: '3rem 1.5rem 4rem',
-      }}
-    >
-      {/* Hero Header */}
-      <div style={{ marginBottom: '2.5rem' }}>
-        <p
-          style={{
-            fontFamily: "'Josefin Sans', sans-serif",
-            fontSize: '0.65rem',
-            letterSpacing: '0.25em',
-            textTransform: 'uppercase',
-            color: 'var(--gold)',
-            marginBottom: '0.75rem',
-            fontWeight: 400,
-          }}
-        >
-          The Collection
-        </p>
-        <h1
-          style={{
-            fontFamily: "'Playfair Display', serif",
-            fontSize: 'clamp(2rem, 5vw, 3.25rem)',
-            fontWeight: 500,
-            color: 'var(--text)',
-            lineHeight: 1.15,
-            marginBottom: '0.75rem',
-          }}
-        >
-          Jon Racherbaumer
-          <br />
-          <em style={{ fontStyle: 'italic', color: 'var(--text-muted)' }}>
-            Magic DVD Library
-          </em>
-        </h1>
-        <p
-          style={{
-            fontFamily: "'Josefin Sans', sans-serif",
-            fontSize: '0.75rem',
-            letterSpacing: '0.08em',
-            color: 'var(--text-muted)',
-          }}
-        >
-          {dvds.length} titles &nbsp;·&nbsp; {facets.availableCount} available
-          to borrow
-        </p>
-      </div>
-
-      {/* Ornamental rule */}
-      <div className="deco-rule" style={{ marginBottom: '2rem' }} />
+    <div className="page-enter catalog-page">
+      <header className="catalog-header">
+        <h1>Jon Racherbaumer <span>Magic DVD Library</span></h1>
+        <p>Explore the collection. Find a trick, a magician, or your next inspiration.</p>
+      </header>
 
       {/* Error state */}
       {loadError && (
@@ -155,6 +111,9 @@ export default function Home() {
         setSort={setSort}
       />
 
+      {!loading && !loadError && <DiscoveryPanel index={discoveryIndex} filters={state} />}
+
+      {state.collection && <div className="collection-selection"><h2>{state.collection.startsWith('magician:') ? state.collection.slice(9) : ({cards:'Card magic', coins:'Coin magic', mentalism:'Mentalism', collaborations:'Collaborations & compilations'}[state.collection] || 'Collection')}</h2><button className="btn-ghost" onClick={()=>setFilter('collection','')}>← All collections</button></div>}
       {/* Results View */}
       {loading ? (
         <div
@@ -203,6 +162,8 @@ export default function Home() {
             </div>
           ))}
         </div>
+      ) : showShelves ? (
+        <CollectionBrowse index={discoveryIndex} />
       ) : results.length === 0 ? (
         <div style={{ textAlign: 'center', padding: '5rem 0' }}>
           <div className="deco-divider">
@@ -252,7 +213,7 @@ export default function Home() {
       )}
 
       {/* Progressive Load More button */}
-      {!loading && hasMore && (
+      {!loading && !showShelves && hasMore && (
         <div style={{ textAlign: 'center', marginTop: '3rem' }}>
           <p
             style={{

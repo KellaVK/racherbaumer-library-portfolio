@@ -184,7 +184,10 @@ export function filterDVDs(dvds = [], state = {}) {
     if (state.era && state.era !== 'all') {
       const year = Number(dvd.year);
       const decade = Number(String(state.era).replace(/[^0-9]/g, ''));
-      if (!year || year < decade || year >= decade + 10) return false;
+      if (!year) return false;
+      if (state.era === 'pre-1980') {
+        if (year >= 1980) return false;
+      } else if (year < decade || year >= decade + 10) return false;
     }
     return true;
   });

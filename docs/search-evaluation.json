@@ -1,0 +1,415 @@
+{
+  "exactTitleAudit": {
+    "checked": 637,
+    "failures": []
+  },
+  "catalogSize": 637,
+  "cases": 20,
+  "baselineHit5": 10,
+  "newHit5": 20,
+  "indexMs": 137.67,
+  "maxQueryMs": 14.7,
+  "note": "Developer-curated diagnostic cases, not an independent user study or comprehensive relevance judgment. A target outside the top five may coexist with other relevant results.",
+  "results": [
+    {
+      "query": "Three Ring Concerto",
+      "expected": [
+        "ubkZqjDXmOVcCup3CKQY"
+      ],
+      "kind": "exact title",
+      "baselineRank": 1,
+      "newRank": 1,
+      "queryMs": 14.7,
+      "topResults": [
+        {
+          "id": "ubkZqjDXmOVcCup3CKQY",
+          "title": "Three Ring Concerto",
+          "source": "Title"
+        }
+      ]
+    },
+    {
+      "query": "Shoot Ogawa muscle pass",
+      "expected": [
+        "NB5AYIpMlQlG1RcSxJ7m"
+      ],
+      "kind": "creator and topic",
+      "baselineRank": null,
+      "newRank": 1,
+      "queryMs": 8.54,
+      "topResults": [
+        {
+          "id": "NB5AYIpMlQlG1RcSxJ7m",
+          "title": "A Master of Muscle Pass",
+          "source": "Title"
+        }
+      ]
+    },
+    {
+      "query": "coin purse routine",
+      "expected": [
+        "aQymkYYWmk6PH3EGj5Gr"
+      ],
+      "kind": "sheet notes",
+      "baselineRank": null,
+      "newRank": 1,
+      "queryMs": 2.93,
+      "topResults": [
+        {
+          "id": "aQymkYYWmk6PH3EGj5Gr",
+          "title": "Neo Purse Frame Routine",
+          "source": "Title"
+        }
+      ]
+    },
+    {
+      "query": "card case changes bill business card",
+      "expected": [
+        "oXNLSuEAP0YYdcBKsSFo"
+      ],
+      "kind": "sheet notes",
+      "baselineRank": null,
+      "newRank": 1,
+      "queryMs": 10.12,
+      "topResults": [
+        {
+          "id": "oXNLSuEAP0YYdcBKsSFo",
+          "title": "M-Case",
+          "source": "Catalog notes"
+        }
+      ]
+    },
+    {
+      "query": "scotch soda",
+      "expected": [
+        "d7R7uEVA0SjeCeIKLGaS"
+      ],
+      "kind": "sheet notes",
+      "baselineRank": null,
+      "newRank": 1,
+      "queryMs": 4.82,
+      "topResults": [
+        {
+          "id": "d7R7uEVA0SjeCeIKLGaS",
+          "title": "Captain & Coke 2.0",
+          "source": "Catalog notes"
+        }
+      ]
+    },
+    {
+      "query": "coins across gimmick",
+      "expected": [
+        "ttYC7FFPim2RYCJJ8Fwy"
+      ],
+      "kind": "sheet notes",
+      "baselineRank": null,
+      "newRank": 1,
+      "queryMs": 7.17,
+      "topResults": [
+        {
+          "id": "ttYC7FFPim2RYCJJ8Fwy",
+          "title": "Ice Coins",
+          "source": "Catalog notes"
+        },
+        {
+          "id": "6XQRR5lfZL2r4PwTui7v",
+          "title": "CoinOne",
+          "source": "Title"
+        }
+      ]
+    },
+    {
+      "query": "card prediction photo",
+      "expected": [
+        "dZ2Fidqw0PeINMCpwZkD"
+      ],
+      "kind": "sheet notes and typo",
+      "baselineRank": null,
+      "newRank": 1,
+      "queryMs": 7.17,
+      "topResults": [
+        {
+          "id": "dZ2Fidqw0PeINMCpwZkD",
+          "title": "Optical Delusion",
+          "source": "Catalog notes"
+        }
+      ]
+    },
+    {
+      "query": "restaurant getting gigs",
+      "expected": [
+        "l9OeTHdyWIo7ASSukcfN"
+      ],
+      "kind": "multiword intent",
+      "baselineRank": null,
+      "newRank": 1,
+      "queryMs": 8.29,
+      "topResults": [
+        {
+          "id": "l9OeTHdyWIo7ASSukcfN",
+          "title": "Live at the Jailhouse: A Guide to Restaurant Magic",
+          "source": "Catalog notes"
+        }
+      ]
+    },
+    {
+      "query": "linking rings Colombini",
+      "expected": [
+        "ubkZqjDXmOVcCup3CKQY"
+      ],
+      "kind": "topic and creator",
+      "baselineRank": null,
+      "newRank": 1,
+      "queryMs": 5.64,
+      "topResults": [
+        {
+          "id": "ubkZqjDXmOVcCup3CKQY",
+          "title": "Three Ring Concerto",
+          "source": "Title"
+        }
+      ]
+    },
+    {
+      "query": "muscle pass coin moves",
+      "expected": [
+        "NB5AYIpMlQlG1RcSxJ7m"
+      ],
+      "kind": "catalog over AI error",
+      "baselineRank": null,
+      "newRank": 1,
+      "queryMs": 6.13,
+      "topResults": [
+        {
+          "id": "NB5AYIpMlQlG1RcSxJ7m",
+          "title": "A Master of Muscle Pass",
+          "source": "Title"
+        },
+        {
+          "id": "ZgWhGJ2zwImjrtqRalBf",
+          "title": "Encyclopedia of Coin Sleights Vol. 2",
+          "source": "Title"
+        }
+      ]
+    },
+    {
+      "query": "Neo Purse Frame Routine",
+      "expected": [
+        "aQymkYYWmk6PH3EGj5Gr"
+      ],
+      "kind": "exact title",
+      "baselineRank": 1,
+      "newRank": 1,
+      "queryMs": 4.61,
+      "topResults": [
+        {
+          "id": "aQymkYYWmk6PH3EGj5Gr",
+          "title": "Neo Purse Frame Routine",
+          "source": "Title"
+        }
+      ]
+    },
+    {
+      "query": "Captain & Coke 2.0",
+      "expected": [
+        "d7R7uEVA0SjeCeIKLGaS"
+      ],
+      "kind": "punctuation and numbers",
+      "baselineRank": 1,
+      "newRank": 1,
+      "queryMs": 5.02,
+      "topResults": [
+        {
+          "id": "d7R7uEVA0SjeCeIKLGaS",
+          "title": "Captain & Coke 2.0",
+          "source": "Title"
+        }
+      ]
+    },
+    {
+      "query": "Glen Miller hypnosis",
+      "expected": [
+        "o53cXzBXfijHMliLv9vr"
+      ],
+      "kind": "creator typo",
+      "baselineRank": 1,
+      "newRank": 1,
+      "queryMs": 6.79,
+      "topResults": [
+        {
+          "id": "o53cXzBXfijHMliLv9vr",
+          "title": "Glenn Miller Hypnosis Show",
+          "source": "Title"
+        }
+      ]
+    },
+    {
+      "query": "Rubberband Magic",
+      "expected": [
+        "jROXNlecm9tG1C9DTPaN"
+      ],
+      "kind": "exact title",
+      "baselineRank": 1,
+      "newRank": 1,
+      "queryMs": 4.19,
+      "topResults": [
+        {
+          "id": "jROXNlecm9tG1C9DTPaN",
+          "title": "Rubberband Magic",
+          "source": "Title"
+        },
+        {
+          "id": "EtNPCoGm49Te3ZmZW7zh",
+          "title": "Elastic Stories - Vol.1",
+          "source": "Title"
+        },
+        {
+          "id": "8whOQIfsjKEiBX8eAWc3",
+          "title": "Pinnacle",
+          "source": "Catalog notes"
+        },
+        {
+          "id": "c2JK4EluLLdpkZlNDIGM",
+          "title": "Art of Levitation",
+          "source": "AI description"
+        }
+      ]
+    },
+    {
+      "query": "Black Envelope Kohler",
+      "expected": [
+        "gUUro5zl5P3VTkldUm7l"
+      ],
+      "kind": "creator and title",
+      "baselineRank": 1,
+      "newRank": 1,
+      "queryMs": 7.69,
+      "topResults": [
+        {
+          "id": "gUUro5zl5P3VTkldUm7l",
+          "title": "Black Envelope",
+          "source": "Title"
+        }
+      ]
+    },
+    {
+      "query": "Bertini",
+      "expected": [
+        "LohGyWyJgqR42fvoqUs8"
+      ],
+      "kind": "exact title",
+      "baselineRank": 1,
+      "newRank": 1,
+      "queryMs": 10.44,
+      "topResults": [
+        {
+          "id": "LohGyWyJgqR42fvoqUs8",
+          "title": "Bertini",
+          "source": "Title"
+        },
+        {
+          "id": "rzmehvqYyQ7SuM7pnX9z",
+          "title": "Coin Magic",
+          "source": "Creator"
+        },
+        {
+          "id": "NZfuiIPKOrMsJQXHqqB0",
+          "title": "European Coin Magic Symposium - Vol.1",
+          "source": "Featured performers"
+        },
+        {
+          "id": "IqZX7RlAIdBpfcme89bm",
+          "title": "European Coin Magic Symposium - Vol.2",
+          "source": "Featured performers"
+        }
+      ]
+    },
+    {
+      "query": "Incredible Self Working Card Tricks Vol. 1",
+      "expected": [
+        "GdJHNGLNa47Ykb9ZdD6G"
+      ],
+      "kind": "exact volume",
+      "baselineRank": 1,
+      "newRank": 1,
+      "queryMs": 5.97,
+      "topResults": [
+        {
+          "id": "GdJHNGLNa47Ykb9ZdD6G",
+          "title": "Incredible Self Working Card Tricks Vol. 1",
+          "source": "Title"
+        },
+        {
+          "id": "QZ6zSJ3GUSoRxPZfAxZt",
+          "title": "Easy to Master Card Miracles Vol.1",
+          "source": "Title"
+        },
+        {
+          "id": "fv5DQKkIv8Xtx7L8bG0c",
+          "title": "Daryls Card Revelations - Vol.1",
+          "source": "Title"
+        },
+        {
+          "id": "n6f1m30wo3cG6kawGzgF",
+          "title": "Encyclopedia of Card Sleights Vol.1",
+          "source": "Title"
+        },
+        {
+          "id": "KAwqAcCAgZFjeEZH6Cfd",
+          "title": "The Heinous Collection - Vol.1",
+          "source": "Title"
+        }
+      ]
+    },
+    {
+      "query": "live jailhouse restaurant",
+      "expected": [
+        "l9OeTHdyWIo7ASSukcfN"
+      ],
+      "kind": "title fragments",
+      "baselineRank": null,
+      "newRank": 1,
+      "queryMs": 9.58,
+      "topResults": [
+        {
+          "id": "l9OeTHdyWIo7ASSukcfN",
+          "title": "Live at the Jailhouse: A Guide to Restaurant Magic",
+          "source": "Title"
+        }
+      ]
+    },
+    {
+      "query": "optical deluson",
+      "expected": [
+        "dZ2Fidqw0PeINMCpwZkD"
+      ],
+      "kind": "title typo",
+      "baselineRank": 1,
+      "newRank": 1,
+      "queryMs": 5.04,
+      "topResults": [
+        {
+          "id": "dZ2Fidqw0PeINMCpwZkD",
+          "title": "Optical Delusion",
+          "source": "Title"
+        }
+      ]
+    },
+    {
+      "query": "Ice Coins",
+      "expected": [
+        "ttYC7FFPim2RYCJJ8Fwy"
+      ],
+      "kind": "exact title",
+      "baselineRank": 1,
+      "newRank": 1,
+      "queryMs": 2.69,
+      "topResults": [
+        {
+          "id": "ttYC7FFPim2RYCJJ8Fwy",
+          "title": "Ice Coins",
+          "source": "Title"
+        }
+      ]
+    }
+  ]
+}

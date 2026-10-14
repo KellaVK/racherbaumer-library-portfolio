@@ -153,3 +153,12 @@ This is an organized source snapshot prepared in October 2026. Existing producti
 ## AI-use acknowledgment
 
 See [AI_USE.md](AI_USE.md) for development assistance, runtime AI use, and verification scope.
+
+## Enriched search and personal discovery
+
+Search now incorporates reconciled collection notes, multiword queries, spelling
+corrections, and common magic concepts. “Find something for you” offers suggestions
+based on interests, experience, setting, and an optional favorite DVD. Preferences
+stay in the browser. See [the data, evaluation, and maintenance guide](docs/CATALOG-DISCOVERY.md).
+
+Run `npm run test:search` for the reproducible real-catalog retrieval comparison.

@@ -57,6 +57,19 @@ service cloud.firestore {
       allow delete: if isAdmin() || (isSignedIn() && resource.data.requesterId == uid());
     }
 
+    // Private shelves: neither other members nor admins can read personal preferences.
+    match /users/{userId}/library/{dvdId} {
+      allow read, delete: if isSignedIn() && userId == uid();
+      allow create, update: if isSignedIn() && userId == uid()
+        && exists(/databases/$(database)/documents/dvds/$(dvdId))
+        && request.resource.data.keys().hasOnly(['wantToWatch', 'favorite', 'watched', 'dismissed', 'updatedAt'])
+        && request.resource.data.get('wantToWatch', false) is bool
+        && request.resource.data.get('favorite', false) is bool
+        && request.resource.data.get('watched', false) is bool
+        && request.resource.data.get('dismissed', false) is bool
+        && request.resource.data.updatedAt == request.time;
+    }
+
     // ── Users ──────────────────────────────────────────────────────────────
     match /users/{userId} {
       // Users can read their own profile; admins read all

@@ -24,3 +24,11 @@ See the repository README and tests, where present, for setup and validation.
 Offline checks do not establish live-service availability, production security,
 or the accuracy of AI-generated output. Credentials and private local data are
 not intended to be part of the repository.
+
+## October 2026 search improvements
+
+Codex assisted with spreadsheet reconciliation, local search/ranking, browser-local
+preference suggestions, tests, and documentation. Existing AI descriptions are
+lower-weight search evidence; the new search does not call a generative model or
+embedding API. Related-title suggestions use lexical content vectors. See
+[the discovery guide](docs/CATALOG-DISCOVERY.md) for measured results and limits.

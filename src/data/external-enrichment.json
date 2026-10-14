@@ -1,0 +1,724 @@
+{
+  "ubkZqjDXmOVcCup3CKQY": {
+    "title": "Three Ring Concerto",
+    "creators": [
+      "Aldo Colombini"
+    ],
+    "summary": "A linking-ring routine using three rings, with rope incorporated into some sequences.",
+    "subjects": [
+      "linking rings",
+      "ropes"
+    ],
+    "props": [
+      "Three linking rings",
+      "Rope for some sequences"
+    ],
+    "tricks": [],
+    "sources": [
+      {
+        "id": "penguin",
+        "label": "Penguin Magic",
+        "url": "https://www.penguinmagic.com/ja/p/S9748",
+        "scope": "DVD product listing"
+      }
+    ],
+    "sourceLabel": "Penguin Magic",
+    "url": "https://www.penguinmagic.com/ja/p/S9748",
+    "editionNote": "Only one source provided usable information. No individually named sections were established.",
+    "reviewedAt": "2026-10-14",
+    "status": "reviewed_source_match",
+    "independentlyVerified": false
+  },
+  "NwkyoMReFjmGv2kt92Qi": {
+    "title": "An Extension of Me",
+    "creators": [
+      "Eric Jones"
+    ],
+    "summary": "A teaching collection covering card, coin, and sponge-ball magic.",
+    "subjects": [
+      "cards",
+      "coins",
+      "sponge balls"
+    ],
+    "props": [
+      "Playing cards",
+      "Coins",
+      "Sponge balls"
+    ],
+    "tricks": [
+      {
+        "name": "SpeedFly",
+        "creator": "",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Impossible Production",
+        "creator": "",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Eye Candy",
+        "creator": "",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Trip.Rev",
+        "creator": "",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Impossible Coins Across",
+        "creator": "",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Hellbound Remix",
+        "creator": "",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Ambitious",
+        "creator": "",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "El Cambio Nada",
+        "creator": "",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Swirl Production",
+        "creator": "",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Standing Room Only Collectors",
+        "creator": "",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Elevator Cut",
+        "creator": "",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Oxy-Clean Coin Routine",
+        "creator": "",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Flash Coins Re-Lit",
+        "creator": "",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "G.O.D.H.A.N.D. Move",
+        "creator": "",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Peregrination",
+        "creator": "",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Ishkibble Sandwich",
+        "creator": "",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Tai Chi Penetration",
+        "creator": "",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Ambitious Force",
+        "creator": "",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "vi",
+        "label": "Vanishing Inc.",
+        "url": "https://www.vanishingincmagic.com/magic-dvds/an-extension-of-me/",
+        "scope": "Three-DVD set"
+      },
+      {
+        "id": "penguin",
+        "label": "Penguin Magic",
+        "url": "https://www.penguinmagic.com/de/p/20170",
+        "scope": "An Extension of Me section only, within bundle with Mirage Et Trois"
+      }
+    ],
+    "sourceLabel": "Vanishing Inc.",
+    "url": "https://www.vanishingincmagic.com/magic-dvds/an-extension-of-me/",
+    "editionNote": "The source describes a three-DVD set; the completeness of the local copy has not been checked. Retailer text appears shared; this is not independent verification.",
+    "reviewedAt": "2026-10-14",
+    "status": "reviewed_source_match",
+    "independentlyVerified": false
+  },
+  "QZ6zSJ3GUSoRxPZfAxZt": {
+    "title": "Easy to Master Card Miracles Vol.1",
+    "creators": [
+      "Michael Ammar"
+    ],
+    "summary": "Volume 1 of Michael Ammar’s card-magic teaching series.",
+    "subjects": [
+      "cards"
+    ],
+    "props": [
+      "Playing cards"
+    ],
+    "tricks": [
+      {
+        "name": "8 Card Brainwave",
+        "creator": "Nick Trost",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Red Hot Mama",
+        "creator": "Ryan / Everhart / Leech",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Acrobatic Aces",
+        "creator": "",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "The Secret To A Perfect Royal Flush",
+        "creator": "",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Triumph",
+        "creator": "Dai Vernon",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Further Than That",
+        "creator": "Stewart James",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Las Vegas Leaper",
+        "creator": "Paul Harris",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Cannibal Cards",
+        "creator": "Lin Searles",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Card Thru Table",
+        "creator": "",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "A Night at the Improv...",
+        "creator": "Eric Mead",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "The Insurance Policy",
+        "creator": "Tommy Wonder",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "vi",
+        "label": "Vanishing Inc.",
+        "url": "https://www.vanishingincmagic.com/card-magic/easy-to-master-card-miracles-volumes-1-3/",
+        "scope": "Volume 1 subsection of DVD volumes 1–3 listing"
+      },
+      {
+        "id": "penguin",
+        "label": "Penguin Magic",
+        "url": "https://www.penguinmagic.com/es/p/106",
+        "scope": "DVD product listing"
+      }
+    ],
+    "sourceLabel": "Vanishing Inc.",
+    "url": "https://www.vanishingincmagic.com/card-magic/easy-to-master-card-miracles-volumes-1-3/",
+    "editionNote": "Retailer-listed contents, including the bonus effect; the physical disc and accompanying props have not been checked. Online-instruction releases were excluded.",
+    "reviewedAt": "2026-10-14",
+    "status": "reviewed_source_match",
+    "independentlyVerified": false
+  },
+  "Q4VOWSSY04JrOCzfWrtl": {
+    "title": "Easy to Master Card Miracles Vol.2",
+    "creators": [
+      "Michael Ammar"
+    ],
+    "summary": "Volume 2 of Michael Ammar’s card-magic teaching series.",
+    "subjects": [
+      "cards"
+    ],
+    "props": [
+      "Playing cards"
+    ],
+    "tricks": [
+      {
+        "name": "Twisting The Aces",
+        "creator": "Dai Vernon",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Daley's Last Trick",
+        "creator": "Dr. Jacob Daley",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Card Warp",
+        "creator": "Roy Walton",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Poker Routine",
+        "creator": "Dai Vernon",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Poker Face",
+        "creator": "Al Baker",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Overkill",
+        "creator": "Harris / Ackerman / Emberg",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Card Through Handkerchief",
+        "creator": "",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Card Penetration Change",
+        "creator": "Cy Endfield",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "The Ambitious Card",
+        "creator": "",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "MacDonald's Aces",
+        "creator": "",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "vi",
+        "label": "Vanishing Inc.",
+        "url": "https://www.vanishingincmagic.com/card-magic/easy-to-master-card-miracles-volumes-1-3/",
+        "scope": "Volume 2 subsection of DVD volumes 1–3 listing"
+      },
+      {
+        "id": "penguin",
+        "label": "Penguin Magic",
+        "url": "https://www.penguinmagic.com/product.php?ID=107",
+        "scope": "DVD product listing"
+      }
+    ],
+    "sourceLabel": "Vanishing Inc.",
+    "url": "https://www.vanishingincmagic.com/card-magic/easy-to-master-card-miracles-volumes-1-3/",
+    "editionNote": "Retailer-listed contents, including the bonus effect; the physical disc and accompanying props have not been checked. Online-instruction releases were excluded.",
+    "reviewedAt": "2026-10-14",
+    "status": "reviewed_source_match",
+    "independentlyVerified": false
+  },
+  "9lTtHUuAUHH43Gy7Dzgi": {
+    "title": "Easy to Master Card Miracles Vol.3",
+    "creators": [
+      "Michael Ammar"
+    ],
+    "summary": "Volume 3 of Michael Ammar’s card-magic teaching series.",
+    "subjects": [
+      "cards"
+    ],
+    "props": [
+      "Playing cards"
+    ],
+    "tricks": [
+      {
+        "name": "Haunted Pack",
+        "creator": "Al Baker",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Between The Palms",
+        "creator": "Alex Elmsley",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Twins",
+        "creator": "Brother John Hamman",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Title Bout",
+        "creator": "Martin Nash",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Opening Stab",
+        "creator": "Nate Leipzig",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Card In Wine Glass",
+        "creator": "Navio Martini / Michael Ammar",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Jazz Aces",
+        "creator": "Darwin Ortiz / Peter Kane",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Card In Wallet",
+        "creator": "Gary Plants / Michael Ammar",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Color-Changing Deck",
+        "creator": "Dai Vernon",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "Xeroxed Deck",
+        "creator": "",
+        "description": "",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "vi",
+        "label": "Vanishing Inc.",
+        "url": "https://www.vanishingincmagic.com/card-magic/easy-to-master-card-miracles-volumes-1-3/",
+        "scope": "Volume 3 subsection of DVD volumes 1–3 listing"
+      },
+      {
+        "id": "penguin",
+        "label": "Penguin Magic",
+        "url": "https://www.penguinmagic.com/pl/p/108",
+        "scope": "DVD product listing"
+      }
+    ],
+    "sourceLabel": "Vanishing Inc.",
+    "url": "https://www.vanishingincmagic.com/card-magic/easy-to-master-card-miracles-volumes-1-3/",
+    "editionNote": "Retailer-listed contents, including the bonus effect; the physical disc and accompanying props have not been checked. Online-instruction releases were excluded.",
+    "reviewedAt": "2026-10-14",
+    "status": "reviewed_source_match",
+    "independentlyVerified": false
+  },
+  "r0rO0tvtNFONd1tmVBWG": {
+    "title": "Mirage Et Trois",
+    "creators": [
+      "Eric Jones"
+    ],
+    "summary": "Three connected coin effects: appearance, travel between hands, and disappearance.",
+    "subjects": [
+      "coins"
+    ],
+    "props": [
+      "Three coins in the described effect"
+    ],
+    "tricks": [
+      {
+        "name": "Out With Three",
+        "creator": "",
+        "description": "Three coins appear in succession.",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "S.V.C.A. (Spectator’s Visible Coins Across)",
+        "creator": "",
+        "description": "Three coins travel between the hands.",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      },
+      {
+        "name": "KKK (Three Klan Vanish)",
+        "creator": "",
+        "description": "A sequence in which three coins disappear.",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "vi",
+        "label": "Vanishing Inc.",
+        "url": "https://www.vanishingincmagic.com/magic-dvds/mirage-et-trois/",
+        "scope": "DVD product listing"
+      },
+      {
+        "id": "penguin",
+        "label": "Penguin Magic",
+        "url": "https://www.penguinmagic.com/fr/p/20994",
+        "scope": "Original release; product body and DVD references"
+      }
+    ],
+    "sourceLabel": "Vanishing Inc.",
+    "url": "https://www.vanishingincmagic.com/magic-dvds/mirage-et-trois/",
+    "editionNote": "Original release only; Mirage Et Trois 2.0 and bundle contents were excluded. Visible coin count is not a complete prop requirement.",
+    "reviewedAt": "2026-10-14",
+    "status": "reviewed_source_match",
+    "independentlyVerified": false
+  },
+  "tqNSlahPG0r9hYdI8e80": {
+    "title": "Charming Chinese Challenge",
+    "creators": [
+      "Troy Hooser"
+    ],
+    "summary": "A coin-and-ribbon routine with alternate handlings and guest contributions.",
+    "subjects": [
+      "coins"
+    ],
+    "props": [
+      "Four Chinese coins (retailer-stated requirement)",
+      "Silk ribbon"
+    ],
+    "tricks": [
+      {
+        "name": "Charming Chinese Challenge",
+        "creator": "",
+        "description": "Coins visibly link onto and escape from a ribbon.",
+        "sourceIds": [
+          "vi",
+          "penguin"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "vi",
+        "label": "Vanishing Inc.",
+        "url": "https://www.vanishingincmagic.com/money-magic/a-charming-chinese-challenge-dvd/",
+        "scope": "DVD product listing"
+      },
+      {
+        "id": "penguin",
+        "label": "Penguin Magic",
+        "url": "https://www.penguinmagic.com/zh/p/9842",
+        "scope": "DVD product listing"
+      }
+    ],
+    "sourceLabel": "Vanishing Inc.",
+    "url": "https://www.vanishingincmagic.com/money-magic/a-charming-chinese-challenge-dvd/",
+    "editionNote": "DVD edition. The later 2024 product and online-instruction packages were excluded. Props supplied with the local copy are unknown.",
+    "reviewedAt": "2026-10-14",
+    "status": "reviewed_source_match",
+    "independentlyVerified": false
+  }
+}

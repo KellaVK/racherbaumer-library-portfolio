@@ -1,3 +1,4 @@
+import MeetingList from './MeetingList'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { approveCheckout, denyCheckout, returnDVD } from '../../services/checkouts'
@@ -20,6 +21,7 @@ export default function CheckoutManager({ pending = [], active = [], queued = []
     { title: 'Waiting list', items: queued, status: 'queued' },
   ]
   return <div className="admin-groups">
+    <MeetingList pending={pending} active={active} />
     {groups.map(group => <section key={group.title}>
       <h2 className="section-heading">{group.title} <span>{group.items.length}</span></h2>
       {!group.items.length ? <p className="muted-copy">Nothing in this group.</p> : <div className="admin-list">
