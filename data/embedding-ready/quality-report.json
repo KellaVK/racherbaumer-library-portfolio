@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.0",
+  "schemaVersion": "1.1",
   "sourceSnapshotDate": "2026-10-14",
   "records": 637,
   "embeddingDocuments": 637,
@@ -406,7 +406,7 @@
   "coverage": {
     "subjects": 230,
     "settings": 24,
-    "formats": 332,
+    "formats": 477,
     "levels": 0
   },
   "reviewQueue": [

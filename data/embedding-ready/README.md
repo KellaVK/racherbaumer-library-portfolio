@@ -61,3 +61,16 @@ Review creator conflicts and unmatched rows first; then ambiguous titles and rec
 without descriptive notes. Have a club member add verified subjects, props required,
 performance setting and teaching/performance format. Leave difficulty unknown until
 supported by the material. Avoid generating lengthy descriptions solely to fill gaps.
+
+## Canonical vocabulary (schema 1.1)
+
+`catalogVocabulary.js` groups equivalent generic descriptions and category labels:
+Decks / Playing cards / Card magic → Cards; Moves / Sleights → Techniques;
+Master Class → Masterclass; and Table hopping / Strolling magic → Restaurant / walkaround.
+Generic compound labels such as Card and Coin Effects and Coins & Cards become
+Cards and Coins. Semicolon-separated notes are consolidated with their original
+variants in `descriptionGroups`. Distinct detailed descriptions are preserved: a deck
+switch is not treated as a card switch, and finger rings remain distinct from linking
+rings. `normalizedCategories` supplies canonical category labels to embedding text;
+`rawCategories` preserves the source values. This is deterministic vocabulary-based
+normalization, not model-generated paraphrasing. No API calls are required.

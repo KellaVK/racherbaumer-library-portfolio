@@ -1,6 +1,7 @@
 import { createHash } from 'node:crypto';
+import { canonicalPhrase, consolidateDescriptions } from './catalogVocabulary.js';
 import { reconcileCatalog } from './reconcileCatalog.js';
-export const SCHEMA_VERSION = '1.0';
+export const SCHEMA_VERSION = '1.1';
 const hash = value => createHash('sha256').update(value).digest('hex');
 export function cleanText(value) {
   if (typeof value !== 'string') return '';
@@ -31,7 +32,7 @@ const TAXONOMY = {
   formats: {
     lecture: ['lectures?'], masterclass: ['master ?class'], tutorial: ['tutorials?', 'instructional', 'teaching'],
     performance: ['performances?'], interview: ['interviews?'], biography: ['biograph(?:y|ical)', 'documentary'],
-    routine: ['routines?'], techniques: ['moves?', 'sleights?', 'techniques?'],
+    effects: ['effects?', 'tricks?'], routine: ['routines?'], techniques: ['moves?', 'sleights?', 'techniques?'],
   },
   levels: { beginner: ['beginners?'], intermediate: ['intermediate'], advanced: ['advanced'] },
 };
@@ -75,7 +76,8 @@ export function prepareEmbeddingCatalog(catalog, source, aliases = {}) {
     // Explicit allowlist: never serialize the source or live catalog object wholesale.
     const title = cleanText(dvd.title);
     const creators = unique([...list(dvd.magician), ...list(overlay.magician)]);
-    const notes = unique([...list(dvd.notes), ...list(overlay.notes)].map(normalizeDescription));
+    const descriptionGroups = consolidateDescriptions(unique([...list(dvd.notes), ...list(overlay.notes)].map(normalizeDescription)));
+    const notes = descriptionGroups.map(group => group.text);
     const rawCategories = unique([...list(dvd.magicType), ...list(overlay.magicType)]);
     const fields = [{ field: 'catalog.title', text: normalizeDescription(title) },
       ...list(dvd.notes).map(text => ({ field: 'catalog.notes', text: normalizeDescription(text) })),
@@ -86,7 +88,7 @@ export function prepareEmbeddingCatalog(catalog, source, aliases = {}) {
     const record = {
       schemaVersion: SCHEMA_VERSION, id: dvd.id, title, creators,
       titleAliases: unique([...list(overlay.aliases), ...(normalizeDescription(title) !== title ? [normalizeDescription(title)] : [])]),
-      notes, rawCategories, categories: tags,
+      notes, descriptionGroups, rawCategories, normalizedCategories: unique(rawCategories.flatMap(value => value.split(/[;\/]/).map(canonicalPhrase))), categories: tags,
       publishers: unique([...list(dvd.producer), ...list(overlay.producer)]),
       contributorNotes: unique([...list(dvd.otherFeatures), ...list(overlay.otherFeatures)]),
       series: seriesMatch ? { title: title.slice(0, seriesMatch.index).replace(/[\s—–-]+$/, ''), volume: seriesMatch[1] } : null,
@@ -100,7 +102,7 @@ export function prepareEmbeddingCatalog(catalog, source, aliases = {}) {
     const header = [`Title: ${title}`, creators.length && `Magicians: ${creators.join('; ')}`].filter(Boolean).join('\n');
     const body = [record.titleAliases.length && `Alternate title: ${record.titleAliases.join('; ')}`,
       notes.length && `Collection notes: ${notes.join('; ')}`,
-      rawCategories.length && `Original categories: ${rawCategories.join('; ')}`,
+      record.normalizedCategories.length && `Categories: ${record.normalizedCategories.join('; ')}`,
       ...Object.entries(tags).filter(([, values]) => values.length).map(([group, values]) => `${group}: ${values.map(v => v.label).join('; ')}`),
       record.contributorNotes.length && `Additional contributors or features: ${record.contributorNotes.join('; ')}`].filter(Boolean).join('\n');
     record.embeddingText = [header, body].filter(Boolean).join('\n');
