@@ -1,3 +1,4 @@
+import CollectionBrowse from '../components/dvds/CollectionBrowse';
 import { useState, useEffect } from 'react';
 import { collection, onSnapshot, query, orderBy } from 'firebase/firestore';
 import { db } from '../firebase/config';
@@ -68,6 +69,7 @@ export default function Home() {
     state.sort,
   ]);
 
+  const showShelves = !state.query.trim() && !activeFilterCount && !state.collection && state.view !== 'list' && state.sort === 'discovery';
   const visibleResults = results.slice(0, visibleLimit);
   const hasMore = visibleLimit < results.length;
 
@@ -111,6 +113,7 @@ export default function Home() {
 
       {!loading && !loadError && <DiscoveryPanel index={discoveryIndex} filters={state} />}
 
+      {state.collection && <div className="collection-selection"><h2>{state.collection.startsWith('magician:') ? state.collection.slice(9) : ({cards:'Card magic', coins:'Coin magic', mentalism:'Mentalism', collaborations:'Collaborations & compilations'}[state.collection] || 'Collection')}</h2><button className="btn-ghost" onClick={()=>setFilter('collection','')}>← All collections</button></div>}
       {/* Results View */}
       {loading ? (
         <div
@@ -159,6 +162,8 @@ export default function Home() {
             </div>
           ))}
         </div>
+      ) : showShelves ? (
+        <CollectionBrowse index={discoveryIndex} />
       ) : results.length === 0 ? (
         <div style={{ textAlign: 'center', padding: '5rem 0' }}>
           <div className="deco-divider">
@@ -208,7 +213,7 @@ export default function Home() {
       )}
 
       {/* Progressive Load More button */}
-      {!loading && hasMore && (
+      {!loading && !showShelves && hasMore && (
         <div style={{ textAlign: 'center', marginTop: '3rem' }}>
           <p
             style={{

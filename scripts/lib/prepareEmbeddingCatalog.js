@@ -1,7 +1,7 @@
 import { createHash } from 'node:crypto';
 import { canonicalPhrase, consolidateDescriptions } from './catalogVocabulary.js';
 import { reconcileCatalog } from './reconcileCatalog.js';
-export const SCHEMA_VERSION = '1.1';
+export const SCHEMA_VERSION = '1.2';
 const hash = value => createHash('sha256').update(value).digest('hex');
 export function cleanText(value) {
   if (typeof value !== 'string') return '';
@@ -65,7 +65,7 @@ function chunks(text, max = 1400) {
   if (current) result.push(current);
   return result;
 }
-export function prepareEmbeddingCatalog(catalog, source, aliases = {}) {
+export function prepareEmbeddingCatalog(catalog, source, aliases = {}, external = {}) {
   const reconciled = reconcileCatalog(catalog, source.rows, aliases);
   const records = []; const documents = [];
   const seen = new Set();
@@ -83,11 +83,25 @@ export function prepareEmbeddingCatalog(catalog, source, aliases = {}) {
       ...list(dvd.notes).map(text => ({ field: 'catalog.notes', text: normalizeDescription(text) })),
       ...list(overlay.notes).map(text => ({ field: 'spreadsheet.notes', text: normalizeDescription(text) })),
       ...rawCategories.map(text => ({ field: 'source.category', text }))];
+    const candidate = external[dvd.id];
+    const same = (a, b) => cleanText(a).toLowerCase() === cleanText(b).toLowerCase();
+    const reviewed = candidate?.status === 'reviewed_source_match' && same(candidate.title, title)
+      && list(candidate.creators).some(name => list(dvd.magician).some(creator => same(name, creator)));
+    const evidence = reviewed ? {
+      summary: cleanText(candidate.summary), props: list(candidate.props), subjects: list(candidate.subjects),
+      tricks: (candidate.tricks || []).map(trick => ({ name: cleanText(trick.name), creator: cleanText(trick.creator) })),
+      url: cleanText(candidate.url), sourceLabel: cleanText(candidate.sourceLabel),
+      reviewedAt: cleanText(candidate.reviewedAt), editionNote: cleanText(candidate.editionNote), independentlyVerified: false,
+    } : null;
+    const researchText = evidence ? [evidence.summary, ...evidence.props, ...evidence.subjects,
+      ...evidence.tricks.map(t => `${t.name}${t.creator ? ` (${t.creator})` : ''}`)].filter(Boolean).join('; ') : '';
+    if (researchText) fields.push({ field: 'published.notes', text: researchText });
     const tags = classify(fields);
     const seriesMatch = title.match(/\bvol(?:ume)?s?\.?\s*(\d+(?:\s*[&–-]\s*\d+)?)/i);
     const record = {
       schemaVersion: SCHEMA_VERSION, id: dvd.id, title, creators,
       titleAliases: unique([...list(overlay.aliases), ...(normalizeDescription(title) !== title ? [normalizeDescription(title)] : [])]),
+      externalEvidence: evidence,
       notes, descriptionGroups, rawCategories, normalizedCategories: unique(rawCategories.flatMap(value => value.split(/[;\/]/).map(canonicalPhrase))), categories: tags,
       publishers: unique([...list(dvd.producer), ...list(overlay.producer)]),
       contributorNotes: unique([...list(dvd.otherFeatures), ...list(overlay.otherFeatures)]),
@@ -101,6 +115,7 @@ export function prepareEmbeddingCatalog(catalog, source, aliases = {}) {
     };
     const header = [`Title: ${title}`, creators.length && `Magicians: ${creators.join('; ')}`].filter(Boolean).join('\n');
     const body = [record.titleAliases.length && `Alternate title: ${record.titleAliases.join('; ')}`,
+      researchText && `Published source notes (not independently verified): ${researchText}`,
       notes.length && `Collection notes: ${notes.join('; ')}`,
       record.normalizedCategories.length && `Categories: ${record.normalizedCategories.join('; ')}`,
       ...Object.entries(tags).filter(([, values]) => values.length).map(([group, values]) => `${group}: ${values.map(v => v.label).join('; ')}`),

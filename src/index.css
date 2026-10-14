@@ -1014,3 +1014,26 @@
   .meeting-print-area { position: absolute; inset: 0; padding: 1rem; }
   .meeting-print-area .no-print { display: none; }
 }
+
+/* Collection browsing retains the quiet dark-and-gold library identity. */
+.collection-shortcuts { display: flex; flex-wrap: wrap; gap: .65rem 1.5rem; padding: .25rem 0 1rem; }
+.collection-shortcuts a, .shelf-navigation a { color: var(--gold); font-size: .8rem; }
+.collection-shelf { margin: 1.75rem 0 2.75rem; min-width: 0; }
+.shelf-heading { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: .9rem; }
+.shelf-heading h2, .collection-selection h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; font-weight: 500; }
+.shelf-heading p { color: var(--text-muted); font-size: .8rem; margin-top: .4rem; line-height: 1.6; }
+.shelf-navigation { display: flex; align-items: center; gap: .3rem; flex-shrink: 0; }
+.shelf-navigation button { min-width: 44px; min-height: 44px; }
+.shelf-rail { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(200px, 23%); overflow-x: auto; gap: .9rem; padding: .25rem .2rem .75rem; scroll-snap-type: x proximity; scrollbar-color: var(--border) transparent; }
+.shelf-title { display: flex; flex-direction: column; padding: 1.25rem; min-height: 190px; background: var(--surface); border: 1px solid var(--border-subtle); text-decoration: none; scroll-snap-align: start; }
+.shelf-title:hover { border-color: var(--gold-dim); background: var(--surface-2); }
+.shelf-title:focus-visible, .shelf-rail:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.shelf-creator { color: var(--text-muted); font-size: .75rem; line-height: 1.5; }
+.shelf-title h3 { color: var(--text); font: 500 1.15rem/1.4 'Playfair Display', serif; margin: .7rem 0 1.5rem; overflow-wrap: anywhere; }
+.shelf-status { display: flex; justify-content: space-between; margin-top: auto; color: var(--gold); font-size: .7rem; }
+.collection-selection { display: flex; flex-wrap: wrap; gap: .75rem; justify-content: space-between; margin: 1.5rem 0; }
+@media(max-width:600px) { .shelf-heading { align-items: flex-start; flex-direction: column; gap: .3rem; } .shelf-rail { grid-auto-columns: 76%; } .collection-shelf { margin-bottom: 2rem; } }
+
+.external-evidence { margin: 1.5rem 0; color: var(--text-muted); font-size: .85rem; line-height: 1.7; }
+.external-evidence p { margin: .75rem 0; }
+.external-evidence a { color: var(--gold); }

@@ -224,6 +224,7 @@ export default function CatalogFilters({
                 className="input"
                 style={{ width: 'auto', fontSize: '0.75rem', paddingTop: '0.4rem', paddingBottom: '0.4rem' }}
               >
+                <option value="discovery">Sort: Browse order</option>
                 <option value="title">Sort: Title A–Z</option>
                 <option value="magician">Sort: Magician A–Z</option>
                 <option value="year-new">Sort: Year (Newest)</option>

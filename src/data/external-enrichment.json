@@ -1,0 +1,85 @@
+{
+  "ubkZqjDXmOVcCup3CKQY": {
+    "title": "Three Ring Concerto",
+    "creators": [
+      "Aldo Colombini"
+    ],
+    "summary": "A linking-ring routine using three rings, with rope incorporated into some sequences.",
+    "props": [
+      "Three linking rings",
+      "Rope for some sequences"
+    ],
+    "subjects": [
+      "linking rings",
+      "ropes"
+    ],
+    "tricks": [],
+    "editionNote": "Source describes the DVD edition.",
+    "sourceLabel": "Penguin Magic",
+    "url": "https://www.penguinmagic.com/ja/p/S9748",
+    "reviewedAt": "2026-10-14",
+    "status": "reviewed_source_match",
+    "independentlyVerified": false
+  },
+  "NwkyoMReFjmGv2kt92Qi": {
+    "title": "An Extension of Me",
+    "creators": [
+      "Eric Jones"
+    ],
+    "summary": "A teaching collection covering card, coin, and sponge-ball magic.",
+    "props": [
+      "Playing cards",
+      "Coins",
+      "Sponge balls"
+    ],
+    "subjects": [
+      "cards",
+      "coins",
+      "sponge balls"
+    ],
+    "tricks": [],
+    "editionNote": "The source describes a three-DVD set; the completeness of the local copy has not been checked.",
+    "sourceLabel": "Vanishing Inc.",
+    "url": "https://www.vanishingincmagic.com/magic-dvds/an-extension-of-me/",
+    "reviewedAt": "2026-10-14",
+    "status": "reviewed_source_match",
+    "independentlyVerified": false
+  },
+  "QZ6zSJ3GUSoRxPZfAxZt": {
+    "title": "Easy to Master Card Miracles Vol.1",
+    "creators": [
+      "Michael Ammar"
+    ],
+    "summary": "A card-magic teaching collection featuring material credited to several creators.",
+    "props": [
+      "Playing cards"
+    ],
+    "subjects": [
+      "cards"
+    ],
+    "tricks": [
+      {
+        "name": "8 Card Brainwave",
+        "creator": "Nick Trost"
+      },
+      {
+        "name": "Red Hot Mama",
+        "creator": "Ryan / Everhart / Leech"
+      },
+      {
+        "name": "Triumph",
+        "creator": "Dai Vernon"
+      },
+      {
+        "name": "Las Vegas Leaper",
+        "creator": "Paul Harris"
+      }
+    ],
+    "editionNote": "Selected contents only; this is not a complete inventory of the DVD.",
+    "sourceLabel": "Penguin Magic",
+    "url": "https://www.penguinmagic.com/ja/p/106",
+    "reviewedAt": "2026-10-14",
+    "status": "reviewed_source_match",
+    "independentlyVerified": false
+  }
+}

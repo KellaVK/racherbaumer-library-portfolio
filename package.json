@@ -17,7 +17,8 @@
     "seed:csv": "node scripts/seedFromCsv.js",
     "test:search": "node scripts/evaluateSearch.js tests/fixtures/catalog-snapshot.json",
     "catalog:reconcile": "node scripts/buildCatalogEnrichment.js scripts/catalog-source.json tests/fixtures/catalog-snapshot.json",
-    "catalog:prepare-embeddings": "node scripts/prepareEmbeddingCatalog.js"
+    "catalog:prepare-embeddings": "node scripts/prepareEmbeddingCatalog.js",
+    "catalog:extract": "node scripts/research/runExtraction.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.95.2",

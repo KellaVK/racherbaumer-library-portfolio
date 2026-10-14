@@ -1,0 +1,7115 @@
+{
+  "sourceAccess": {
+    "conjuringArchive": "automated catalog access disallowed; manual/imported references only",
+    "retailers": "direct bulk access returned HTTP 403; use permitted exports or reviewed page captures"
+  },
+  "rows": [
+    {
+      "id": "04CzvhkDOpLXYNFJWjxF",
+      "title": "Lance DeLong - Caution: Sleight of Hand Required Vol. 1",
+      "magician": [
+        "Lance DeLong"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "0EBoDKudQaInvKRM6rKR",
+      "title": "Pen Through Anything",
+      "magician": [
+        "Jim Krenz",
+        "John Cornelius"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "0f3rWllWjiQixhc2KnNE",
+      "title": "Stars of Magic #3",
+      "magician": [
+        "Frank Garcia",
+        "David Roth"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Stars Of Magic #3 (Frank Garcia)",
+          "url": "https://www.penguinmagic.com/p/11225",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "0lYBtWGNw9E0wwGzvOMS",
+      "title": "Ammar Card Tricks - Vol.8",
+      "magician": [
+        "Michael Ammar"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "0nAQQjNFkaJA1IdmSHXs",
+      "title": "The Great Flydini",
+      "magician": [
+        "Steve Martin"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "0uVZdwj4ccIycLBBcszR",
+      "title": "The Thumb Tip and How to Use It!",
+      "magician": [
+        "Duane Laflin"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "0yEnpM9xiaTIIQM54Y3I",
+      "title": "The Elmsely Count Project",
+      "magician": [
+        "Liam Montier"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "15jZnrppEnUmYg9No01u",
+      "title": "Something More Than an Illusion - Vol.2",
+      "magician": [
+        "Henry Evans"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "17AFQkAca5tMT462WvN3",
+      "title": "The Unforgettable Magic of Cody Fisher",
+      "magician": [
+        "Cody Fisher"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "17LQDGL6QufIYfupcn9W",
+      "title": "Johnny Thompson - The Great Tomsoni",
+      "magician": [
+        "Johnny Thompson"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "1DFfs3iLsNA3vf1EmCqz",
+      "title": "Mene Tekel Miracles",
+      "magician": [
+        "Nathan Kranzo"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Mene Tekel Miracles (DVD and Decks) by Nathan Kranzo - DVD",
+          "url": "https://www.penguinmagic.com/pl/p/S12564",
+          "score": 1
+        },
+        {
+          "title": "Mene Tekel Miracles (DVD and Decks) by Nathan Kranzo - DVD",
+          "url": "https://www.penguinmagic.com/tr/p/S12564",
+          "score": 1
+        },
+        {
+          "title": "Mene Tekel Miracles (DVD and Decks) by Nathan Kranzo - DVD",
+          "url": "https://www.penguinmagic.com/it/p/S12564",
+          "score": 1
+        },
+        {
+          "title": "Mene Tekel Miracles (DVD and Decks) by Nathan Kranzo - DVD",
+          "url": "https://www.penguinmagic.com/de/p/S12564",
+          "score": 1
+        },
+        {
+          "title": "Mene Tekel Miracles (DVD and Decks) by Nathan Kranzo - DVD",
+          "url": "https://www.penguinmagic.com/fr/p/S12564",
+          "score": 1
+        },
+        {
+          "title": "Mene Tekel Miracles (DVD and Decks) by Nathan Kranzo - DVD",
+          "url": "https://www.penguinmagic.com/es/p/S12564",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "1KtYdYUfKN5VEqEsNt8R",
+      "title": "Hundy 500",
+      "magician": [
+        "Gregory Wilson"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Hundy 500 | Vanishing Inc. Magic",
+          "url": "https://www.vanishingincmagic.com/close-up-magic/hundy-500-greg-wilson/",
+          "score": 1
+        },
+        {
+          "title": "Hundy 500 with Gregory Wilson (DVD)",
+          "url": "https://www.penguinmagic.com/pl/p/728",
+          "score": 1
+        },
+        {
+          "title": "Hundy 500 with Gregory Wilson (DVD)",
+          "url": "https://www.penguinmagic.com/es/p/728",
+          "score": 1
+        },
+        {
+          "title": "Hundy 500 with Gregory Wilson (DVD)",
+          "url": "https://www.penguinmagic.com/pt/p/728",
+          "score": 1
+        },
+        {
+          "title": "Hundy 500 with Gregory Wilson (DVD)",
+          "url": "https://www.penguinmagic.com/fr/p/728",
+          "score": 1
+        },
+        {
+          "title": "Hundy 500 with Gregory Wilson (DVD)",
+          "url": "https://www.penguinmagic.com/it/p/728",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "1MsxiEL9Pd0fzYKOqqGX",
+      "title": "One-Hand Popover - Personal Training Series",
+      "magician": [
+        "Aaron Fisher"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "1NIpdCELO7bA2Q64VKYS",
+      "title": "Eddie and Anna Adams",
+      "magician": [
+        "Anna Adams",
+        "Eddie Adams"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "1NnD2ekbDPDHe7UQVvng",
+      "title": "Wings",
+      "magician": [
+        "Matthew Mello",
+        "Paul Harris"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Wings (RED)(DVD and Gimmick) by Matthew Mello",
+          "url": "https://www.penguinmagic.com/it/p/S14349",
+          "score": 1
+        },
+        {
+          "title": "Wings (BLUE)(DVD and Gimmick) by Matthew Mello",
+          "url": "https://www.penguinmagic.com/it/p/S14350",
+          "score": 1
+        },
+        {
+          "title": "Wings (BLUE)(DVD and Gimmick) by Matthew Mello",
+          "url": "https://www.penguinmagic.com/pl/p/S14350",
+          "score": 1
+        },
+        {
+          "title": "Wings (RED)(DVD and Gimmick) by Matthew Mello",
+          "url": "https://www.penguinmagic.com/pl/p/S14349",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "1NqdUiE0WcBjXhlYeDlv",
+      "title": "Nemoto 1994",
+      "magician": [
+        "Takeshi Nemoto"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "1PQEgEtKtlnwOkspIqTP",
+      "title": "The Classic Magic of Michael Vincent",
+      "magician": [
+        "Michael Vincent"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "The Classic Magic of Michael Vincent (3 DVD SET)",
+          "url": "https://www.penguinmagic.com/fr/p/1956",
+          "score": 1
+        },
+        {
+          "title": "The Classic Magic of Michael Vincent (3 DVD SET)",
+          "url": "https://www.penguinmagic.com/pl/p/1956",
+          "score": 1
+        },
+        {
+          "title": "The Classic Magic of Michael Vincent (3 DVD SET)",
+          "url": "https://www.penguinmagic.com/es/p/1956",
+          "score": 1
+        },
+        {
+          "title": "The Classic Magic of Michael Vincent (3 DVD Set) - DVD",
+          "url": "https://www.penguinmagic.com/ja/p/S11323",
+          "score": 1
+        },
+        {
+          "title": "The Classic Magic of Michael Vincent (3 DVD SET)",
+          "url": "https://www.penguinmagic.com/de/p/1956",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "1XqYSCbHQskZWFSB98Uq",
+      "title": "Standing Room Only - Vol.2",
+      "magician": [
+        "Steve Draun"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "1wzqMQToitnainRQMNZk",
+      "title": "Close Up Sketches - Vol.1",
+      "magician": [
+        "Alain Nu"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "24qMf9qcpBCBm2HjoSLI",
+      "title": "Mnemonica Miracles",
+      "magician": [
+        "Juan Tamariz"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Mnemonica Miracles Box Set | Vanishing Inc. Magic",
+          "url": "https://www.vanishingincmagic.com/card-magic/mnemonica-miracles/",
+          "score": 1
+        },
+        {
+          "title": "Mnemonica Miracles by Juan Tamariz (5 DVD Set)",
+          "url": "https://www.penguinmagic.com/es/p/4014",
+          "score": 1
+        },
+        {
+          "title": "Mnemonica Miracles by Juan Tamariz (5 DVD Set)",
+          "url": "https://www.penguinmagic.com/pl/p/4014",
+          "score": 1
+        },
+        {
+          "title": "Mnemonica Miracles by Juan Tamariz (5 DVD Set)",
+          "url": "https://www.penguinmagic.com/it/p/4014",
+          "score": 1
+        },
+        {
+          "title": "Mnemonica Miracles by Juan Tamariz (5 DVD Set)",
+          "url": "https://www.penguinmagic.com/pt/p/4014",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "2BGYrkFDQ0iG5YsHBr0Z",
+      "title": "35 Years of Cheating, Fighting, and Fun",
+      "magician": [
+        "Richard Turner"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "35 Years of Cheating | Vanishing Inc. Magic",
+          "url": "https://www.vanishingincmagic.com/magic-dvds/35-years-of-cheating/",
+          "score": 0.6
+        }
+      ]
+    },
+    {
+      "id": "2Im78oqTmx86buMOfmNy",
+      "title": "The Side Steal Declassified",
+      "magician": [
+        "Paul Cummins",
+        "Ed Marlo"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "2LgZWYS8UaaZlmnch4Zp",
+      "title": "Top Secret Stuff",
+      "magician": [
+        "Mike Powers",
+        "Michael Powers"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "2VVvTwJAMLAEPK4EBChg",
+      "title": "Dave Neighbors - Tape 3",
+      "magician": [
+        "Dave Neighbors"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "2WpPr2GKL1oTI7Qr6Vhs",
+      "title": "The Daniel Garcia Project - Vol.4",
+      "magician": [
+        "Daniel Garcia"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Daniel Garcia Project Vol. 4 by Daniel Garcia (DVD Download)",
+          "url": "https://www.penguinmagic.com/es/p/3008",
+          "score": 1
+        },
+        {
+          "title": "Daniel Garcia Project Vol. 4 by Daniel Garcia (DVD Download)",
+          "url": "https://www.penguinmagic.com/pt/p/3008",
+          "score": 1
+        },
+        {
+          "title": "Daniel Garcia Project Vol. 4 by Daniel Garcia (DVD Download)",
+          "url": "https://www.penguinmagic.com/fr/p/3008",
+          "score": 1
+        },
+        {
+          "title": "Daniel Garcia Project Vol. 4 by Daniel Garcia (DVD Download)",
+          "url": "https://www.penguinmagic.com/it/p/3008",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "2ZhfWaUYF0BG5rxRCLUR",
+      "title": "21st Century Phantom",
+      "magician": [
+        "Oz Pearlman"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "21st Century Phantom by Oz Pearlman (DVD + Props)",
+          "url": "https://www.penguinmagic.com/pl/p/1679",
+          "score": 1
+        },
+        {
+          "title": "21st Century Phantom by Oz Pearlman (DVD + Props)",
+          "url": "https://www.penguinmagic.com/fr/p/1679",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "2hipsDiw3lKuQg362i0y",
+      "title": "The Monk's Way",
+      "magician": [
+        "Steve Reynolds",
+        "Jon Racherbaumer",
+        "Mark Aspiazu"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "The Monk's Way by Steve Reynolds - DVD",
+          "url": "https://www.penguinmagic.com/p/S15538",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "2wCd5YY3aymqpsxXJqyZ",
+      "title": "Malini Egg Bag",
+      "magician": [
+        "Bob White"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Malini Egg Bag by Bob White - DVD",
+          "url": "https://www.penguinmagic.com/de/p/S10156",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "2wrOgm7QTYa2jJ7R5524",
+      "title": "Inscrutable",
+      "magician": [
+        "Joseph Barry"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Inscrutable",
+          "url": "https://www.vanishingincmagic.com/card-magic/inscrutable/",
+          "score": 1
+        },
+        {
+          "title": "Inscrutable (2 DVD set) by Joe Barry",
+          "url": "https://www.penguinmagic.com/pl/p/8063",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "38tpvJ3rJBMxNwpoi1iX",
+      "title": "On The Spot - Special Edition",
+      "magician": [
+        "Greg Wilson"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "39r8PdlUhgVXjaiZBCh9",
+      "title": "The Miser's Dream",
+      "magician": [
+        "Chris Capehart"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Miser's Dream | Vanishing Inc. Magic",
+          "url": "https://www.vanishingincmagic.com/stage-and-parlor-magic/misers-dream/",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "3DdjPs1NStpy7KGfxlV3",
+      "title": "Street Monte",
+      "magician": [
+        "Sal Piacente"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Sal Piacente: Street Monte - Three Shell Game (DVD)",
+          "url": "https://www.penguinmagic.com/p/815",
+          "score": 1
+        },
+        {
+          "title": "Sal Piacente: Street Monte - Three Card Monte (DVD)",
+          "url": "https://www.penguinmagic.com/es/p/816",
+          "score": 1
+        },
+        {
+          "title": "Sal Piacente: Street Monte - Three Card Monte (DVD)",
+          "url": "https://www.penguinmagic.com/it/p/816",
+          "score": 1
+        },
+        {
+          "title": "Sal Piacente: Street Monte Combo Pack (2DVDs + Shells, Deck)",
+          "url": "https://www.penguinmagic.com/p/817",
+          "score": 1
+        },
+        {
+          "title": "Sal Piacente: Street Monte - Three Card Monte (DVD)",
+          "url": "https://www.penguinmagic.com/pl/p/816",
+          "score": 1
+        },
+        {
+          "title": "Sal Piacente: Street Monte - Three Shell Game (DVD)",
+          "url": "https://www.penguinmagic.com/fr/p/815",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "3J62M4vYwrJizlABCCZi",
+      "title": "Mind Stunts",
+      "magician": [
+        "Patrik Kuffs"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Mind Stunts 1 by Patrik Kuffs (DVD Download)",
+          "url": "https://www.penguinmagic.com/pl/p/1769",
+          "score": 1
+        },
+        {
+          "title": "Mind Stunts 1&2 by Patrik Kuffs (2 DVD Set)",
+          "url": "https://www.penguinmagic.com/fr/p/1511",
+          "score": 1
+        },
+        {
+          "title": "Mind Stunts 1 by Patrik Kuffs (DVD Download)",
+          "url": "https://www.penguinmagic.com/fr/p/1769",
+          "score": 1
+        },
+        {
+          "title": "Mind Stunts 1 by Patrik Kuffs (DVD Download)",
+          "url": "https://www.penguinmagic.com/de/p/1769",
+          "score": 1
+        },
+        {
+          "title": "Mind Stunts 1&2 by Patrik Kuffs (2 DVD Set)",
+          "url": "https://www.penguinmagic.com/es/p/1511",
+          "score": 1
+        },
+        {
+          "title": "Mind Stunts 1&2 by Patrik Kuffs (2 DVD Set)",
+          "url": "https://www.penguinmagic.com/pl/p/1511",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "3KnpD5DnkWXsamURLrxg",
+      "title": "The Madness Behind the Methods",
+      "magician": [
+        "Simon Lovell"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "3SsSoxO6B11NkHBwniOT",
+      "title": "Ultimate Slow Motion Bill Transposition",
+      "magician": [
+        "Roger Klause"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "3Utm06PvlyiLyo9QqCF7",
+      "title": "Friends of Roger Klause 1",
+      "magician": [
+        "Lance Pierce",
+        "Roger Klause"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "3aqHVemHG59UnTIfxuTs",
+      "title": "Perform Like a Pro",
+      "magician": [
+        "Quentin Reynolds"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Perform Like a Pro Q. Reynolds, DVD",
+          "url": "https://www.penguinmagic.com/p/S4273",
+          "score": 1
+        },
+        {
+          "title": "Perform Like a Pro Q. Reynolds, DVD",
+          "url": "https://www.penguinmagic.com/it/p/S4273",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "3bS43tQkTSa8kq2KYmTN",
+      "title": "Cheating at Cards - Vol.1",
+      "magician": [
+        "Fernando Keops"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Fernando Keops: Cheating at Cards Vol 1",
+          "url": "https://www.penguinmagic.com/es/p/21294",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "3f4l4Upcxtg4CYifitJ4",
+      "title": "The Ultimate Insurance Policy",
+      "magician": [
+        "David Malek"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "3h5z6vIHlgXhJuzgNIDd",
+      "title": "The ART of Presenting Magic to Teenagers",
+      "magician": [
+        "Danny Orleans"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Art of Presenting Magic to Teenagers | Vanishing Inc. Magic",
+          "url": "https://www.vanishingincmagic.com/magic-dvds/art-of-presenting-magic-to-teenagers/",
+          "score": 1
+        },
+        {
+          "title": "Presenting Magic to Teenagers: Mac | Vanishing Inc. Magic Blog",
+          "url": "https://www.vanishingincmagic.com/blog/mac-king-interviews-danny/",
+          "score": 0.8
+        }
+      ]
+    },
+    {
+      "id": "3iFK2CgeqRrsFaWb4nU4",
+      "title": "Control Freak",
+      "magician": [
+        "Oliver Macia"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Control Freak Oliver Macia, DVD",
+          "url": "https://www.penguinmagic.com/fr/p/S4299",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "3iQEobdUCuqeuksQNx5v",
+      "title": "Ultimate CSB Magic",
+      "magician": [
+        "Jeremy Pei"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Ultimate CSB Magic by Jeremy Pei - DVD",
+          "url": "https://www.penguinmagic.com/pl/p/S12354",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "3urSF1xh3QjKuhMHFL1a",
+      "title": "One for the Money",
+      "magician": [
+        "Bill Goldman"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "One for The Money by Bill Goldman (DVD Download)",
+          "url": "https://www.penguinmagic.com/tr/p/3027",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "3yiEprwJL8PNHQ6DL7MW",
+      "title": "Now You See It... Magic Consultant (Raucherbaumer's Copy)",
+      "magician": [
+        "Jon Raucherbaumer"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "41ftDPVTdEQCn7h2LEao",
+      "title": "Chad Long's Magic DVD - Vol.2",
+      "magician": [
+        "Chad Long"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "4m3andCfitrmipP1FxoY",
+      "title": "Heiny 500",
+      "magician": [
+        "Karl Hein"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Heiny 500 (Download) | Vanishing Inc. Magic",
+          "url": "https://www.vanishingincmagic.com/close-up-magic-downloads/heiny-500-download/",
+          "score": 1
+        },
+        {
+          "title": "Heiny 500 by Karl Hein",
+          "url": "https://www.penguinmagic.com/de/p/12202",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "4mGMRROz19nVbF3oqowR",
+      "title": "Radical Korn",
+      "magician": [
+        "Chris Korn"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Radical Korn by Chris Korn DVD",
+          "url": "https://www.penguinmagic.com/p/1726",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "4odLwyjZsEpptHoa66Wo",
+      "title": "Clean Thru/Clean Through",
+      "magician": [
+        "Lonnie Chevrie"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "50ARGiFX2UJAy7eogGuO",
+      "title": "Learn the Ambitious Card",
+      "magician": [
+        "Simon Lovell"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "World's Greatest Magic: Ambitious Card - DVD",
+          "url": "https://www.penguinmagic.com/fr/p/S8917",
+          "score": 0.6666666666666666
+        },
+        {
+          "title": "World's Greatest Magic: Ambitious Card - DVD",
+          "url": "https://www.penguinmagic.com/ja/p/S8917",
+          "score": 0.6666666666666666
+        },
+        {
+          "title": "World's Greatest Magic: Ambitious Card - DVD",
+          "url": "https://www.penguinmagic.com/it/p/S8917",
+          "score": 0.6666666666666666
+        },
+        {
+          "title": "World's Greatest Magic: Ambitious Card - DVD",
+          "url": "https://www.penguinmagic.com/pt/p/S8917",
+          "score": 0.6666666666666666
+        },
+        {
+          "title": "World's Greatest Magic: Ambitious Card - DVD",
+          "url": "https://www.penguinmagic.com/zh/p/S8917",
+          "score": 0.6666666666666666
+        },
+        {
+          "title": "World's Greatest Magic: Ambitious Card - DVD",
+          "url": "https://www.penguinmagic.com/tr/p/S8917",
+          "score": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "id": "5FuvwPoFMfUjmQ6QChG3",
+      "title": "Richiaridi",
+      "magician": [
+        "Dale Scott"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "5PCUXnHsVT1Gi2B4l7v3",
+      "title": "...Seeing is Believing",
+      "magician": [
+        "Fred Kaps"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Seeing is Believing with Fred Kaps (DVD)",
+          "url": "https://www.penguinmagic.com/p/1483",
+          "score": 1
+        },
+        {
+          "title": "Seeing is Believing with Fred Kaps (DVD)",
+          "url": "https://www.penguinmagic.com/fr/p/1483",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "5SzALdz043kV89vow7Za",
+      "title": "Juan Tamariz - Lessons in Magic - Vol.3",
+      "magician": [
+        "Juan Tamariz"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "5VlzudqUV2iHKYhglJFI",
+      "title": "Impromptu Magic - Vol.1",
+      "magician": [
+        "Dan Harlan"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Ultimate Impromptu Magic Vol 1 by Dan Harlan",
+          "url": "https://www.penguinmagic.com/p/20997",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "5ffoIF7chKDoJ6ZXNnwi",
+      "title": "Tribute",
+      "magician": [
+        "Ben Train",
+        "The Blue Crown"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Tribute | Vanishing Inc. Magic",
+          "url": "https://www.vanishingincmagic.com/card-magic/tribute/",
+          "score": 1
+        },
+        {
+          "title": "Tribute by Ben Train and The Blue Crown",
+          "url": "https://www.penguinmagic.com/fr/p/S14115",
+          "score": 1
+        },
+        {
+          "title": "Tribute by Ben Train and The Blue Crown",
+          "url": "https://www.penguinmagic.com/zh/p/S14115",
+          "score": 1
+        },
+        {
+          "title": "Tribute by Ben Train and The Blue Crown",
+          "url": "https://www.penguinmagic.com/pl/p/S14115",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "5kvprO10panEO1nKKkGi",
+      "title": "Total Destruction Vol.3",
+      "magician": [
+        "Troy Hooser"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Total Destruction | Vanishing Inc. Magic",
+          "url": "https://www.vanishingincmagic.com/card-magic/total-destruction/",
+          "score": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "id": "5u1rNzCkSOQ2eddq4BRr",
+      "title": "The Best of Johnny Carson and Friends",
+      "magician": [
+        "Johnny Carson"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "5u8YVwHumVvYfwylWeK4",
+      "title": "Arcane",
+      "magician": [
+        "Greg Wilson"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "5xCh39ntdsiAb5lyo8wh",
+      "title": "Shinanigans",
+      "magician": [
+        "Shin Lim"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "5zEUNy1JaHq11KgX6X4G",
+      "title": "Darwin's \"Ungimmicked\" Coin Bucket Routine",
+      "magician": [
+        "Darwin"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "61rDDd32YKKDtRyoM9Lc",
+      "title": "Duvivier's Magic - From Old to Knew - Vol.1",
+      "magician": [
+        "Dominique Duvivier"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "63qwturn38Bk6xwhch25",
+      "title": "Dean Dill - Haircutting & Magic",
+      "magician": [
+        "Dean Dill"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "65oVy6bj6CL7hGByNQcR",
+      "title": "Hundred Dollar Miracles",
+      "magician": [
+        "Jay Sankey"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Hundred Dollar Miracles by Jay Sankey - DVD",
+          "url": "https://www.penguinmagic.com/p/S8858",
+          "score": 1
+        },
+        {
+          "title": "Hundred Dollar Miracles by Jay Sankey - DVD",
+          "url": "https://www.penguinmagic.com/fr/p/S8858",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "66CisQwC5qviX856GJ0R",
+      "title": "Super Cards",
+      "magician": [
+        "Richard Sanders"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Super Cards Richard Sanders, DVD",
+          "url": "https://www.penguinmagic.com/p/S6160",
+          "score": 1
+        },
+        {
+          "title": "Super Cards Richard Sanders, DVD",
+          "url": "https://www.penguinmagic.com/pl/p/S6160",
+          "score": 1
+        },
+        {
+          "title": "Super Cards Richard Sanders, DVD",
+          "url": "https://www.penguinmagic.com/it/p/S6160",
+          "score": 1
+        },
+        {
+          "title": "Super Cards Richard Sanders, DVD",
+          "url": "https://www.penguinmagic.com/tr/p/S6160",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "6FdFX4aJQ6jsoqNIDdo3",
+      "title": "Signed Card in Sealed Bottle",
+      "magician": [
+        "Etienne Pradier"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Etienne Pradier Signed Card in Sealed Bottle, DVD",
+          "url": "https://www.penguinmagic.com/fr/p/S5963",
+          "score": 1
+        },
+        {
+          "title": "Signed Card in Sealed Bottle",
+          "url": "https://www.vanishingincmagic.com/magic-dvds/signed-card-in-sealed-bottle/",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "6G1T1qQBkPWwXCy80Ch4",
+      "title": "The Quest for Mastery - The Classic Magic of Michael Vincent - Vol.4",
+      "magician": [
+        "Michael Vincent"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "6XQRR5lfZL2r4PwTui7v",
+      "title": "CoinOne",
+      "magician": [
+        "Homer Liwag"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "6YUDbSNH7umP27vwR2CE",
+      "title": "Invisible Hand 2",
+      "magician": [
+        "Michel"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "6ekhQpkHMIBnLoujkFm6",
+      "title": "As I Recall",
+      "magician": [
+        "Slydini"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "As I Recall - Tony Slydini (2 DVD Set)",
+          "url": "https://www.penguinmagic.com/pl/p/1192",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "6fSxZHaVP6Zu74StBkrD",
+      "title": "Close-Up Artistry - Vol.5",
+      "magician": [
+        "Rene Lavand"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "6thujLutDRevjBC5xm7W",
+      "title": "Three-Card Monte",
+      "magician": [
+        "Whit Haydn",
+        "Chef Anton",
+        "Dai Vernon",
+        "Boris Wild",
+        "Sal Piacente",
+        "Henry Evans"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Three Card Monte School Scound, DVD",
+          "url": "https://www.penguinmagic.com/fr/p/S4221",
+          "score": 1
+        },
+        {
+          "title": "Three Card Monte School Scound, DVD",
+          "url": "https://www.penguinmagic.com/es/p/S4221",
+          "score": 1
+        },
+        {
+          "title": "Three Card Monte School Scound, DVD",
+          "url": "https://www.penguinmagic.com/pt/p/S4221",
+          "score": 1
+        },
+        {
+          "title": "Three Card Monte School Scound, DVD",
+          "url": "https://www.penguinmagic.com/de/p/S4221",
+          "score": 1
+        },
+        {
+          "title": "Three Card Monte School Scound, DVD",
+          "url": "https://www.penguinmagic.com/tr/p/S4221",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "6tjHXJIFMokTzXeohSkO",
+      "title": "Revolution",
+      "magician": [
+        "Aaron Fisher"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Revolution by Aaron Fisher Instant Download",
+          "url": "https://www.penguinmagic.com/p/3515",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "7KGzIxKF1gItKgs0h123",
+      "title": "The Secrets of Stand-Up Magic - Vol.2",
+      "magician": [
+        "WGMWGM"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "7Q6AXCZ1hj4aD8BbFdlm",
+      "title": "Senior Pitchman's Reunion",
+      "magician": [
+        "Various"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "School for Scoundrels at the Senior Pitchman's Reunion - DVD",
+          "url": "https://www.penguinmagic.com/p/S11248",
+          "score": 1
+        },
+        {
+          "title": "School for Scoundrels at the Senior Pitchman's Reunion - DVD",
+          "url": "https://www.penguinmagic.com/pl/p/S11248",
+          "score": 1
+        },
+        {
+          "title": "School for Scoundrels at the Senior Pitchman's Reunion - DVD",
+          "url": "https://www.penguinmagic.com/de/p/S11248",
+          "score": 1
+        },
+        {
+          "title": "School for Scoundrels at the Senior Pitchman's Reunion - DVD",
+          "url": "https://www.penguinmagic.com/it/p/S11248",
+          "score": 1
+        },
+        {
+          "title": "School for Scoundrels at the Senior Pitchman's Reunion - DVD",
+          "url": "https://www.penguinmagic.com/zh/p/S11248",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "7aZgrxtmCTCqDMGzDcoy",
+      "title": "Electric Heart Best of Magic",
+      "magician": [],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "7d8wsuwUOk6rmLN4JlyW",
+      "title": "Devious - Vol.1",
+      "magician": [
+        "Michael Close"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "7fo6BHHllZW5EpdFxOlS",
+      "title": "The Venerable Die Box - The Greater Magic Video Library Teach-In Sessions",
+      "magician": [
+        "Various"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "7kCLtmEHwOghfXos9XFB",
+      "title": "The Magic of James Swain - Vol.1",
+      "magician": [
+        "James Swain"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Miracles: The Magic of James Swain | Vanishing Inc. Magic",
+          "url": "https://www.vanishingincmagic.com/card-magic/miracles-magic-of-james-swain/",
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "id": "80e90olwIE4AC973eniY",
+      "title": "Pip Streak",
+      "magician": [
+        "Gregory Wilson"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Pip Streak by Gregory Wilson",
+          "url": "https://www.penguinmagic.com/pl/p/2058",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "84fLYADEbtwLggAZZ5sK",
+      "title": "Brainstorm - Vol.1",
+      "magician": [
+        "John Guastaferro"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Brainstorm Vol. 1 by John Guastaferro - DVD",
+          "url": "https://www.penguinmagic.com/de/p/S4410",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "8FAkstzyneQsEbtP6ftM",
+      "title": "Nailed!",
+      "magician": [
+        "Jay Sankey"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Nailed (with DVD) by Jay Sankey",
+          "url": "https://www.penguinmagic.com/p/S8866",
+          "score": 1
+        },
+        {
+          "title": "Nailed (with DVD) by Jay Sankey",
+          "url": "https://www.penguinmagic.com/pl/p/S8866",
+          "score": 1
+        },
+        {
+          "title": "Nailed (with DVD) by Jay Sankey",
+          "url": "https://www.penguinmagic.com/fr/p/S8866",
+          "score": 1
+        },
+        {
+          "title": "Nailed (with DVD) by Jay Sankey",
+          "url": "https://www.penguinmagic.com/de/p/S8866",
+          "score": 1
+        },
+        {
+          "title": "Nailed (with DVD) by Jay Sankey",
+          "url": "https://www.penguinmagic.com/ja/p/S8866",
+          "score": 1
+        },
+        {
+          "title": "Nailed (with DVD) by Jay Sankey",
+          "url": "https://www.penguinmagic.com/tr/p/S8866",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "8TZq8FcR0lgV0ynQved0",
+      "title": "Various",
+      "magician": [
+        "Various"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "8UmkUdBhUqLqzkmSDfDt",
+      "title": "Sugar High",
+      "magician": [
+        "Chris Randall"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Sugar High | Vanishing Inc. Magic",
+          "url": "https://www.vanishingincmagic.com/magic-dvds/sugar-high/",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "8VXLc0kRSDPh7oZdkUVI",
+      "title": "Coin through the Bill",
+      "magician": [
+        "Victor Voitko"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "8bdkPgqi4dgN6Mbepz7N",
+      "title": "Revolutionary Coin Magic",
+      "magician": [
+        "Jay Sankey"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Jay Sankey's Revolutionary Coin Magic - Plus 30 Minutes of Bonus Material (DVD)",
+          "url": "https://www.penguinmagic.com/pl/p/14",
+          "score": 1
+        },
+        {
+          "title": "Jay Sankey's Revolutionary Coin Magic - Plus 30 Minutes of Bonus Material (DVD)",
+          "url": "https://www.penguinmagic.com/es/p/14",
+          "score": 1
+        },
+        {
+          "title": "Jay Sankey's Revolutionary Coin Magic - Plus 30 Minutes of Bonus Material (DVD)",
+          "url": "https://www.penguinmagic.com/fr/p/14",
+          "score": 1
+        },
+        {
+          "title": "Jay Sankey's Revolutionary Coin Magic - Plus 30 Minutes of Bonus Material (DVD)",
+          "url": "https://www.penguinmagic.com/it/p/14",
+          "score": 1
+        },
+        {
+          "title": "Jay Sankey's Revolutionary Coin Magic - Plus 30 Minutes of Bonus Material (DVD)",
+          "url": "https://www.penguinmagic.com/ja/p/14",
+          "score": 1
+        },
+        {
+          "title": "Jay Sankey's Revolutionary Coin Magic - Plus 30 Minutes of Bonus Material (DVD)",
+          "url": "https://www.penguinmagic.com/zh/p/14",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "8ctrceUR44mBPRNWT6Ls",
+      "title": "Reality Check: Lessons in Magic",
+      "magician": [
+        "Michael Paul"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "8gLSveQ7W4xhJSsfGBt1",
+      "title": "Chill",
+      "magician": [
+        "Tom Wright"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Chill by Tom Wright & World Magic Shop",
+          "url": "https://www.penguinmagic.com/p/4885",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "8nfwBDutYxy5enWaE5Qr",
+      "title": "A Dream Of Aces",
+      "magician": [
+        "Gary Ouellet"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "A Dream of Aces PDF-Book, Cards & DVD kit",
+          "url": "https://www.penguinmagic.com/fr/p/S5954",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "8oBxHLR2Xn8OsnJMi6uy",
+      "title": "On the Pass",
+      "magician": [
+        "Richard Kaufman"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "On the Pass with Richard Kaufman (DVD)",
+          "url": "https://www.penguinmagic.com/fr/p/586",
+          "score": 1
+        },
+        {
+          "title": "On the Pass with Richard Kaufman (DVD)",
+          "url": "https://www.penguinmagic.com/pl/p/586",
+          "score": 1
+        },
+        {
+          "title": "On the Pass with Richard Kaufman (DVD)",
+          "url": "https://www.penguinmagic.com/de/p/586",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "8pFxcUpzvUZN1H3gPaCg",
+      "title": "TSD 2007",
+      "magician": [
+        "Various"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "8whOQIfsjKEiBX8eAWc3",
+      "title": "Pinnacle",
+      "magician": [
+        "Russ Niedzwiecki"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Pinnacle by Russ Niedzwiecki (Instant Download)",
+          "url": "https://www.penguinmagic.com/pl/p/14267",
+          "score": 1
+        },
+        {
+          "title": "Pinnacle by Russ Niedzwiecki (Instant Download)",
+          "url": "https://www.penguinmagic.com/p/14267",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "8wm8zgvmz7vXOdm2spmz",
+      "title": "Heinsight",
+      "magician": [
+        "Karl Hein",
+        "Rich Aviles"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "94iLRffa8gVbXdBwGGie",
+      "title": "The Secrets of Magic with Everyday Objects",
+      "magician": [
+        "WGMWGM"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "9GHTgneOHywf6yTFuSY8",
+      "title": "Sleeve Star",
+      "magician": [
+        "David Jay"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Sleeve Star by David Jay (DVD + GIMMICK)",
+          "url": "https://www.penguinmagic.com/es/p/2146",
+          "score": 1
+        },
+        {
+          "title": "Sleeve Star by David Jay (DVD + GIMMICK)",
+          "url": "https://www.penguinmagic.com/pl/p/2146",
+          "score": 1
+        },
+        {
+          "title": "Sleeve Star by David Jay (DVD + GIMMICK)",
+          "url": "https://www.penguinmagic.com/fr/p/2146",
+          "score": 1
+        },
+        {
+          "title": "Sleeve Star (DVD and Gimmick) by World Magic Shop and David Jay - DVD",
+          "url": "https://www.penguinmagic.com/ja/p/S12702",
+          "score": 1
+        },
+        {
+          "title": "Sleeve Star by David Jay (DVD + GIMMICK)",
+          "url": "https://www.penguinmagic.com/de/p/2146",
+          "score": 1
+        },
+        {
+          "title": "Sleeve Star by David Jay (DVD + GIMMICK)",
+          "url": "https://www.penguinmagic.com/ja/p/2146",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "9Gd5eMmwsmuuax0WlTEy",
+      "title": "A-Haunting We Will Go",
+      "magician": [
+        "Stan Laurel",
+        "Oliver Hardy",
+        "Dante"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "9LLHsJve8X1kvHzUm9JL",
+      "title": "Sundragon Magic",
+      "magician": [
+        "Michael Wild"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "9S3dj851wFFDddKeAxXz",
+      "title": "Burning Up",
+      "magician": [
+        "Nathan Kranzo"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Burning Up by Nathan Kranzo - DVD",
+          "url": "https://www.penguinmagic.com/pl/p/S6117",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "9Sa8TcTmMn3dRWtbyI1L",
+      "title": "The Secrets of Gambling Routines",
+      "magician": [
+        "Martin Nash"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "9TnhL0VvOnv0Y0CT32C9",
+      "title": "Paul Harris - Technology Mastery and Astonishment",
+      "magician": [
+        "Paul Harris"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "9Yi0z7GkHZ88fG1cbnYH",
+      "title": "Basic Coin Magic - 1985 - Secret Stuff DVD",
+      "magician": [
+        "Michael Rubinstein"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "9lTtHUuAUHH43Gy7Dzgi",
+      "title": "Easy to Master Card Miracles Vol.3",
+      "magician": [
+        "Michael Ammar"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "9mITTS4k7BQdLMhmQh6M",
+      "title": "The Ultimate Workers - Vol.3",
+      "magician": [
+        "Michael Close"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "9t8YpzhZ1U9AbB5zoDlj",
+      "title": "Martin Nash - Vol.1&2 Video Series",
+      "magician": [
+        "Martin Nash"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "A8KNsuspLwpwdSuHeb36",
+      "title": "The Art of Costume Changing - The Greater Magic Video Library",
+      "magician": [
+        "Yasuda"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "ASH1wgjvBGoeEUhauzEs",
+      "title": "Feb.26 2002 - Marlophile",
+      "magician": [
+        "Jon Racherbaumer"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "Ag9kXi0O8yOtOVlVfq75",
+      "title": "Robert Swandling Magic",
+      "magician": [
+        "Robert Swandling"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "Ak8n3j0t0Tdyzhb9sN2C",
+      "title": "Second Storm - Vol.2",
+      "magician": [
+        "John Gustaferro"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "AlGp0vHWykT93jGUmvFC",
+      "title": "Skullkracker",
+      "magician": [
+        "Bob Sheets"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Skullkracker by Bob Sheets DVD Download",
+          "url": "https://www.penguinmagic.com/p/3014",
+          "score": 1
+        },
+        {
+          "title": "Skullkracker by Bob Sheets (DVD Download)",
+          "url": "https://www.penguinmagic.com/pl/p/3014",
+          "score": 1
+        },
+        {
+          "title": "Skullkracker by Bob Sheets (DVD Download)",
+          "url": "https://www.penguinmagic.com/es/p/3014",
+          "score": 1
+        },
+        {
+          "title": "Skullkracker by Bob Sheets (DVD Download)",
+          "url": "https://www.penguinmagic.com/fr/p/3014",
+          "score": 1
+        },
+        {
+          "title": "Skullkracker by Bob Sheets (DVD Download)",
+          "url": "https://www.penguinmagic.com/de/p/3014",
+          "score": 1
+        },
+        {
+          "title": "Skullkracker by Bob Sheets (DVD Download)",
+          "url": "https://www.penguinmagic.com/pt/p/3014",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "Am7erlhHc8u2F4IGMXn0",
+      "title": "Dupes",
+      "magician": [
+        "Gary Jones",
+        "Chris Congreave"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Dupes by Gary Jones and Chris Congreave - DVD",
+          "url": "https://www.penguinmagic.com/de/p/S12639",
+          "score": 1
+        },
+        {
+          "title": "Dupes by Gary Jones and Chris Congreave - DVD",
+          "url": "https://www.penguinmagic.com/pl/p/S12639",
+          "score": 1
+        },
+        {
+          "title": "Dupes by Gary Jones and Chris Congreave - DVD",
+          "url": "https://www.penguinmagic.com/es/p/S12639",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "AsqInKqJU4egFHSIInHK",
+      "title": "Hypnotized! The Trance State",
+      "magician": [
+        "Donna Zuckerbrot"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Hypnotized - The Trance State by Donna Zuckerbrot - DVD",
+          "url": "https://www.penguinmagic.com/de/p/S10549",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "Ax8wZQBYUDCnVRQxKeIi",
+      "title": "Encyclopedia of Card Sleights Vol.8",
+      "magician": [
+        "Daryl",
+        "Daryl Easton"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Encyclopedia of Card Sleights - Volume 8 | Vanishing Inc. Magic",
+          "url": "https://www.vanishingincmagic.com/card-magic/encyclopedia-of-card-sleights-volume-8/",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "AxlLYedeWbNcdpwBNMWY",
+      "title": "Ideas",
+      "magician": [
+        "Trini Montes"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "B99TAVb665n8nFKTdVy2",
+      "title": "Foundations 2",
+      "magician": [
+        "Jason England"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "BLutkFKvk0uylroY119L",
+      "title": "Alex Elmsley - Vol.1",
+      "magician": [
+        "Alex Elmsley"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "BMcuclO7iUzNLJ1eQnm0",
+      "title": "Magic of Spain - Vol.1",
+      "magician": [
+        "Stevens Magic"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "BOvmc1pDAdhOvMhUk8qA",
+      "title": "Richard Turner - Making Magic from Adversity",
+      "magician": [
+        "Richard Turner"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "BRjboTXW8eIL8IBWBO3V",
+      "title": "Card Stunts",
+      "magician": [
+        "Gregory Wilson"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Card Stunts with Gregory Wilson (DVD Download)",
+          "url": "https://www.penguinmagic.com/pl/p/1758",
+          "score": 1
+        },
+        {
+          "title": "Card Stunts with Gregory Wilson (DVD Download)",
+          "url": "https://www.penguinmagic.com/fr/p/1758",
+          "score": 1
+        },
+        {
+          "title": "Card Stunts with Gregory Wilson (DVD)",
+          "url": "https://www.penguinmagic.com/pl/p/1169",
+          "score": 1
+        },
+        {
+          "title": "Card Stunts with Gregory Wilson (DVD)",
+          "url": "https://www.penguinmagic.com/fr/p/1169",
+          "score": 1
+        },
+        {
+          "title": "Card Stunts with Gregory Wilson (DVD Download)",
+          "url": "https://www.penguinmagic.com/es/p/1758",
+          "score": 1
+        },
+        {
+          "title": "Card Stunts with Gregory Wilson (DVD)",
+          "url": "https://www.penguinmagic.com/es/p/1169",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "BZNzjOL21Cv7kOpEkyh1",
+      "title": "X Finger",
+      "magician": [
+        "Geoff Weber"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "X Finger by Geoff Weber (DVD)",
+          "url": "https://www.penguinmagic.com/fr/p/2512",
+          "score": 1
+        },
+        {
+          "title": "X Finger by Geoff Weber (DVD)",
+          "url": "https://www.penguinmagic.com/pl/p/2512",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "BZvGmenroiLnD9ZENJVc",
+      "title": "Busters 2",
+      "magician": [
+        "Shoot Ogawa"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "BluLBR2B6PDaKnhElIAZ",
+      "title": "Cabaret Connivery",
+      "magician": [
+        "Dan Garrett"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "BnajYwUsdjrpualzJ8q3",
+      "title": "The Greater Magic Video Library - Vol.23",
+      "magician": [
+        "Bobo"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "BofraF2BnsuRUOtQIRYV",
+      "title": "Penn & Teller - B.S.!",
+      "magician": [
+        "Penn",
+        "Teller"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "Bqtu6TzHI3IbF8eeSwoP",
+      "title": "Richard Turner - Live Lecture",
+      "magician": [
+        "Richard Turner"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Richard Turner LIVE (Instant Download)",
+          "url": "https://www.penguinmagic.com/p/7498",
+          "score": 0.75
+        },
+        {
+          "title": "Richard Turner LIVE (Instant Download)",
+          "url": "https://www.penguinmagic.com/fr/p/7498",
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "id": "BxcMvKDtQUtncuOeICGF",
+      "title": "Armstrong Card Magic - Vol.2",
+      "magician": [
+        "Jon Armstrong"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Armstrong Magic Vol. 2 by Jon Armstrong - DVD",
+          "url": "https://www.penguinmagic.com/p/S11260",
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "id": "C6W2YxLd5nOkqXElwzcI",
+      "title": "Essential Magic Collection - Catalogue 2",
+      "magician": [
+        "Lennart Green"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "CCV9lufmRtuV8biMMIxk",
+      "title": "Mark Mason - Reel Magic Magazine",
+      "magician": [
+        "Mark Mason"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "CLSVKPRvGSpvQ3znk0kM",
+      "title": "Green Magic - Vol.2",
+      "magician": [
+        "Lennart Green"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "CPFaecvTgwAcQMwnxQtK",
+      "title": "Pointless",
+      "magician": [
+        "Gregory Wilson"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Pointless by Gregory Wilson (DVD + Gimmick)",
+          "url": "https://www.penguinmagic.com/p/1987",
+          "score": 1
+        },
+        {
+          "title": "Pointless by Gregory Wilson (DVD + Gimmick)",
+          "url": "https://www.penguinmagic.com/fr/p/1987",
+          "score": 1
+        },
+        {
+          "title": "Pointless by Gregory Wilson (DVD + Gimmick)",
+          "url": "https://www.penguinmagic.com/pl/p/1987",
+          "score": 1
+        },
+        {
+          "title": "Pointless by Gregory Wilson (DVD + Gimmick)",
+          "url": "https://www.penguinmagic.com/es/p/1987",
+          "score": 1
+        },
+        {
+          "title": "Pointless by Gregory Wilson (DVD + Gimmick)",
+          "url": "https://www.penguinmagic.com/tr/p/1987",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "CViwTdIZ4w4X7e3jhcVx",
+      "title": "5 Card Mystery",
+      "magician": [
+        "Aldo Colombini"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "CXL0Pjkqyncd0JEq4Zwi",
+      "title": "Yaya",
+      "magician": [
+        "Jesse Feinberg"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "YaYa (DVD and Gimmick) by Jesse Feinberg",
+          "url": "https://www.penguinmagic.com/tr/p/S14162",
+          "score": 1
+        },
+        {
+          "title": "YaYa (DVD and Gimmick) by Jesse Feinberg",
+          "url": "https://www.penguinmagic.com/pl/p/S14162",
+          "score": 1
+        },
+        {
+          "title": "YaYa (DVD and Gimmick) by Jesse Feinberg",
+          "url": "https://www.penguinmagic.com/de/p/S14162",
+          "score": 1
+        },
+        {
+          "title": "YaYa (DVD and Gimmick) by Jesse Feinberg",
+          "url": "https://www.penguinmagic.com/ko/p/S14162",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "Cqt4W4uwviwnmrzXmwW3",
+      "title": "Deluxe Legends of Magic",
+      "magician": [
+        "Fantasma Magic"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "D3mblWDHaAmCEPT0JjPs",
+      "title": "Complete Card Miracles",
+      "magician": [
+        "Gerry Griffin"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Complete Card Magic - Volume One: Beginner - 14 Easy to Learn Card Miracles (DVD)",
+          "url": "https://www.penguinmagic.com/es/p/770",
+          "score": 1
+        },
+        {
+          "title": "Complete Card Magic - Volume One: Beginner - 14 Easy to Learn Card Miracles (DVD)",
+          "url": "https://www.penguinmagic.com/de/p/770",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "DFO5m8VbQPSIzGDDzbql",
+      "title": "Copper Silver Brass (CSB)",
+      "magician": [
+        "Michael Rubinstein"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "DN5zRtCdYEPL3N1su6JE",
+      "title": "Knaves Gone Wild",
+      "magician": [
+        "David Solomon"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "Df4zCrVZga5EP8kn4LKt",
+      "title": "An Evening at the Tom Foolery",
+      "magician": [
+        "Tom Mullica"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "An Evening at the Tom-Foolery | Vanishing Inc. Magic",
+          "url": "https://www.vanishingincmagic.com/close-up-magic/showtime-at-the-tomfoolery/",
+          "score": 1
+        },
+        {
+          "title": "An Evening At The Tom-Foolery by Tom Mullica - DVD",
+          "url": "https://www.penguinmagic.com/fr/p/S9429",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "DjR5qPv4kHKV7FT2ISnX",
+      "title": "In a Flash",
+      "magician": [
+        "Jay Sankey"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "In A Flash (With DVD) by Jay Sankey",
+          "url": "https://www.penguinmagic.com/de/p/S8879",
+          "score": 1
+        },
+        {
+          "title": "In a Flash by Jay Sankey",
+          "url": "https://www.penguinmagic.com/pl/p/329",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "DoP2jvoS4jjUbQU618eg",
+      "title": "Captured! The Outlaw Magic of Lonnie Chevrie - Vol.2",
+      "magician": [
+        "Lonnie Chevrie"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "DsFZhBW4HHMyiZ4AolP7",
+      "title": "Revelations - Vol. 1&2",
+      "magician": [
+        "Dai Vernon"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "DtYfqXLN0LHBkMhooHsk",
+      "title": "Himber Rings - Greater Magic Video Library Teach-In",
+      "magician": [
+        "Various"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Himber Rings Greater Magic Teach In, DVD",
+          "url": "https://www.penguinmagic.com/p/S4458",
+          "score": 0.75
+        },
+        {
+          "title": "Linking Rings Greater Magic Teach In, DVD",
+          "url": "https://www.penguinmagic.com/p/S4453",
+          "score": 0.625
+        }
+      ]
+    },
+    {
+      "id": "E4imjPL5fLFxQAGLDKXI",
+      "title": "The Secrtes of Card on Cieling",
+      "magician": [
+        "WGMWGM"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "E5AQVOCI4td3CZfz4E73",
+      "title": "The Cullfather",
+      "magician": [
+        "Iain Moran"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Cullfather | Vanishing Inc. Magic",
+          "url": "https://www.vanishingincmagic.com/card-magic/cullfather/",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "E7xHYUqAO5GvP6jUMaxw",
+      "title": "Frank Zak",
+      "magician": [
+        "Frank Zak"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "EAYZ5wciilchHG9PZPnv",
+      "title": "Coffee Cup Stuff - Part 2",
+      "magician": [
+        "Greg Wilson"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "ED0yRhiLYatloa8VERg3",
+      "title": "The Sankey/Skutt Sessions",
+      "magician": [
+        "Jay Sankey",
+        "Mike Skutt"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "EEFYXO3PYrn8w3evVDqR",
+      "title": "The Mysterious Wold of Alain Nu - Episodes 1-4",
+      "magician": [
+        "Alain Nu"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "EM0ttptNEerNb1aHjuUa",
+      "title": "Visu-antics: Eye Popping Magic",
+      "magician": [
+        "Jim Pace"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "ESeJaW442tO0S9BSORWh",
+      "title": "ShiNAG",
+      "magician": [
+        "Shin Lim"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Shinag by Shin Lim - DVD",
+          "url": "https://www.penguinmagic.com/ko/p/S13738",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ET46SGw2POkdFZtKeOzk",
+      "title": "FreaKey",
+      "magician": [
+        "Gregory Wilson"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "FreaKey | Vanishing Inc. Magic",
+          "url": "https://www.vanishingincmagic.com/magic-dvds/freakey/",
+          "score": 1
+        },
+        {
+          "title": "FreaKey by Gregory Wilson (DVD + Gimmicks)",
+          "url": "https://www.penguinmagic.com/fr/p/4108",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "EYr1AC8eQxtZvbOqhLlh",
+      "title": "The Roadrunner Cull",
+      "magician": [
+        "Kostya Kimlat"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Roadrunner Cull Vol.1 by Kostya Kimlat (Instant Download)",
+          "url": "https://www.penguinmagic.com/tr/p/5843",
+          "score": 1
+        },
+        {
+          "title": "Roadrunner Cull - Volume 1 | Vanishing Inc. Magic",
+          "url": "https://www.vanishingincmagic.com/card-magic/roadrunnner-cull-volume-1/",
+          "score": 1
+        },
+        {
+          "title": "Roadrunner Cull Vol.1 by Kostya Kimlat - DVD",
+          "url": "https://www.penguinmagic.com/pl/p/S12152",
+          "score": 1
+        },
+        {
+          "title": "Roadrunner Cull - Volume 2 (The Cull | Vanishing Inc. Magic",
+          "url": "https://www.vanishingincmagic.com/card-magic-downloads/roadrunner-cull-volume-2-the-cull-continues/",
+          "score": 1
+        },
+        {
+          "title": "Roadrunner Cull Vol.1 by Kostya Kimlat (Instant Download)",
+          "url": "https://www.penguinmagic.com/pl/p/5843",
+          "score": 1
+        },
+        {
+          "title": "Roadrunner Cull Vol.1 by Kostya Kimlat - DVD",
+          "url": "https://www.penguinmagic.com/pt/p/S12152",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "EZ7vKjU98z9T1RouprNs",
+      "title": "Ghost Bills",
+      "magician": [
+        "Andrew Mayne"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Ghost Bills by Andrew Mayne - DVD",
+          "url": "https://www.penguinmagic.com/fr/p/S4639",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "EZOpSECn60r8Dy3lMbe9",
+      "title": "Cutting Edge Cards and Coins",
+      "magician": [
+        "Jason Dean",
+        "John Born"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Cutting Edge Cards and Coins with Jason Dean and John Born (3 DVDs)",
+          "url": "https://www.penguinmagic.com/p/971",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "EeusOLi4deenJTBsHwy8",
+      "title": "Our Best #1",
+      "magician": [
+        "Various"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "EjUlrRefPKT2W6nDLvoK",
+      "title": "Exact Change",
+      "magician": [
+        "Gregory Wilson"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Exact Change | Vanishing Inc. Magic",
+          "url": "https://www.vanishingincmagic.com/mentalism/exact-change/",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "EoIrK3r7hOa1L6cWQAkS",
+      "title": "6 Minutes of Killer Comedy",
+      "magician": [
+        "Matt Fore"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "EtNPCoGm49Te3ZmZW7zh",
+      "title": "Elastic Stories - Vol.1",
+      "magician": [
+        "Marc Serin"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "Ey94m33ECwXY7jSCnspE",
+      "title": "The Very Best of Fl!p - Vol.5",
+      "magician": [
+        "Flip"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "F1WU2ZOl3JMd2esGuMJW",
+      "title": "Willard The Wizard Magic",
+      "magician": [
+        "Bev Bergeron",
+        "Willard the Wizard"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "F34VsSZqdxZkaxXi9VlV",
+      "title": "Aleister Crowley The Beast 666",
+      "magician": [
+        "Donna Zuckerbrot"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Aleister Crowley - The Beast 666 by Donna Zuckerbrot - DVD",
+          "url": "https://www.penguinmagic.com/it/p/S10547",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "F6IxymJOb3q2rplt6sjS",
+      "title": "Side-FX",
+      "magician": [
+        "Scott Tokar",
+        "Harrison J. Carroll"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Side-Fx by by Scott Tokar and Harrison J. Carroll (DVD)",
+          "url": "https://www.penguinmagic.com/pl/p/888",
+          "score": 1
+        },
+        {
+          "title": "Side-Fx by by Scott Tokar and Harrison J. Carroll (DVD)",
+          "url": "https://www.penguinmagic.com/es/p/888",
+          "score": 1
+        },
+        {
+          "title": "Side-Fx by by Scott Tokar and Harrison J. Carroll (DVD)",
+          "url": "https://www.penguinmagic.com/de/p/888",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "FBNDZNpfjpeofploFtUh",
+      "title": "On the Spot",
+      "magician": [
+        "Gregory Wilson"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "On The Spot | Vanishing Inc. Magic",
+          "url": "https://www.vanishingincmagic.com/magic-dvds/on-the-spot/",
+          "score": 1
+        },
+        {
+          "title": "On the Spot with Gregory Wilson - 2 Volumes on 1 DVD!",
+          "url": "https://www.penguinmagic.com/allreviews.php?ID=466",
+          "score": 1
+        },
+        {
+          "title": "On the Spot with Gregory Wilson (DVD Download)",
+          "url": "https://www.penguinmagic.com/pl/p/1754",
+          "score": 1
+        },
+        {
+          "title": "On the Spot with Gregory Wilson (2 Volumes on 1 DVD!)",
+          "url": "https://www.penguinmagic.com/fr/p/466",
+          "score": 1
+        },
+        {
+          "title": "On the Spot with Gregory Wilson (2 Volumes on 1 DVD!)",
+          "url": "https://www.penguinmagic.com/es/p/466",
+          "score": 1
+        },
+        {
+          "title": "On the Spot with Gregory Wilson (2 Volumes on 1 DVD!)",
+          "url": "https://www.penguinmagic.com/pt/p/466",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "FDNnhJs7NT8tmZbRJC5d",
+      "title": "Kaufman Footage - Jay Sankey - Tape #2",
+      "magician": [
+        "Jay Sankey",
+        "Richard Kaufman"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "FVwiHkvrNXoz6GIn0zhn",
+      "title": "On Screen and Other Mysteries",
+      "magician": [
+        "David Acer"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "Fa9ufM0gr7kpZSTPnrvu",
+      "title": "Smoke & Mirrors",
+      "magician": [
+        "John Bannon"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Smoke & Mirrors Bannon | Vanishing Inc. Magic",
+          "url": "https://www.vanishingincmagic.com/magic-dvds/smoke-mirrors-bannon/",
+          "score": 1
+        },
+        {
+          "title": "Smoke & Mirrors Bannon, DVD",
+          "url": "https://www.penguinmagic.com/de/p/S4416",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "FekR4hEH255RBV2sitwv",
+      "title": "Wanted! The Outlaw Magic of Lonnie Chevrie",
+      "magician": [
+        "Lonnie Chevrie"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "FfAUB4oYhvkd1tYfzFgx",
+      "title": "Ultra Cervon - Vol.2",
+      "magician": [
+        "Bruce Cervon"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "Fp3J6gEwXtUxej3g1mJh",
+      "title": "The Secret Stuff",
+      "magician": [
+        "Mike Powers"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "FpcmR2ZDHTjBQxfoYrDU",
+      "title": "Irish Tales",
+      "magician": [
+        "John Lehon"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "FpkJhTjQpK7frimxPGkp",
+      "title": "Pablo Kusnetzoff",
+      "magician": [
+        "Pablo Kusnetzoff"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "G806c5hW0ditVr2Bbmbk",
+      "title": "Ammar Card Tricks - Vol.9",
+      "magician": [
+        "Michael Ammar"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "G9hEDGt5iIx84xqvGSjT",
+      "title": "Real World Magic - Vol.'s1&2",
+      "magician": [
+        "Mark Mason"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "GFS0NsaV47HLIvGpCTHR",
+      "title": "Tom Snyder - Magic Special",
+      "magician": [
+        "Tom Snyder"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "GGr5mV6Qmixhsu5rSmqS",
+      "title": "A Material",
+      "magician": [
+        "Allan Ackerman"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Allan Ackerman A Material | Vanishing Inc. Magic",
+          "url": "https://www.vanishingincmagic.com/card-magic/allan-ackerman-a-material/",
+          "score": 1
+        },
+        {
+          "title": "Allan Ackerman A Material (2 DVD Set) by The Miracle Factory - DVD",
+          "url": "https://www.penguinmagic.com/p/S13997",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "GMPujETbRtahUcTTFFGz",
+      "title": "Passing Thru",
+      "magician": [
+        "Kevin Parker"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Passing Thru | Vanishing Inc. Magic",
+          "url": "https://www.vanishingincmagic.com/magic-dvds/passing-thru/",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "GNk659bOxoPtLfGJA7wf",
+      "title": "The Other Side of Illusion - Vol.1",
+      "magician": [
+        "Henry Evans"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "The Other Side Of Illusion Volume 1 by Henry Evans",
+          "url": "https://www.penguinmagic.com/ja/p/20066",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "GTQecbIBc593kKbINC8y",
+      "title": "Keith Fields",
+      "magician": [
+        "Keith Fields"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Keith Fields Magic Tricks, Books | Vanishing Inc. Magic",
+          "url": "https://www.vanishingincmagic.com/magician/Keith-Fields/",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "GU6shU0wgdbFdWCewu1q",
+      "title": "An Evening with Carpenter - The Seattle Session Night 2",
+      "magician": [
+        "Jack Carpenter"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "GdJHNGLNa47Ykb9ZdD6G",
+      "title": "Incredible Self Working Card Tricks Vol. 1",
+      "magician": [
+        "Mike Maxwell",
+        "Michael Maxwell"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Ultimate Self Working Card Tricks Limited Edition Set (Vol 1 thru 3) by Big Blind Media - DVD",
+          "url": "https://www.penguinmagic.com/p/S17965",
+          "score": 0.8333333333333334
+        }
+      ]
+    },
+    {
+      "id": "GeOHlQ0k3pdyGdeDUhmP",
+      "title": "Salvano",
+      "magician": [
+        "Salvano"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Salvano Ropes Greater Magic- #9, DVD",
+          "url": "https://www.penguinmagic.com/es/p/S6004",
+          "score": 1
+        },
+        {
+          "title": "Salvano Magic Tricks, Books & Downloads | Vanishing Inc. Magic",
+          "url": "https://www.vanishingincmagic.com/magician/Salvano/",
+          "score": 1
+        },
+        {
+          "title": "Salvano Thumbtips Greater Magic - #10, DVD",
+          "url": "https://www.penguinmagic.com/de/p/S5978",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "GfeDlg1GdDAmIvn3gI7B",
+      "title": "The Juan Tamariz Lecture",
+      "magician": [
+        "Juan Tamariz"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "GggIveBnrNHqTGOqUsqp",
+      "title": "Legendary Magic - Vol.2",
+      "magician": [
+        "Ross Bertram"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Ross Bertram's Legendary Magic Vol 2 - DVD",
+          "url": "https://www.penguinmagic.com/fr/p/S6138",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "GhJtmfV1DfPf8mpbKhq8",
+      "title": "Finally - 50 years of magic - Vol.1",
+      "magician": [
+        "Dan Tong"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "GlvD6HxQg6EckZG94lPy",
+      "title": "All Stars - Stars of Magic - Vol.11",
+      "magician": [
+        "Various"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "HD8k63IZvexVTVJDxizT",
+      "title": "Cups and Balls: A Practical Approach",
+      "magician": [
+        "Bob White"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "HIZcusPnKokd4H5kBowp",
+      "title": "3 Shell Routine - Absolutely Nuts",
+      "magician": [
+        "Bob Sheets"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Absolutely Nuts ( 3 SHELL ROUTINE ) Bob Sheets, DVD",
+          "url": "https://www.penguinmagic.com/p/S5899",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "HNAvh4Pso4QB5jig57kD",
+      "title": "The Secrets of Dinner Table Magic",
+      "magician": [
+        "WGMWGM"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "HQ4Pav0MpHFImGQ9ARP6",
+      "title": "Hoodwinked Show",
+      "magician": [
+        "Richard Turner"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "Hez8vUzLL4PpYNAXYg8l",
+      "title": "Daryls Card Reveleations - Vol.3",
+      "magician": [
+        "Daryl"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "Hl7kPuWfTWZl3VoDW0Sh",
+      "title": "Essential Magic Collection - Catalogue 7",
+      "magician": [
+        "Paul Daniels"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "HpP01he20Q8aZhrKtTcW",
+      "title": "The Secrets of Card Fanning",
+      "magician": [
+        "WGMWGM"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "HssuH3uTMapIP6awsLOc",
+      "title": "Extreme Dean - Vol. 1 - Coin Magic",
+      "magician": [
+        "Dean Dill"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "I5XKCBRteJZzOULR1u40",
+      "title": "Encyclopedia of Coin Sleights Vol. 3",
+      "magician": [
+        "Michael Rubinstein"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "no_indexed_candidate",
+      "candidates": []
+    },
+    {
+      "id": "I70MSZ4iauNXU849JrIh",
+      "title": "52 Shades of Red",
+      "magician": [
+        "Shin Lim"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "52 Shades of Red | Vanishing Inc. Magic",
+          "url": "https://www.vanishingincmagic.com/magic-dvds/52-shades-of-red/",
+          "score": 1
+        },
+        {
+          "title": "52 Shades of Red - Version 2 (Gimmicks | Vanishing Inc. Magic",
+          "url": "https://www.vanishingincmagic.com/card-magic/52-shades-of-red-version-2-gimmicks-included/",
+          "score": 1
+        },
+        {
+          "title": "52 Shades of Red by Shin Lim (DVD and Gimmick)",
+          "url": "https://www.penguinmagic.com/tr/p/3882",
+          "score": 1
+        },
+        {
+          "title": "52 Shades of Red by Shin Lim (DVD and Gimmick)",
+          "url": "https://www.penguinmagic.com/pl/p/3882",
+          "score": 1
+        },
+        {
+          "title": "52 Shades of Red (Gimmicks included) Version 2 by Shin Lim",
+          "url": "https://www.penguinmagic.com/pl/p/6481",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "I9bkDc3rwvnPqNrH8aMC",
+      "title": "Pure Magic - Vol.3",
+      "magician": [
+        "Fernando Keops"
+      ],
+      "lookupDate": "2026-10-14",
+      "status": "candidate_needs_review",
+      "candidates": [
+        {
+          "title": "Fernando Keops: Pure Magic Vol 3 - DVD",
+          "url": "https://www.penguinmagic.com/fr/p/S5969",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "IFr4OIziwvcI4Um9Duks",
+      "title": "Under the Radar",
+      "magician": [
+        "Steve Reynolds"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "IHSjMtkc4U1wwoqFY9aM",
+      "title": "Chuck Fayne Live!",
+      "magician": [
+        "Chuck Fayne"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "IIEG8WHVWvJnxEVIAtgZ",
+      "title": "Encyclopedia of Coin Sleights Vol. 1",
+      "magician": [
+        "Michael Rubinstein"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "IN8HCnD757geB5KwHRsn",
+      "title": "The Daniel Garcia Project - Vol.1",
+      "magician": [
+        "Daniel Garcia",
+        "Paul Harris"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "IObnrlzhej0DJ5k4lCOP",
+      "title": "The Inception",
+      "magician": [
+        "Chris Randall"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "IQ00HCGsHCirxWpTxHJG",
+      "title": "Kaufman Footage - Jay Sankey - Tape #1",
+      "magician": [
+        "Jay Sankey",
+        "Richard Kaufman"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "IUYvqcq9mQgrcLxO6iRi",
+      "title": "The Movie: Tricks and Fiction from the Road",
+      "magician": [
+        "The Flicking Fingers"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "IiL5IoG7D1tg6mXOUJoX",
+      "title": "Antimony CD Annual 2007",
+      "magician": [],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "ImiJASSGqRFTx1vdGqkC",
+      "title": "Celebri-Tie",
+      "magician": [
+        "Hugo Valenzuela"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "IqZX7RlAIdBpfcme89bm",
+      "title": "European Coin Magic Symposium - Vol.2",
+      "magician": [],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "Iw5BFBX7S5tVcg4GvOJg",
+      "title": "Mark Aspiazu - Oct '98",
+      "magician": [
+        "Mark Aspiazu"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "Ix0GB7BTbHni1oTbErze",
+      "title": "Sweet - Magic's Rising Stars - Vol.2",
+      "magician": [
+        "Chris Randall"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "J0Df4WJzIxaLOwfoKf1J",
+      "title": "The Spritz Switch",
+      "magician": [
+        "Lonnie Chevrie"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "J96Rv1gWjuW7BjFBDH3C",
+      "title": "On The Loose - Vol.1",
+      "magician": [
+        "Bill Malone"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "JHJoVsLG5PMySB7BM0wf",
+      "title": "3 Ring Circus",
+      "magician": [
+        "Jay Sankey"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "JK0bTSGieJkRb6HI9Dae",
+      "title": "F*ck Street Magic",
+      "magician": [
+        "Todd Diamond"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "JOjtZMD7BRY4tzNZaMWs",
+      "title": "Coinvention",
+      "magician": [
+        "Various"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "JOoEdLb36t8dhefO8A3f",
+      "title": "Gabriele Gentile Close-Up Demo",
+      "magician": [
+        "Gabriele Gentile"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "JQl9Wfts1fpFJOro7dDb",
+      "title": "Mental Deceptions - Vol.2",
+      "magician": [
+        "Rick Maue"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "JSe7B3xxDVZ82BuSrFsg",
+      "title": "The Phan-Thumb Card Control",
+      "magician": [
+        "Bill Wisch"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "JnqxnOh0rFkp3YHazAbh",
+      "title": "Personal Magic - Vol.1",
+      "magician": [
+        "Eric C. Lewis"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "KAwqAcCAgZFjeEZH6Cfd",
+      "title": "The Heinous Collection - Vol.1",
+      "magician": [
+        "Karl Hein"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "KEASF643r8mt8xDOUXiM",
+      "title": "40 Ways to Force",
+      "magician": [
+        "Gerry Griffin"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "KGcTIKWG7zMp5LiukQP3",
+      "title": "Gregory Wilson - In Action! Vol.3",
+      "magician": [
+        "Gregory Wilson"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "KLwF2bIuIyCYC0yvZD6V",
+      "title": "Easy Hard",
+      "magician": [
+        "Shoot Ogawa"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "KSvjbnuzHc3nNsxQkDsF",
+      "title": "Green Magic - Vol.3",
+      "magician": [
+        "Lennart Green"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "KWqS9PAx6ygM0g05Ni95",
+      "title": "Chicago Bar Magic",
+      "magician": [
+        "Randy Wakeman"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "KXgrKljq9Mzg1pPwAbru",
+      "title": "Infinity Switch",
+      "magician": [
+        "Sean Fields"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "KYg2pzVQqMclV1wekaGM",
+      "title": "Geno Munari For Parade",
+      "magician": [
+        "Geno Munari"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "KbUMYxM3sA6VKfEBgW4v",
+      "title": "Big Blind Media DVD Samples",
+      "magician": [],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "LD4qJ9FqQ2GgXKQ2Fiwm",
+      "title": "Magic of Italy",
+      "magician": [
+        "Aurelio Paviato",
+        "Marco Aimone",
+        "Marco Duca"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "LRgpxnzYo7lotSwHJ03E",
+      "title": "Close-Up Magic - The David Letterman Show",
+      "magician": [
+        "Various"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "LVWILrgrfPFcpLog3t0Z",
+      "title": "Kevin James - Magic Castle Lecture",
+      "magician": [
+        "Kevin James"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "LZDs9Aittp8Sk8k65E8h",
+      "title": "Simon Lovell - Linking Ring Parade",
+      "magician": [
+        "Simon Lovell"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "Lg7IjFNlMW4gclT35juK",
+      "title": "Crushed & Cured Cola",
+      "magician": [
+        "Aron P"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "LohGyWyJgqR42fvoqUs8",
+      "title": "Bertini",
+      "magician": [
+        "Giacomo Bertini"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "M0u8VSMXRUjLnseXRcnX",
+      "title": "Brainstorm - Vol.2",
+      "magician": [
+        "John Guastaferro"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "M6MHjzdO5R0hFC7OeCJ1",
+      "title": "Levent's Ultimate Guide to the Miser's Dream",
+      "magician": [
+        "Levent Cimkentli"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "M722l9NIpM2WNN8CffPj",
+      "title": "Science and Magic",
+      "magician": [
+        "?"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "MEvEC9pYUSyEbvFV1ZQN",
+      "title": "The Very Best of Fl!p - Vol.4",
+      "magician": [
+        "Flip"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "MMcLbn9EdaF0uAkkz5O0",
+      "title": "Swap",
+      "magician": [
+        "Nicholas Lawrence"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "MPwC7xVRCkS2YUwjKP3V",
+      "title": "?",
+      "magician": [
+        "Dale Adamson",
+        "Theodor Vasilecu",
+        "Lia Vasilecu"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "MWhGa2siGdk9V3kmCHvM",
+      "title": "Freeform Mentalism",
+      "magician": [
+        "Peter Turner"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "MXdccT5vpILo0txdKS8N",
+      "title": "Super Subtle Card Miracles",
+      "magician": [
+        "Simon Lovell"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "MYioRMPpuiaNOfKfQZZy",
+      "title": "Skull Duggery",
+      "magician": [
+        "Luke Jermay"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "MZh7Xdr1lvKQYxQ1BMTP",
+      "title": "Appointment with Murder",
+      "magician": [
+        "John Calvert"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "MkcU7mUMoKoCyPovk8Cr",
+      "title": "Bob Does Hospitality",
+      "magician": [
+        "Bob Sheets"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "Mt6GejX7eEkALUIu5Dnk",
+      "title": "Lucky Sevens - Vol. 2",
+      "magician": [
+        "Gerry Griffin"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "MxD8aCpiBZ38spUNYDyX",
+      "title": "The Magic of David Regal",
+      "magician": [
+        "David Regal"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "N58iWToS5WjQHgoar03s",
+      "title": "Rhapsodies in Silver and Other Mysteries",
+      "magician": [
+        "Michael Vincent"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "NB5AYIpMlQlG1RcSxJ7m",
+      "title": "A Master of Muscle Pass",
+      "magician": [
+        "Shoot Ogawa"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "NJvcGlHzwHRZHRju5zc9",
+      "title": "Handle With Carey",
+      "magician": [
+        "John Carey"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "NOGjr95nupn1ZYQStDMv",
+      "title": "Mark Mason",
+      "magician": [
+        "Mark Mason"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "NQDprDg0xvSgiTmXC3vA",
+      "title": "Impromptu",
+      "magician": [
+        "Steven Magic"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "NRNQAB6BXfBJj9do9UhJ",
+      "title": "Restless Colors",
+      "magician": [
+        "Roy Walton",
+        "Aldo Colombini"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "NZfuiIPKOrMsJQXHqqB0",
+      "title": "European Coin Magic Symposium - Vol.1",
+      "magician": [],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "NwkyoMReFjmGv2kt92Qi",
+      "title": "An Extension of Me",
+      "magician": [
+        "Eric Jones"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "O1OocolsQiWTZLXUGRRK",
+      "title": "Bob Does Hospitality - Act 3",
+      "magician": [
+        "Bob Sheets"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "O3yZOuVsBz0RPbu6mhPA",
+      "title": "Deck Shell 101",
+      "magician": [
+        "Chuck Leach"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "ODWsogiM9dADdL589CGD",
+      "title": "World's Greatest Novelty Acts - Ed Sullivan Show",
+      "magician": [
+        "Jim Tom Williams (The Great Carazini)"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "OIMQsbKjqfYskTCXaDHm",
+      "title": "The New York Magic Symposium DVD",
+      "magician": [
+        "Lisa Menna"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "OIpOYUWJ0NVb23QS3y1L",
+      "title": "Armstrong Card Magic - Vol.3",
+      "magician": [
+        "Jon Armstrong"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "OK61eH6FIXIYcMHq0fxN",
+      "title": "Five Minutes with a Pocket Handkerchief",
+      "magician": [
+        "Quentin Reynolds"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "OMbYoETXDRVFam2PCT0L",
+      "title": "The Magic of Trevor Lewis",
+      "magician": [
+        "Trevor Lewis"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "OaK7yps5I3dL07KIyQ1z",
+      "title": "Cannibal",
+      "magician": [
+        "Kevin Reylek"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "OfjrZyETIBilYlwR6RBB",
+      "title": "The Phoenix",
+      "magician": [
+        "Various"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "Oh9LRY0o9XautFc5XCnP",
+      "title": "Matthew Noel",
+      "magician": [
+        "Matthew Noel"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "P00UAqzEyho7KGkaXxpc",
+      "title": "WPT - Wild Poker Trick",
+      "magician": [
+        "Boris Wild"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "PM4qhsQREIaQJ7MCHIrN",
+      "title": "Sankey's Best Coin Magic",
+      "magician": [
+        "Jay Sankey"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "PPWAoNu0PVSu7Imr7LRM",
+      "title": "Alex Elmsley - Vol.2",
+      "magician": [
+        "Alex Elmsley"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "PVMyTBXwyTnKPTaQjkzJ",
+      "title": "Women in Boxes",
+      "magician": [
+        "Bill McIlhany",
+        "Blaire Larsen"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "PXccANZibiBtidaTBXxT",
+      "title": "The Mental Photography Deck",
+      "magician": [
+        "Daryl"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "PsPp1KJA5eUluRQ7ZR9m",
+      "title": "Card Expert",
+      "magician": [
+        "Allan Ackerman"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "Q4VOWSSY04JrOCzfWrtl",
+      "title": "Easy to Master Card Miracles Vol.2",
+      "magician": [
+        "Michael Ammar"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "Q5d5HWjuM5SLmIb89I4R",
+      "title": "Gregory Wilson - In Action! Vol.2",
+      "magician": [
+        "Gregory Wilson"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "QEvTMZD7HmWcIPjmeoSZ",
+      "title": "Magic of Canada - Vol.50 - No.1",
+      "magician": [
+        "Steven Magic"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "QM4fn0XuFQer6SgVpAXr",
+      "title": "Matrix God's Way",
+      "magician": [
+        "John Born"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "QWLU37LiSlcV5gcakhg7",
+      "title": "A Series of Unfortunate Effects",
+      "magician": [
+        "Chris Mayhew",
+        "Ben Train"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "QZ6zSJ3GUSoRxPZfAxZt",
+      "title": "Easy to Master Card Miracles Vol.1",
+      "magician": [
+        "Michael Ammar"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "QvFhatZgPnVB95cRJ0cL",
+      "title": "Secret Sessions",
+      "magician": [
+        "Daryl",
+        "Bob Kohler"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "Qxq1EG582v00DtZZuLFb",
+      "title": "The Grumble Glim",
+      "magician": [
+        "Nathan Kranzo"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "QydSIoM3oyJl66jlYqvu",
+      "title": "Shoot Force",
+      "magician": [
+        "Shoot Ogawa"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "R2awlydkEMmQjIRXlkmu",
+      "title": "Heinstein Shuffle",
+      "magician": [
+        "Karl Hein"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "R54banGzWqxKWZ4TNiYs",
+      "title": "The Cardjurer",
+      "magician": [
+        "Allan Ackerman"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "RAlp0V2Gpjp4m34cwHIQ",
+      "title": "Commercial Classics of Magic - Vol.2",
+      "magician": [
+        "Johnny Thompson"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "RCZAbHoSkeKeNpQZWm5y",
+      "title": "Lucky Sevens - Vol.1",
+      "magician": [
+        "Gerry Griffin"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "RS644QOvn8nM1G0ZEr5H",
+      "title": "Second Storm - Vol.1",
+      "magician": [
+        "John Gustaferro"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "RT9iZHQhREg9i2Sddhqe",
+      "title": "Extortion",
+      "magician": [
+        "Patrick Kun"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "Rcy8wAtmSKDr57V321L3",
+      "title": "Sylvan Mirouf",
+      "magician": [
+        "Sylvan Mirouf"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "ReYGudSFhHTHPm7Tz8wr",
+      "title": "The Revoution and the Helter Skelter - Personal Training Series",
+      "magician": [
+        "Aaron Fisher"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "RhyfiYhrNMNCFEhMcHB5",
+      "title": "Cardini Sullivan (Magic) Gali, Gali- etc.",
+      "magician": [
+        "?"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "RvLajDg4KIa5qOeU9Zkx",
+      "title": "Lance DeLong - Caution: Sleight of Hand Required Vol. 2",
+      "magician": [
+        "Lance DeLong"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "S8njKcp0F58MEPWmFsEv",
+      "title": "The Magic Show",
+      "magician": [
+        "Doug Henning"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "SDsAZgueKMYg92UJcST5",
+      "title": "Daryls Card Revelations - Vol.5",
+      "magician": [
+        "Daryl"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "SPv9fictCRrkbZKHWcaU",
+      "title": "Moving Violation",
+      "magician": [
+        "Jay Sankey"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "SdNA1f7unTjIv1CxZUrw",
+      "title": "Eric Anderson Lecture",
+      "magician": [
+        "Eric Anderson"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "SgPYQykmirNFnbJTOAD9",
+      "title": "The Science of Stacking and Shuffling",
+      "magician": [
+        "Richard Turner"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "Si9lj5KQAgIwEe3zE1As",
+      "title": "Magic on Stage - McBride - Vol.1",
+      "magician": [
+        "Jeff McBride"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "Sjb9jRTfo94YVAQfWNkL",
+      "title": "Rematch",
+      "magician": [
+        "Caleb Wiles"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "SmKHXjTbgXDS3NYYQbi2",
+      "title": "Colorblind",
+      "magician": [
+        "Luke Jermay"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "SpdaUOjuFsChe4E0VZZf",
+      "title": "Expert Coin Magic... Made Easy! Vol.1",
+      "magician": [
+        "David Roth"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "SuAbnL3KAPw9Y585esgJ",
+      "title": "The Ultimate Workers - Vol.1",
+      "magician": [
+        "Michael Close"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "T3gpR5QTM3CpXfROk3SB",
+      "title": "Eccentricks 3",
+      "magician": [
+        "Charlie Frye"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "TEYD5oMvmp3SUApFnBa9",
+      "title": "Pyrotechnic Pasteboards",
+      "magician": [
+        "Gregory Wilson"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "TEfi3tJzzpZIJd6RphdG",
+      "title": "Legendary Dual Control",
+      "magician": [
+        "Alan Alan",
+        "Patrick Page"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "TNxy8QzAg4iKFvoK8uJs",
+      "title": "The Complete Introduction to Coin Magic",
+      "magician": [
+        "Michael Ammar"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "TRp1y6iLgPxP0ARN4GiY",
+      "title": "Validate",
+      "magician": [
+        "Val Le Val",
+        "JB Magic",
+        "Mark Mason"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "TWubBPXSJNGeSRxNXdTu",
+      "title": "Gregory Wilson - In Action! Vol.1",
+      "magician": [
+        "Gregory Wilson"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "TcOgWM3wzSHt8rcMdZL0",
+      "title": "Rocky Mountain Magic",
+      "magician": [
+        "Doc Eason"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "TkIa3TasSvqbajiyObuC",
+      "title": "Randy Wakeman - Part 2",
+      "magician": [
+        "Randy Wakeman"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "Tkjh9nFJ2xYpahLjPdEW",
+      "title": "XL",
+      "magician": [
+        "Jay Sankey"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "TouMqXzo2yKUPt2UDmha",
+      "title": "The Grail",
+      "magician": [
+        "Mike Ross",
+        "Mike Rose"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "TphHEujyiVgWPXVFvnkj",
+      "title": "Restaurant Magic - Vol.1",
+      "magician": [
+        "Dan Fleshman"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "Tqd3D8ezVF6svMdehHfF",
+      "title": "Dice Routine - It's the Rules",
+      "magician": [
+        "Bob Sheets"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "TvAUCwmNr7kQrrMWfqZF",
+      "title": "Winning with the Cards You are Dealt",
+      "magician": [
+        "Richard Turner"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "TzquPpFjaHR1kkfubbKu",
+      "title": "The Gambler",
+      "magician": [],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "U2pO8LelCMI11asHRnwF",
+      "title": "Extremely Ambitious",
+      "magician": [
+        "Jay Sankey"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "UB976Yx8OSIwmKN7atQ4",
+      "title": "Educating Archer - Vol.2",
+      "magician": [
+        "John Archer"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "UDwykr4mNyPcTqhUAoIP",
+      "title": "Jason Alexander - Magic Castle Parlour Magician of the Year",
+      "magician": [
+        "Jason Alexander"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "UXg3Gzl3Y8dwak1Fz787",
+      "title": "Jump",
+      "magician": [
+        "Frank Zheng"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "Uhq2xnWlmgzpPyJcbJJG",
+      "title": "Greg Wilson 1",
+      "magician": [
+        "Greg Wilson"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "UmiaPFBESsp0naNCRBhI",
+      "title": "Holey Sh*t",
+      "magician": [
+        "Pete Firman",
+        "Anthony Owen"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "Un8qvcGwAWNgOdDe1Wfy",
+      "title": "IBM SAM DVD",
+      "magician": [
+        "Ben Salinas"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "Us1KoK7ynA80OWuAaLIM",
+      "title": "The Magic Circle Centenary Celebrations",
+      "magician": [
+        "Magic Circle"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "Utonl6NDed52MHlqUnnT",
+      "title": "Dave 2",
+      "magician": [
+        "David Williamson"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "UvLQuTYufhcDKR1xDKez",
+      "title": "Close-Up Assasin - Richard Sanders",
+      "magician": [
+        "Richard Sanders"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "V8BilgKbYjteZqgcwwv3",
+      "title": "Off the Cuff",
+      "magician": [
+        "Gregory Wilson"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "V9u2PzcYkOHuwvFwuXux",
+      "title": "The Magic of Mike Gallo Vol.2",
+      "magician": [
+        "Mike Gallo"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "VFb9LvFkrIYIfM9Ubw4L",
+      "title": "Martin Lewis - Linking Ring Parade",
+      "magician": [
+        "Martin Lewis"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "VGCAwVMOG1zLIZOvICg0",
+      "title": "The Greatest Collection of Magic Perfomance Ever Assembled",
+      "magician": [
+        "Various"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "VMHkVjnrjcMxMECUEQEo",
+      "title": "SuperCoin",
+      "magician": [
+        "John Kennedy"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "VMJVW4U0wtfrf5hGyPxX",
+      "title": "Invisible Hand 1",
+      "magician": [
+        "Michel"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "VNX3lbMOQ37rUSPMcL0h",
+      "title": "Doc Jon - In the Life",
+      "magician": [
+        "Doc Jon"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "VQoK56zd9f9eT6RKQQTD",
+      "title": "Watch Magic",
+      "magician": [
+        "Oz Pearlman"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "VREZz0O8FDJHlrcxQGTr",
+      "title": "Te$t of Perseption",
+      "magician": [
+        "Kostya Kimlat"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "VRbKAa72mTt3k2kUwrY7",
+      "title": "Tales from the Streets",
+      "magician": [
+        "Kozmo"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "VWVC0UDk0Gacrgrp0qaP",
+      "title": "Jim Chester",
+      "magician": [
+        "Jim Chester"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "VhzNgHCwqjDdZOB5av8E",
+      "title": "How to be the Life of the Party",
+      "magician": [
+        "Fielding West"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "WHY0LVQMZPxA76DHZ434",
+      "title": "Mystic Craig's Camera",
+      "magician": [
+        "Dai Vernon",
+        "Brother John Hamman",
+        "U.F. Grant"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "WLTvv6gZHKTTbup2tfm2",
+      "title": "Magic on Stage - McBride - Vol.2",
+      "magician": [
+        "Jeff McBride"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "WW1dXYJrye3Mu2lGTfgm",
+      "title": "Sleight of Dave",
+      "magician": [
+        "David Williamson"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "WzVDgkwejqyHAKQ5djYy",
+      "title": "Warp One",
+      "magician": [
+        "David Ren Jenkins"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "X3R1RELsXGpHiKFZV0Dj",
+      "title": "The Locked Deck",
+      "magician": [
+        "Geno Munari"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "XQPxTCsnZ57uzXsRiyo3",
+      "title": "Dr.Magic",
+      "magician": [
+        "Roger Sanchez",
+        "Dr. Magic"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "XmZEUhaLTUsUsXjrRcSj",
+      "title": "The Scotty York DVD Series",
+      "magician": [
+        "Scotty York"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "XztCb2QZ40WwgJTunPYw",
+      "title": "Cornered",
+      "magician": [
+        "Kevin Parker",
+        "Chris Webber"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "Y49fFTE6UGqY25nqSZd8",
+      "title": "C+B Handling; Slit Card Monte",
+      "magician": [
+        "Jay Altemus"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "YI1HDEOVhFyBOO2hkYQi",
+      "title": "Dough",
+      "magician": [
+        "Jay Sankey"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "YSm653gFoapixWdjDxaL",
+      "title": "The Master Sessions",
+      "magician": [
+        "John Carney"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "YVE7KmwzCJarMtiUl9M9",
+      "title": "Chad Long's Magic DVD - Vol.1",
+      "magician": [
+        "Chad Long"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "YacXHMlsIts0vHHxqDKn",
+      "title": "Ultra Cervon - Vol.1",
+      "magician": [
+        "Bruce Cervon"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "YbMy39zVLbRtTu3CX6IR",
+      "title": "Ben Robinson Magic",
+      "magician": [
+        "Ben Robinson"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "Ybj7tJBolmrtVaXWYi7j",
+      "title": "Material",
+      "magician": [
+        "Chad Long"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "YduZhcgpiZGytwyDfJmu",
+      "title": "A \"Tribute to the Card Tricks of Stewart Judah\"",
+      "magician": [
+        "Stewart Judah",
+        "Ryan Swigert"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "YurjePR2oHJwuCkn6GnH",
+      "title": "Decade of Magic",
+      "magician": [
+        "David Blaine"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "YvzQCDqn6X57aFBPnYdg",
+      "title": "Jim Lewis - Video 1",
+      "magician": [
+        "Jim Lewis"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "YzHSqNuIZbCx0gfwdKNy",
+      "title": "What the Fork",
+      "magician": [
+        "Michael Dardant"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "Z38xpVnHxBzzLiGo37X9",
+      "title": "Wonder By Design",
+      "magician": [
+        "Franz Harary"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "Z6gKjTWnPvsWuVrq12Wr",
+      "title": "The Unreal Work",
+      "magician": [
+        "Paul Wilson",
+        "Jason England"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "ZBqbm7j34HkHR22znClI",
+      "title": "Duvivier's Magic - From Old to Knew - Vol.3",
+      "magician": [
+        "Dominique Duvivier"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "ZLW3JixsRBZp0jaq2hn2",
+      "title": "Magic Farm",
+      "magician": [
+        "David Williamson"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "ZRRrK1ux5XLyZACnJSJU",
+      "title": "Advanced Card Magic",
+      "magician": [
+        "David Carre"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "ZYiOs6xhrM8vWtgickaC",
+      "title": "Jay Sankey - Ethics and Creativity in Magic",
+      "magician": [
+        "Jay Sankey"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "ZahPFhIbRQc2lUYwoRRL",
+      "title": "Educating Archer #1",
+      "magician": [
+        "John Archer"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "ZeKco1ECRmEX7bWu5f0g",
+      "title": "An Evening with Carpenter - The Seattle Session Night 1",
+      "magician": [
+        "Jack Carpenter"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "ZfM3R6wjW7J9HF8fyiIh",
+      "title": "The Other Side of Illusion - Vol.2",
+      "magician": [
+        "Henry Evans"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "Zg34AINTdMo56rvyBTkH",
+      "title": "Fooler Doolers - Vol.1",
+      "magician": [
+        "Daryl"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "ZgWhGJ2zwImjrtqRalBf",
+      "title": "Encyclopedia of Coin Sleights Vol. 2",
+      "magician": [
+        "Michael Rubinstein"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "ZjsaDBJkNbAnLGZbNM4S",
+      "title": "Jamy Ian Swiss: Live in London",
+      "magician": [
+        "Jamy Ian Swiss"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "ZlGHrl51Yp5vcJ4dRSGM",
+      "title": "3D Cash",
+      "magician": [
+        "Mark Allen"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "Zr7jeXBeulxLrCjJiVyY",
+      "title": "Rambler",
+      "magician": [
+        "Ray Ben"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "ZtucgMNQO8mxQ80jmhbi",
+      "title": "Educating Archer - Vol.1",
+      "magician": [
+        "John Archer"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "ZveFzofJv5sY48NCMKX1",
+      "title": "Guy Hollingworth Routines",
+      "magician": [
+        "Guy Hollingworth"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "a1FcQdVTJP7dJi1UfLOo",
+      "title": "The Wallet Transformer",
+      "magician": [
+        "Cameron Francis"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "aDtIBlqDmDU5CFK3Znpd",
+      "title": "Mirrors",
+      "magician": [
+        "Diamond Jim Tyler"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "aQymkYYWmk6PH3EGj5Gr",
+      "title": "Neo Purse Frame Routine",
+      "magician": [
+        "Shoot Ogawa"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "aVGpmzoj6ZLLut87p8jH",
+      "title": "Bob Read - International Magic",
+      "magician": [
+        "Bob Read"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "ak3WVMw29LqnXMLgYnSY",
+      "title": "Silverado - Palms of Steel 3",
+      "magician": [
+        "Curtis Kam"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "arMEBPGKXUL3GQ1s7w7W",
+      "title": "Premise, Power, Participation - Vol.1 (Premise)",
+      "magician": [
+        "David Regal"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "av5hthEAIerzhKhvGrlL",
+      "title": "Terry Roses, John Scarne, Luiz Zingone",
+      "magician": [
+        "Terry Roses",
+        "John Scarne",
+        "Luiz Zingone"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "awnz50Dugy8hpn7uzQaJ",
+      "title": "Close-up, Up Close - Vol.2",
+      "magician": [
+        "Joshua Jay"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "b3mVOhTwDhce8LAQyR21",
+      "title": "The Spiral Principle",
+      "magician": [
+        "Stephen Leathwaite"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "bCcDafSckcfjXvrb9jRq",
+      "title": "Razor Card",
+      "magician": [
+        "Guilherme Curty"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "bIVc4cvxVSmCFwuFNWzi",
+      "title": "Caught on Tape",
+      "magician": [
+        "Tom Stone"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "bNnUO4qHuOe78OPYxbFH",
+      "title": "Notes on Snap Change",
+      "magician": [
+        "Garry Surma"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "bOk01k8v7NJBNf25NWQj",
+      "title": "Card Warp Finale!",
+      "magician": [
+        "Paul Green"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "bUK6qMTKldyngKcaqLZj",
+      "title": "The Vanishing",
+      "magician": [
+        "Shin Lim",
+        "Jon Allen"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "bZSN8gjunUpQJrnXmUo6",
+      "title": "Chip Tricks Vol.1",
+      "magician": [
+        "Rich Ferguson"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "bfWEJBQGjRkW14T0Xo8m",
+      "title": "Wayne Dobson & Daniel Garcia",
+      "magician": [
+        "Wayne Dobson",
+        "Daniel Garcia"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "bjLlLo42Xs2jJkXAio31",
+      "title": "Bob Does Hospitality - Act 2",
+      "magician": [
+        "Bob Sheets"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "c2JK4EluLLdpkZlNDIGM",
+      "title": "Art of Levitation",
+      "magician": [
+        "Dirk Losander"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "c9UPxeWu9GFJ1Btbzolj",
+      "title": "The Impossible Magic of Simon Aronson - Vol.1",
+      "magician": [
+        "Simon Aronson"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "cCwtEDJ7RQ9jowSHpJlH",
+      "title": "Holy Moly",
+      "magician": [
+        "Jay Sankey"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "cD6QPZ1irBDahmkBoY52",
+      "title": "Two Nights at Casey's",
+      "magician": [
+        "Scotty York"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "cFkBkWwI8ImfEjxAUDRa",
+      "title": "Max Maven - Reel Magic Magazine",
+      "magician": [
+        "Max Maven"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "cNbeBbW2KncUszgJVlvu",
+      "title": "Friends of Roger Klause 2",
+      "magician": [
+        "Lance Pierce"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "cQ5Yp9r7jhuQZXxygCT9",
+      "title": "Street Magic Series",
+      "magician": [
+        "Paul Vigil"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "cRJHFsdSWQXDm2BaMlyB",
+      "title": "4 Ring Routine",
+      "magician": [
+        "Whit Haydn"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "cRgNTU5pvfSkI48uLvDS",
+      "title": "Total Destruction Vol.1",
+      "magician": [
+        "Troy Hooser"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "cSJJvP62NxPwFLdtdUPV",
+      "title": "Remarkable Coin Magic",
+      "magician": [
+        "Michael Rubinstein"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "caJIXdPvdV0uQ0kzNX4m",
+      "title": "The Magic of John Ramsay - Vol.2",
+      "magician": [
+        "John Ramsay",
+        "Andrew Galloway"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "ckTlzOXNwabsgC6YFOVD",
+      "title": "Magicians in Black, Greatest Magic 2",
+      "magician": [],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "d4N65sAkp72rUXX4yeJa",
+      "title": "Tap into the Real Money in Magic: Kids Parties",
+      "magician": [
+        "Mark Leveridge"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "d7R7uEVA0SjeCeIKLGaS",
+      "title": "Captain & Coke 2.0",
+      "magician": [
+        "Kevin Reylek"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "dBS1loXlQdk9V7wvx4WB",
+      "title": "Richard Marotta...",
+      "magician": [
+        "Various"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "dUTuIl0ANfqYEkPaBC7S",
+      "title": "Great Scott! It's Magic",
+      "magician": [
+        "Scott F. Guinn"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "dVVmD17BuDdC649Ew8n5",
+      "title": "Quantum Mechanics",
+      "magician": [
+        "Irving Quant",
+        "Dan & Dave"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "dZ2Fidqw0PeINMCpwZkD",
+      "title": "Optical Delusion",
+      "magician": [
+        "Aaron Paterson"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "dcvhT8WNBNb6s62ZVuRm",
+      "title": "Bar Magic - Vol.49",
+      "magician": [
+        "Stevens Magic"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "dliqaxCs4vWQnaSeczXc",
+      "title": "Finger Fantasies",
+      "magician": [
+        "Meir Yedid"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "dqO0MRjWkm1Lgdbyoq73",
+      "title": "Richard Turner - The Cheat",
+      "magician": [
+        "Richard Turner"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "drjFvf5vmysYYwegiZTl",
+      "title": "Z.",
+      "magician": [
+        "Steve Reynolds"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "dvft47qiff1KOhdxPWbz",
+      "title": "Joshua Jay - Reel Magic Magazine",
+      "magician": [
+        "Joshua Jay"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "e4utWwS2kGjywlzA6Kdd",
+      "title": "Heroes of Magic",
+      "magician": [
+        "John Fisher"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "e8kMIRMTIHoKUzeu5cin",
+      "title": "Larry Jennings ++",
+      "magician": [
+        "Larry Jennings"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "eGrbruPBTilJNdUv8ryZ",
+      "title": "Kenner!",
+      "magician": [
+        "Chris Kenner"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "ePfc8XiYEfdBUGwr064h",
+      "title": "X-Act",
+      "magician": [
+        "Mike Kirby",
+        "Mark Mason"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "eVHuTmKtyndBxGv4sdGG",
+      "title": "Tarot",
+      "magician": [
+        "Daniel Zuckerbrot",
+        "Donna Zuckerbrot"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "ebCLJ136r4V4xYrIIEYT",
+      "title": "Alakazam Magic Catalogue",
+      "magician": [
+        "Peter Nardi"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "efG9Fy2V7OydWBY3eD3M",
+      "title": "Magical Toy Experience",
+      "magician": [
+        "Fantasma"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "erUX8LGgNwNXsmdtHyht",
+      "title": "The Blue Crown",
+      "magician": [
+        "The Blue Crown"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "errmEshoSnOSHs1eZEaU",
+      "title": "The Magic of James Swain - Vol.4",
+      "magician": [
+        "James Swain"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "exP34XBoFznBF8D2Q6xY",
+      "title": "Finally - 50 years of magic - Vol.2",
+      "magician": [
+        "Dan Tong"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "fAIM9UqdhTxSBsjiPul5",
+      "title": "Armstrong Card Magic - Vol.1",
+      "magician": [
+        "Jon Armstrong"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "fMI4yGsojwVE4o4KabfE",
+      "title": "Double Take",
+      "magician": [
+        "Gregory Wilson"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "fMkPTOcrgsl0DITzZTOo",
+      "title": "Martin's Close-Up Miracles",
+      "magician": [
+        "Martin Lewis"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "fNRupL5aclx82z4hhtq4",
+      "title": "Learned Pigs",
+      "magician": [
+        "Ricky Jay"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "fNZog8e16BppbFHIjgkE",
+      "title": "Colorado Close Up - Coin Man",
+      "magician": [
+        "Dave Neighbors"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "fb7WbjwTtWvQuyWQ4WSc",
+      "title": "Bare Handed",
+      "magician": [
+        "Kirk Kokinos"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "fomkmwZPjJ0JN7apqr2D",
+      "title": "Remarkable Card Magic",
+      "magician": [
+        "Boris Wild"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "fqtoL38FgVVhMHIW9UNs",
+      "title": "A Thing of Wonder",
+      "magician": [
+        "Jerry Andrus"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "frj2SKRCy6PbdolksvCr",
+      "title": "Cube Squared",
+      "magician": [
+        "?"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "fv5DQKkIv8Xtx7L8bG0c",
+      "title": "Daryls Card Revelations - Vol.1",
+      "magician": [
+        "Daryl"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "fxjufpRYENPu7HRzT388",
+      "title": "Essential Magic Collection - Catalogue 3",
+      "magician": [
+        "Miguel Angel Gea"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "g0khedqHQOSsqheGbDyj",
+      "title": "Decisions",
+      "magician": [
+        "Mozique"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "g50I76w2rljkDSBfQhr4",
+      "title": "Top Gun",
+      "magician": [
+        "Vinny Marini"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "g6O0vJcRQ8wZFdgU4k62",
+      "title": "Expert Card Magic - Lecture Notes - Vol.1",
+      "magician": [
+        "Sal Piacente"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "gCch3C9hpefmf52FSYpa",
+      "title": "The Royal Road to Card Magic",
+      "magician": [
+        "Paul Wilson",
+        "R. Paul Wilson"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "gCttGhxr7Lrs25QJUbVT",
+      "title": "The Next Step",
+      "magician": [
+        "Dennis Friebe"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "gTgaKFOUsHwowgqpyi4H",
+      "title": "Best of Duvivier - For America",
+      "magician": [
+        "Dominique Duvivier"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "gUEiN5Dixl6iozuBYlQs",
+      "title": "Chad Long For Kaufman",
+      "magician": [
+        "Chad Long"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "gUUro5zl5P3VTkldUm7l",
+      "title": "Black Envelope",
+      "magician": [
+        "Bob Kohler"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "geoNUczvaucwDpcoF77Q",
+      "title": "Imagine",
+      "magician": [
+        "G",
+        "SMProductionz"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "giChFH4qc8ph0Elv5BuE",
+      "title": "Audio",
+      "magician": [
+        "Eric Jones"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "gj9op4ELOuBhAHzvhEXP",
+      "title": "Kranzo's Extreme Magic Seminar",
+      "magician": [
+        "Nathan Kranzo"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "gjbQpctvJEGEZzfmMPtl",
+      "title": "Charlie McFarland",
+      "magician": [
+        "Charlie McFarland"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "gjyBz2mADVe7ZNHH6irj",
+      "title": "Standing Room Only Vol.3",
+      "magician": [
+        "Steve Draun"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "gl7LErh9EIPHdmKITo6Y",
+      "title": "Action Cop - Other",
+      "magician": [
+        "Thomas Baxter"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "gntUsp3GIjei8OiDYOge",
+      "title": "Spin",
+      "magician": [
+        "Matt Sconce"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "h4pGXmpr2zxlfGXdyXjh",
+      "title": "Live From London",
+      "magician": [
+        "Carl Cloutier"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "h5oUIbJRgZUDljOQomL8",
+      "title": "Fat Brothers",
+      "magician": [
+        "Miguel Angel Geal",
+        "Christian Engblom"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "h6JKJAjTQ6Fs0lsLshbP",
+      "title": "Masterminds",
+      "magician": [
+        "Criss Angel"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "h71gfie0lB91ZVoX8flR",
+      "title": "The Ultimate Workers - Vol.4",
+      "magician": [
+        "Michael Close"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "hOSXLal8InFJspjCUb0z",
+      "title": "David Hira - Magic and Illusion Show",
+      "magician": [
+        "David Hira"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "hUmwRaDbVl5AHw05JQio",
+      "title": "Extreme Card Magic",
+      "magician": [
+        "Joe Rindfleisch"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "hejyrdcjzPe6SAN0j0HJ",
+      "title": "Magic that can be Performed Anywhere",
+      "magician": [
+        "Cellini"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "hqHCc0zSKQavjsoApH3q",
+      "title": "A Weekend At 4F - Vol.1",
+      "magician": [
+        "Obie O'Brien"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "hsc36docCFPqpx0GfPrT",
+      "title": "Siete Diamantes",
+      "magician": [
+        "Gonzalo Gabriel Lopez"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "hvYDWYqKJVeffgBcwms3",
+      "title": "Rope",
+      "magician": [
+        "Shoot Ogawa"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "i53pVo9eEP4t9gJbkizV",
+      "title": "Daryl's Ambitious Card",
+      "magician": [
+        "Daryl"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "iA3DsLNnOiFRgCYW2JzZ",
+      "title": "Comedy Bits and Magic Routines - Vol.1",
+      "magician": [
+        "Harry Allen"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "iM3Is2fLjRsoLJQwYryV",
+      "title": "Mr.Shioni 25th Anniversary Special Lecture",
+      "magician": [
+        "Shioni"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "iTtYhLqGo6u76sSh3bdi",
+      "title": "Cashablanca - Palms of Steel 4",
+      "magician": [
+        "Curtis Kam"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "iZAZyqNjZUf4nUnEHiG2",
+      "title": "Magic of Spain Vol.2",
+      "magician": [
+        "Stevens Magic"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "iwWSgzUPQQZtCLqrDXit",
+      "title": "A Night at the Movies",
+      "magician": [
+        "Steve Draun"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "j02dRKNagndAtPAI8nNQ",
+      "title": "Bob Elliot",
+      "magician": [
+        "Bob Elliot"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "j8m6vchZk9zGR79vzvq3",
+      "title": "White Bikes",
+      "magician": [
+        "Paul Richards",
+        "Matthew Johnson"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "jOpwuFs5gtgnrwOOmX6U",
+      "title": "Daryls Card Sleights - Vol.2",
+      "magician": [
+        "Daryl"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "jROXNlecm9tG1C9DTPaN",
+      "title": "Rubberband Magic",
+      "magician": [
+        "Greg Moreland"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "jTNHY1EB5E1WLuTXCKe5",
+      "title": "Pirates fo the Rising Tide - Palms of Steel 5",
+      "magician": [
+        "Curtis Kam"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "jgSx9xCyXvnYXGC3LD1X",
+      "title": "Shell Raiser",
+      "magician": [
+        "Troy Hooser"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "jrAPnfpMdlVaFUlc2V3Y",
+      "title": "The Impromptu Miracles of Bob Read",
+      "magician": [
+        "Bob Read"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "jzgnVtyBUJXqSsEeBts0",
+      "title": "Dingle's Delights",
+      "magician": [
+        "Derek Dingle"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "k2Id0nA6IlDsNvbmJ0qO",
+      "title": "Unchained - Houdini",
+      "magician": [
+        "Harry Houdini"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "kAA2cyyiD4wP6RbTiCZc",
+      "title": "Opening Doors",
+      "magician": [
+        "Henry Evans",
+        "Vernet"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "kBYeIzCFAb4TrjLPw4M5",
+      "title": "Clock Stuff",
+      "magician": [],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "kFxu4fnWejdvBjaD1fCC",
+      "title": "Uri Geller Trilogy",
+      "magician": [
+        "Uri Geller"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "kGiC4XFj8i9EfoVjhZIF",
+      "title": "The Life and Strange Genius of Stewart James",
+      "magician": [
+        "Stewart James"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "kMTPtdrjO5u9KtFRiurZ",
+      "title": "Grab That Pinhead",
+      "magician": [
+        "Bob Sheets",
+        "Dan Garrett"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "kcr82c4foWEJ78CvlbL4",
+      "title": "Biob Fitch",
+      "magician": [
+        "Biob Fitch"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "komPW43ciScIxg9dlOxD",
+      "title": "Encyclopedia of Card Sleights Vol.3",
+      "magician": [
+        "Daryl",
+        "Daryl Easton"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "ksHmJ3CbsXQ2mGAnqocB",
+      "title": "Cheating Exposed",
+      "magician": [
+        "Geno Munari",
+        "Michael Weber"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "kza6uIwf4mqQhnmha4Z2",
+      "title": "Torn and Restored Tissue",
+      "magician": [
+        "Bob White"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "l0lAu3V3MBl9TtjHOSaQ",
+      "title": "From Old to Know - Vol.2",
+      "magician": [
+        "Dominique Duvivier"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "l567cjZdhbneEPy6jW5C",
+      "title": "Razor Blades",
+      "magician": [
+        "George Sands"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "l8FrhrNEiepiQ7EuXI50",
+      "title": "Foreign Coins Routine",
+      "magician": [
+        "Gordon Prince"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "l9OeTHdyWIo7ASSukcfN",
+      "title": "Live at the Jailhouse: A Guide to Restaurant Magic",
+      "magician": [
+        "Dan Fleshmann",
+        "Garrett Thomas",
+        "Dan Tong",
+        "Kirk Charles",
+        "Paul Green",
+        "Justin Miller"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "lBDpkhPmm8plh7Tdce1q",
+      "title": "Kozmo Article",
+      "magician": [],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "lUiYAHS6wTmIvHy4D5ps",
+      "title": "On The Loose - Vol.3",
+      "magician": [
+        "Bill Malone"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "lkxIZxUShovMz1CUpD5w",
+      "title": "Magicians Installation Banquet",
+      "magician": [
+        "Scott Hollingsworth",
+        "Chad Chesmark",
+        "Kyle Ryan",
+        "Trixie Bond"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "lp7cBspWyh39SPYmTAvu",
+      "title": "Wake-Up Callz",
+      "magician": [
+        "Kreskin"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "m3VjNPWX37JkZzLVuhwW",
+      "title": "The Palming CD - Disc 2",
+      "magician": [
+        "Steven Youell"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "mDmqks6ldSyrcR1HRXAF",
+      "title": "Quick and Casual Close-UP",
+      "magician": [
+        "Sol Stone"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "mKDnLLwz1K9UPVFUV8GW",
+      "title": "The Magic of James Swain - Vol.2",
+      "magician": [
+        "James Swain"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "mN9Hk2P8ZpdB45m209vZ",
+      "title": "Underground Jam",
+      "magician": [
+        "Jay Sankey",
+        "Jeff Stone",
+        "Joe Diamond",
+        "Eric Leclerc"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "mOa9kknNrvA6yKfnQQbk",
+      "title": "Advanced Card Control Series - Vol.5",
+      "magician": [
+        "Allan Ackerman"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "mP9OArv0S92mylMWrnd4",
+      "title": "Las Vegas Card Miracles",
+      "magician": [
+        "Allan Ackerman"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "mQKIxNEfzJT3wPKpiAMv",
+      "title": "It's So Simple - Fred Kaps Lecture",
+      "magician": [
+        "Fred Kaps"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "mUfW2lHDSkqW5nCmEQi2",
+      "title": "Midnight Show - Scott Alexander",
+      "magician": [
+        "Scott Alexander"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "mXekCOfUy9or0pz4droa",
+      "title": "A Celebration of the Life of Patrick Page",
+      "magician": [
+        "Patrick Page"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "ma26EIDLE31gllrbobEr",
+      "title": "On The Loose - Vol.4",
+      "magician": [
+        "Bill Malone"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "miXxepHPZ9NrrVe6W7SP",
+      "title": "The Two & Only",
+      "magician": [
+        "Jay Johnson"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "mpokRGnbSYwvD3EIqMbC",
+      "title": "Extreme Korn",
+      "magician": [
+        "Chris Korn"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "mwgiGfPrdqHftNHOGCnP",
+      "title": "Search for Danger",
+      "magician": [
+        "John Calvert"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "n6f1m30wo3cG6kawGzgF",
+      "title": "Encyclopedia of Card Sleights Vol.1",
+      "magician": [
+        "Daryl"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "nAmlY71JZvVyqffrStQh",
+      "title": "Ascancio - Vol.55",
+      "magician": [
+        "Arturo de Ascanio"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "nDPvgsAiVpWmfQuqH1mc",
+      "title": "Something More Than an Illusion - Vol.3",
+      "magician": [
+        "Henry Evans"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "nLpC7Z4IksdJ7p0rUZ06",
+      "title": "The War Wizard",
+      "magician": [
+        "Max Howard"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "nQle9PxD46zB0Vtyx3hZ",
+      "title": "White Album",
+      "magician": [
+        "Shoot Ogawa"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "nYwbEoO9Yd5fy4p1S5W4",
+      "title": "45 - Feel The Power",
+      "magician": [
+        "Jay Sankey"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "njjTXXwbtaYKIsHZafvB",
+      "title": "Art and Ardor at the Card Table",
+      "magician": [
+        "Jimmy Nuzzo",
+        "Ed Marlo",
+        "Jon Racherbaumer"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "nqV38LV9szn7GvtGVxAm",
+      "title": "An Evening With Doc Shiels",
+      "magician": [
+        "Doc Shiels"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "nxvrvtao1zO4q5Bj1fxL",
+      "title": "Educating Archer",
+      "magician": [
+        "John Archer"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "o53cXzBXfijHMliLv9vr",
+      "title": "Glenn Miller Hypnosis Show",
+      "magician": [
+        "Glenn Miller"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "o5ScLbs65sWdvVnY4Bsg",
+      "title": "Crowd Puller",
+      "magician": [
+        "Peter Wardell"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "oC5RTqhL4BZHE1VpMOu5",
+      "title": "After all these Years",
+      "magician": [
+        "Doc Eason"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "oThK1UvvL8lVUjuQD9qd",
+      "title": "Jim Lewis - Video 2",
+      "magician": [
+        "Jim Lewis"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "oXNLSuEAP0YYdcBKsSFo",
+      "title": "M-Case",
+      "magician": [
+        "Mickael Chatelain"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "oZSZp90ORx4M1r4Ox3n9",
+      "title": "SHADE",
+      "magician": [
+        "Daniel Garcia"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "oarsRCD4WCzNnwmhKwX0",
+      "title": "The Jinx - Complete 3 Volume Set",
+      "magician": [
+        "Ted Anneman"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "oeKtxg71h8dUjdGBbWnh",
+      "title": "Rub a Dub Dub Deluxe",
+      "magician": [
+        "Glen Morphew"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "oeTbBpisFSQy4UaGkrCF",
+      "title": "Radical Korn - Vol.2",
+      "magician": [
+        "Chris Korn"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "ogBDgPy0hW6hYFyvxIem",
+      "title": "The Secrets of Oil & Water",
+      "magician": [],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "osi7sviZWkynkQ8osgsC",
+      "title": "Extended Stay",
+      "magician": [
+        "Shawn Farquhar"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "ozilM9hZUA8JXm5xndvv",
+      "title": "Perfect Power 3",
+      "magician": [
+        "Johnny Wong"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "p3OizwcO2btWuLGLJ9oN",
+      "title": "Mahatma",
+      "magician": [
+        "The Conjuring Arts Research Center"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "pHL4kFMc4mAALvimoXBp",
+      "title": "Magic",
+      "magician": [
+        "Reed Michael Lucas"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "pJInNRNqiJPCmVKhKzF4",
+      "title": "Standing Room Only - Vol.1",
+      "magician": [
+        "Steve Draun"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "pb8LD87sLHPeQ7q5rwGn",
+      "title": "Encyclopedia of Card Sleights Vol.7",
+      "magician": [
+        "Daryl",
+        "Daryl Easton"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "pf2UwE5YbCaO4hKL0FyA",
+      "title": "Extreme Dean - Vol. 2 - Coin Magic",
+      "magician": [
+        "Dean Dill"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "pgb4ll1TesfuBAuN7Hdw",
+      "title": "Coffee House Conjuring",
+      "magician": [
+        "Gregory Wilson",
+        "David Gripenwaldt"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "plwVHbVxYEVcbVeu6LWG",
+      "title": "Daryls Card Revelations - Vol.4",
+      "magician": [
+        "Daryl"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "pwpLaJBECoxtRQBlyEKQ",
+      "title": "Dealt",
+      "magician": [
+        "Richard Turner"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "pyJjcNmTZRu6ZkwjxzMA",
+      "title": "Charlie Parker",
+      "magician": [
+        "Charlie Parker"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "pyU9q1ij3E3pog3pUQdk",
+      "title": "7-7-7 21 Card Trick Revisited",
+      "magician": [
+        "Jon Racherbaumer"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "pz4vBknbDlUsuZqm2X3i",
+      "title": "Jon - Happy Birthday",
+      "magician": [
+        "N/A"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "pzXqzEkoxfndLaj0g087",
+      "title": "Busters 3",
+      "magician": [
+        "Shoot Ogawa"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "q0pcdK2b6ThaVkeOjfU5",
+      "title": "The Resturaunt Magic of Dan Fleshman - Vol. 2 (Entrees)",
+      "magician": [
+        "Dan Fleshman"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "q5NNlIvn75I7TjoHM2xc",
+      "title": "Game",
+      "magician": [
+        "Luke Jermay"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "qAhX6zDizkoDdBAGvJkJ",
+      "title": "Magic of the Sideshow - Vol.52",
+      "magician": [
+        "Stevens Magic"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "qOcM8FBgwyWDKl2ihhzK",
+      "title": "The Legendary Repetoire of Michael Skinner - Vol.3",
+      "magician": [
+        "Michael Skinner"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "qQsU2bZwOdkHrIGqJ2Q1",
+      "title": "Challenge Magic",
+      "magician": [
+        "Richard Osterlind"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "qTRzgwfYd9wRIJ3Onuxp",
+      "title": "The Dick Oslund School Show",
+      "magician": [
+        "Dick Oslund"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "qbppU5G4tdCfH2lT5cjS",
+      "title": "David Magee - America's Premier Corporate Entertainer",
+      "magician": [
+        "David Magee"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "qh38JUDQOEAPhQvyCTtx",
+      "title": "Hermando Lucero - Reel Magic Magazine",
+      "magician": [
+        "Hermando Lucero"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "qjDF5bAWBtRByw3XO5ip",
+      "title": "Jason Ace",
+      "magician": [
+        "Jason Ace"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "quKbnGskS6ZEDQsHU6ZR",
+      "title": "Jimmy \"Cards\" - Lecture 1",
+      "magician": [
+        "Jimmy Molinari"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "r0rO0tvtNFONd1tmVBWG",
+      "title": "Mirage Et Trois",
+      "magician": [
+        "Eric Jones"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "r754qUmeV0T6hZPPhynG",
+      "title": "Talk about Tricks",
+      "magician": [
+        "Joshua Jay"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "r8eCPcZdaFnCUh2vb241",
+      "title": "Levent's Manipulation Act Lecture",
+      "magician": [
+        "Levent Cimkentli"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "rEuUPBcqcjhiF4AbPmn5",
+      "title": "World of Illusion",
+      "magician": [
+        "Alan Rand"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "rF09QQcdMnKUeNJLlw1h",
+      "title": "Seek 52",
+      "magician": [
+        "Steve Reynolds"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "rUvWXbyXhCmsFlLKhEIY",
+      "title": "Cheating with Cards",
+      "magician": [
+        "Buddy Farnan"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "rY9xExcd6ENf7AezVeeV",
+      "title": "Flip-It!",
+      "magician": [
+        "Dean Dill"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "rgPmHkQLGZ8FiItYCXOD",
+      "title": "Slydini",
+      "magician": [
+        "Slydini"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "roOOkkaX2x4TMeaaaR9q",
+      "title": "Mental Deceptions - Vol.1",
+      "magician": [
+        "Rick Maue"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "rpT4SHcpeZtNsiOoYS0a",
+      "title": "Ring Leader",
+      "magician": [
+        "Gregory Wilson"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "rqJlr5hhwV23w6HpnQx2",
+      "title": "Classic Ackerman",
+      "magician": [
+        "Allan Ackerman"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "ryAryuZfBJy6SePCP3J6",
+      "title": "Expert Card Magic - Lecture Notes - Vol.2",
+      "magician": [
+        "Sal Piacente"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "rzEIj2GELxmDx7LZExpL",
+      "title": "Rock, Paper, Lies",
+      "magician": [
+        "Jay Di Biase"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "rzmehvqYyQ7SuM7pnX9z",
+      "title": "Coin Magic",
+      "magician": [
+        "Giacomo Bertini"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "sCGwxvuxTpXbpeWhUjdL",
+      "title": "Magic on Stage - McBride - Vol.3",
+      "magician": [
+        "Jeff McBride"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "sG2mFCgBwPcwJtLdoggn",
+      "title": "Stars of Magic",
+      "magician": [
+        "Paul Harris",
+        "Derek Dingle",
+        "Eric DeCamps"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "sSED5HYDVkaz08qP72PN",
+      "title": "Lucky Sevens - Vol. 3",
+      "magician": [
+        "Gerry Griffin"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "sTHvqyKK1uHxrTCB4fiT",
+      "title": "Built to Last",
+      "magician": [
+        "Doug Conn"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "saQBtwQRMKb43GilPFNA",
+      "title": "Cabaret Magic - Ted Lesley - Vol.2",
+      "magician": [
+        "Ted Lesley"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "sdiiBOzAhece0611lwhT",
+      "title": "Something More Than an Illusion - Vol.1",
+      "magician": [
+        "Henry Evans"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "se4ZlbVpfPDIvvbTnQAv",
+      "title": "Kostya Kimlat - Reel Magic Magazine",
+      "magician": [
+        "Kostya Kimlat"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "shsmCOt3oXYt4StsyjuA",
+      "title": "Ammar Card Tricks - Vol.7",
+      "magician": [
+        "Michael Ammar"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "siK7zQHuI9BbBev9NbMh",
+      "title": "The Road Scholar",
+      "magician": [
+        "Dick Oslund"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "sjHEOuLCSpUJJvYZwXRU",
+      "title": "The Pennies",
+      "magician": [
+        "Giovanni Livera"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "spna2UuKogWH6SyU1nNR",
+      "title": "Encyclopedia of Card Sleights Vol.5",
+      "magician": [
+        "Daryl"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "sqidFFg6AY4e0Jh81i64",
+      "title": "Woldenberg Village - Family Magic Show",
+      "magician": [
+        "Joe Harrison"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "t1mCDplG08B2HKRRiCVG",
+      "title": "The Legend",
+      "magician": [
+        "Karrell Fox"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "t7p1SHwgDi8EMltPi5WI",
+      "title": "Bob Yarbourg Magic",
+      "magician": [
+        "Bob Yarbourg"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "tFJV7RccFavfijh5e78E",
+      "title": "Conjuring Philip",
+      "magician": [
+        "Donna Zuckerbrot"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "tIcoUNQBwIw91v6JW9Nc",
+      "title": "Howard Hamburg Sessions",
+      "magician": [
+        "Howard Hamburg"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "tJTS8Dl8IPaPcr6EUAQd",
+      "title": "Revolutionary Coin Magic 2.0",
+      "magician": [
+        "Jay Sankey"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "tNkOoQhKAhtmZdJnpnkD",
+      "title": "They Found the Elephant's Graveyard Beyond the Sahara",
+      "magician": [
+        "John Calvert"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "tTYhQxkzb7sfAxF7vwHC",
+      "title": "Shoot in Hollywood",
+      "magician": [
+        "Shoot Ogawa"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "tUPQJpzShA4wIUoHgTkn",
+      "title": "Unknown",
+      "magician": [
+        "Mark Bendell"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "tUs093mcCulZ38Fs7ypx",
+      "title": "Coffee - Time Magic",
+      "magician": [
+        "Greg Wilson"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "tV2diwSTt9UIyWsEMXWG",
+      "title": "Technique and Timing",
+      "magician": [
+        "Francis Carlyle"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "tWkmF2sPiYDlj9MqmG7E",
+      "title": "Magic of Canada - Vol.51 - No.2",
+      "magician": [
+        "Steven Magic"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "tZ1tRxB5R3w40Ok9ythU",
+      "title": "The Secrets Behind the 3-Card Monte",
+      "magician": [
+        "Daryl"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "tc2v3bRCOmPAFLmprH9z",
+      "title": "Unlabeled - Jay Sankey",
+      "magician": [
+        "Jay Sankey"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "tqNSlahPG0r9hYdI8e80",
+      "title": "Charming Chinese Challenge",
+      "magician": [
+        "Troy Hooser"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "ttYC7FFPim2RYCJJ8Fwy",
+      "title": "Ice Coins",
+      "magician": [
+        "Christopher Congreave"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "tuYRVDgEiaCQfxHz3JTF",
+      "title": "Card Work, Card Play",
+      "magician": [
+        "Kostya Kimlat"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "u0l1G0pTCXzoIyNBNrSr",
+      "title": "Mac King - The King of Comedy Magic",
+      "magician": [
+        "Mac King"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "u27cZMHVL7KMFLjlAQQP",
+      "title": "Freak Out Your Friends",
+      "magician": [
+        "Will Houston"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "uBwrDQGuBhKOc8PdPF4k",
+      "title": "21",
+      "magician": [
+        "Shin Lim",
+        "Jose Morales",
+        "Donald Carson"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "uMAAWm9wrOLpM6pMQRWv",
+      "title": "The Magic of John Ramsay - Vol.1",
+      "magician": [
+        "John Ramsay",
+        "Andrew Galloway"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "uMlj3JUcKIpaTYLCBGHX",
+      "title": "The Daniel Garcia Project - Vol.2",
+      "magician": [
+        "Daniel Garcia",
+        "Paul Harris"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "uOOjCYKC8CDpunKSFMJR",
+      "title": "(2) Moves",
+      "magician": [
+        "Chris Bacchus"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "uQpAiuPfIfw11j7knclC",
+      "title": "Old Magic Books",
+      "magician": [
+        "Dominic Reyes"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "uSXK1yzNhcy8I7VDUvY9",
+      "title": "Devious - Vol.2",
+      "magician": [
+        "Michael Close"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "uXR8ZpyESrgGZ7ieXIyu",
+      "title": "Prequel Sequel",
+      "magician": [
+        "Allan Ackerman"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "ubkZqjDXmOVcCup3CKQY",
+      "title": "Three Ring Concerto",
+      "magician": [
+        "Aldo Colombini"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "ue3sfsXfSWCHJ3kct043",
+      "title": "Unleashed",
+      "magician": [
+        "Gregory Wilson"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "uvtH4LYyAnCTvrDwBsUL",
+      "title": "Eugene Burger - Magic's Greatest Thinker",
+      "magician": [
+        "Eugene Burger"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "v0nhUGolyuzgjyhXNLBp",
+      "title": "Jay Marshall - The Greater Magic Video Library",
+      "magician": [
+        "Jay Marshall",
+        "The Greater Magic Video Library"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "v2FD4XbuS2sVIXmVsHcy",
+      "title": "Copper - Brass - Silver Delusion",
+      "magician": [
+        "Dan Kormen"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "vCfND7nOMIJtyaJXmWlz",
+      "title": "Project 21",
+      "magician": [
+        "Various"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "vDsyQ9fspqTwfHUK2Kaz",
+      "title": "The Shell Game Series - Vol. 2",
+      "magician": [
+        "Bob Sheets"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "vIBLQ7vwgka5PhoEKEGF",
+      "title": "Various Radio DVDs",
+      "magician": [],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "vIDCopl8WLgYitfTQUtP",
+      "title": "Sigfried and Roy",
+      "magician": [
+        "Sigfried and Roy"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "vTjfelIx3JFegesSKc5W",
+      "title": "Slydini Private party Performance",
+      "magician": [
+        "Slydini"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "vTk6s8TXVVeFTHTmh0nO",
+      "title": "The Daniel Garcia Project - Vol.5",
+      "magician": [
+        "Daniel Garcia"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "veX9g5h3JCZdZuIfxYc8",
+      "title": "Total Destruction Vol.2",
+      "magician": [
+        "Troy Hooser"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "vej3sKUECmfjh6tO3zir",
+      "title": "Magicana",
+      "magician": [
+        "The Conjuring Arts Research Center"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "vgbaanmfzXVIx2wa0dY8",
+      "title": "Expert Coin Magic... Made Easy! Vol.2",
+      "magician": [
+        "David Roth"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "vhLNsKgqTvwzi6cE9bYd",
+      "title": "Here I Go Again - Vol.2",
+      "magician": [
+        "Bill Malone"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "viMhkDgJwKDarFFT0ET4",
+      "title": "The Card Solutions of Solomon",
+      "magician": [
+        "David Solomon"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "vj1l4kuqWT6o40xVTXMP",
+      "title": "The Buck Twins - Reel Magic Magazine",
+      "magician": [
+        "The Buck Twins"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "vu2NaYuaq2gw2TmrJlQR",
+      "title": "Branded - The Painless Card Blister",
+      "magician": [
+        "Tim Trono"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "w3SdY7M8Qh3ah4yRSRfG",
+      "title": "Tricks and a Treat",
+      "magician": [
+        "Paul Zenon"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "wQMoYePJfcOmLbv6UpCV",
+      "title": "Creative Coin Magic",
+      "magician": [
+        "Michael Rubinstein"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "wR37fSjIRmwmhB10JK1c",
+      "title": "Bilis",
+      "magician": [
+        "Bernard Bilis"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "we4vDgAbeXv6rZKq4pgb",
+      "title": "Daryls Card Sleights - Vol.6",
+      "magician": [
+        "Daryl"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "wmB94Pslnr3iqVT4kNOU",
+      "title": "Anytime, Anything, Anywhere",
+      "magician": [
+        "Greg Wilson"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "x0Monzfof6qcsf5zEkET",
+      "title": "Miracle Money",
+      "magician": [
+        "Jay Leslie",
+        "Jim Swoger"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "x2IklY9a7u9bfNYiJx5i",
+      "title": "Deceptive Practice",
+      "magician": [
+        "Ricky Jay"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "x4U1eEmyZ3yx1jbxQ1WE",
+      "title": "Hemisphere (OOTW)",
+      "magician": [
+        "Michael Sibbernsen"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "xGR0DtgopNsdcEszO1M1",
+      "title": "Racherbaumer 60th Birthday",
+      "magician": [],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "xH8CzsZff6Oc7lZqT9qs",
+      "title": "Solomon's Mind",
+      "magician": [
+        "David Solomon"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "xMbnLP2WKHdKsOM8OjXQ",
+      "title": "Bill Malone - CEO of Comedy Magic",
+      "magician": [
+        "Bill Malone"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "xNj3SkA4MVU2DMsuxlOH",
+      "title": "David Williamson - The Man Who Nose!",
+      "magician": [
+        "David Williamson"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "xf1r4N1Qtg88hQIeMX0n",
+      "title": "Basic Coin Magic",
+      "magician": [
+        "David Stone"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "yKIyBG5phYl5G9sUMeYW",
+      "title": "Catch Up",
+      "magician": [
+        "Karl Hein"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "yKRAtRLTS7t4BXsa15cE",
+      "title": "The Magic of the Sideshow Vol.52 Stevens - The Greater Magic Video Library",
+      "magician": [
+        "Todd Robbins",
+        "Michael Wilson"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "yNWEiQtilWcvQoOghZM8",
+      "title": "The Heinous Collection - Vol.3",
+      "magician": [
+        "Karl Hein"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "yXMMJvh4uWeIdNbC6nXG",
+      "title": "Inseparable",
+      "magician": [
+        "Jay Sankey"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "yuDKj303prbsOjjrhVH9",
+      "title": "Show Off 3 - King of Cards",
+      "magician": [
+        "Brian Tudor"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "z5rsdhtny0nMsnvpbeyQ",
+      "title": "Expert Coin Magic... Made Easy! Vol.3",
+      "magician": [
+        "David Roth"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "zGDZ98lpXtzZ6mbngYwl",
+      "title": "Coins Through the Table",
+      "magician": [
+        "Michael Rubinstein"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "zRrYlQIiLjZYiu0nxwHj",
+      "title": "Juan Tamariz - Lessons in Magic - Vol.2",
+      "magician": [
+        "Juan Tamariz"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "zTkdlLHuXp7eCyWCtRBO",
+      "title": "Thoughts Across",
+      "magician": [
+        "David Solomon"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "zXLB74jMyH6K8PpKatiK",
+      "title": "Sanchez Fly",
+      "magician": [
+        "David Gabbay"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "zZmozDAr3uuRfWiHMssd",
+      "title": "Mind, Myth, Magic",
+      "magician": [
+        "TA Waters"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "zaNbVW8B2vIB0j8FB29i",
+      "title": "Malone meets Marlo - Vol's 1-6",
+      "magician": [
+        "Bill Malone"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "zabLUQ1oSqCuYcZrGvdZ",
+      "title": "J.C. Hiatt",
+      "magician": [
+        "J.C. Hiatt"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "zf4ImUhRf9ow312ezQDO",
+      "title": "Diamond Deck",
+      "magician": [
+        "Diamond Jim Tyler"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "znOwTrQiptrEOUjhxnuL",
+      "title": "Mike Caveney - His Aim is Comedy",
+      "magician": [
+        "Mike Caveney"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    },
+    {
+      "id": "zsQdaxYShNJz2NPVlfBn",
+      "title": "Ivory Connection",
+      "magician": [
+        "Reed McClintock",
+        "Steve Dobson"
+      ],
+      "status": "not_searched",
+      "candidates": []
+    }
+  ]
+}

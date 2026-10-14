@@ -1,5 +1,6 @@
 import { useMemo, useCallback } from 'react';
 import { useSearchParams } from 'react-router-dom';
+import { collectionItems, browseOrder } from '../utils/collections';
 import { filterDVDs } from '../utils/dvd';
 import { createDiscoveryIndex, searchCatalog } from '../utils/discovery';
 import { enrichCatalogDVD } from '../utils/catalogData';
@@ -20,7 +21,8 @@ export function useCatalogQuery(rawDvds = []) {
       type: searchParams.get('type') || 'all',
       magician: searchParams.get('magician') || 'all',
       era: searchParams.get('era') || 'all',
-      sort: searchParams.get('sort') || 'title',
+      sort: searchParams.get('sort') || 'discovery',
+      collection: searchParams.get('collection') || '',
       view: searchParams.get('view') || 'grid',
       letter: searchParams.get('letter') || 'all',
     }),
@@ -39,7 +41,7 @@ export function useCatalogQuery(rawDvds = []) {
               val === 'all' ||
               val === '' ||
               (key === 'view' && val === 'grid') ||
-              (key === 'sort' && val === 'title')
+              (key === 'sort' && val === 'discovery')
             ) {
               next.delete(key);
             } else {
@@ -160,11 +162,13 @@ export function useCatalogQuery(rawDvds = []) {
 
   // Filter and sort results
   const results = useMemo(() => {
-    let list = normalizedDvds;
+    let list = state.collection ? collectionItems(discoveryIndex, state.collection) : normalizedDvds;
+    if (!state.query.trim() && state.sort === 'discovery') list = browseOrder(list, state.collection || 'library');
 
     // If search term is present, use the enriched index to rank
     if (state.query.trim()) {
-      list = searchCatalog(discoveryIndex, state.query);
+      const allowed = new Set(list.map(d => d.id));
+      list = searchCatalog(discoveryIndex, state.query).filter(d => allowed.has(d.id));
     }
 
     // Apply structured filters
@@ -174,7 +178,7 @@ export function useCatalogQuery(rawDvds = []) {
       magician: state.magician,
       era: state.era,
       letter: state.letter,
-      sort: state.query.trim() ? undefined : state.sort, // if searched, preserve relevance ranking
+      sort: state.query.trim() || state.sort === 'discovery' ? undefined : state.sort, // if searched, preserve relevance ranking
     });
   }, [normalizedDvds, state, discoveryIndex]);
 

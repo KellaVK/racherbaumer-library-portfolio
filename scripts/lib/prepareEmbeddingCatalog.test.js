@@ -47,3 +47,14 @@ describe('embedding catalog preparation', () => {
     expect(()=>prepareEmbeddingCatalog([{id:'a',title:'One'},{id:'a',title:'Two'}],source([]))).toThrow(/duplicate/);
   });
 });
+
+it('includes only reviewed matching external facts and preserves their source', () => {
+  const catalog = [{id:'a',title:'Course Vol.1',magician:['Alice']}];
+  const evidence = {title:'Course Vol.1',creators:['Alice'],status:'reviewed_source_match',summary:'Coin routines',props:['Coins'],tricks:[{name:'Example Trick',creator:'Bob'}],url:'https://www.penguinmagic.com/p/1'};
+  const accepted = prepareEmbeddingCatalog(catalog, source([]), {}, {a:evidence});
+  expect(accepted.documents[0].text).toContain('Example Trick (Bob)');
+  expect(accepted.records[0].externalEvidence.url).toBe(evidence.url);
+  const rejected = prepareEmbeddingCatalog(catalog, source([]), {}, {a:{...evidence,title:'Course Vol.2'}});
+  expect(rejected.records[0].externalEvidence).toBeNull();
+  expect(rejected.documents[0].text).not.toContain('Example Trick');
+});

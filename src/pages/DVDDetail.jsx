@@ -7,6 +7,8 @@ import { requestCheckout } from '../services/checkouts'
 import { displayValue } from '../utils/dvd'
 import { enrichCatalogDVD } from '../utils/catalogData'
 import enrichment from '../data/catalog-enrichment.json'
+import ExternalEvidence from '../components/dvds/ExternalEvidence'
+import RelatedTitles from '../components/dvds/RelatedTitles'
 import LibraryActions from '../components/dvds/LibraryActions'
 import CatalogEvidence from '../components/dvds/CatalogEvidence'
 import StatusBadge from '../components/ui/StatusBadge'
@@ -25,6 +27,10 @@ export default function DVDDetail() {
   // Live DVD listener so changes in availability or AI summary reflect in real-time
   useEffect(() => {
     if (!id) return
+    setLoading(true)
+    setSuccess(false)
+    setError('')
+    setDvd(null)
     const unsub = onSnapshot(doc(db, 'dvds', id), snap => {
       if (snap.exists()) {
         const normalized = enrichCatalogDVD({ id: snap.id, ...snap.data() }, enrichment)
@@ -252,6 +258,7 @@ export default function DVDDetail() {
 
       <LibraryActions dvd={dvd} />
       <CatalogEvidence dvd={dvd} />
+      <ExternalEvidence dvd={dvd} />
 
       {/* Collapsible: AI Summary */}
       {dvd.aiSummary && (
@@ -359,6 +366,7 @@ export default function DVDDetail() {
           </>
         )}
       </div>
+      <RelatedTitles dvd={dvd} />
     </div>
   )
 }
