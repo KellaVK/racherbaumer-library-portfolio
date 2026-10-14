@@ -1,7 +1,7 @@
 import { it, expect } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import CatalogEvidence from './CatalogEvidence';
-it('shows distinct source notes and provenance without repeating existing notes', () => {
+it('shows distinct notes with a brief disclaimer and no spreadsheet references', () => {
   render(
     <CatalogEvidence
       dvd={{
@@ -14,5 +14,6 @@ it('shows distinct source notes and provenance without repeating existing notes'
   );
   expect(screen.getByText('Uses a purse frame')).toBeInTheDocument();
   expect(screen.queryByText('Coin routine')).not.toBeInTheDocument();
-  expect(screen.getByText(/DVD List, row 7/)).toBeInTheDocument();
+  expect(screen.getByText('Categories and notes have not been independently verified.')).toBeInTheDocument();
+  expect(screen.queryByText(/spreadsheet|DVD List|row 7/i)).not.toBeInTheDocument();
 });

@@ -21,7 +21,8 @@ it('lets visitors choose interests, see reasons, and reset stored preferences', 
     'href',
     '/dvd/a',
   );
-  expect(screen.getByText('Coins · catalog match')).toBeInTheDocument();
+  expect(screen.getByRole('link', { name: 'Coin Course' })).toContainElement(screen.getByText('Coins · catalog match'));
+  expect(screen.getByRole('link', { name: 'Coin Course' })).toContainElement(screen.getByText('View DVD')); 
   await user.click(screen.getByRole('button', { name: 'Reset preferences' }));
   expect(screen.getByRole('checkbox', { name: 'Coins' })).not.toBeChecked();
   expect(

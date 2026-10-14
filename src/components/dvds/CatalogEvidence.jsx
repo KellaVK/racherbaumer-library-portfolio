@@ -17,11 +17,7 @@ export default function CatalogEvidence({ dvd }) {
         ))}
         {performers.length > 0 && <p>Also featured: {performers.join(', ')}</p>}
         <small>
-          From the collection spreadsheet:{' '}
-          {(dvd.catalogSources || [])
-            .map((source) => `${source.tab}, row ${source.row}`)
-            .join('; ')}
-          . These are catalog notes, not independently verified descriptions.
+          Categories and notes have not been independently verified.
         </small>
       </div>
     </details>

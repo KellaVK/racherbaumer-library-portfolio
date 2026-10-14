@@ -345,6 +345,13 @@ export function recommendCatalog(
   const labels = Object.fromEntries([...INTERESTS, ...LEVELS, ...SETTINGS]);
   return index.docs
     .filter((d) => allowed.has(d.dvd.id) && d.dvd.id !== reference?.dvd.id)
+    .filter((doc) => {
+      // Subject and venue define the task; skill level only refines the ranking.
+      const hasConcept = (key) => doc.fields.some((field) => field.concepts.has(key));
+      const interests = (preferences.interests || []).filter((key) => CONCEPTS[key]);
+      return (!interests.length || interests.some(hasConcept)) &&
+        (!CONCEPTS[preferences.setting] || hasConcept(preferences.setting));
+    })
     .map((doc) => {
       let score = 0;
       const reasons = [];

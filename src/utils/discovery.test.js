@@ -120,3 +120,13 @@ describe('preference suggestions', () => {
     expect(JSON.stringify(dvds)).toBe(copy);
   });
 });
+
+ it('keeps experience preferences from introducing unrelated subjects or settings', () => {
+   const idx = createDiscoveryIndex([
+     { id: 'family', title: 'Family Magic', notes: 'Magic for children and family audiences' },
+     { id: 'coin', title: 'Coin Course', notes: 'Beginner coin magic' },
+     { id: 'card', title: 'Card Course', notes: 'Beginner card magic' },
+   ]);
+   expect(recommendCatalog(idx, { setting: 'children', level: 'beginner' }).map(d => d.id)).toEqual(['family']);
+   expect(recommendCatalog(idx, { interests: ['coins'], level: 'beginner' }).map(d => d.id)).toEqual(['coin']);
+ });

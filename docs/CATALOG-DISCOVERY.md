@@ -124,3 +124,14 @@ Cloudflare Pages process. Roll back to the previous frontend build to undo it;
 there are no new Firestore fields, writes, or account migrations to reverse.
 
 See [the verification record](DISCOVERY-VERIFICATION.md) for requirement-by-requirement evidence and browser checks.
+
+
+### Suggestion browsing
+
+Each suggestion is a full clickable link to its DVD detail page, including its
+performer and match explanations. Selected subjects (any selected interest) and
+performance setting require matching catalog or AI-description evidence. Experience
+level refines ranking; it does not introduce unrelated DVDs. Sparse catalog evidence
+can mean fewer suggestions. Categories and notes remain unverified, so matches are
+browsing aids rather than guarantees of suitability. Source row provenance stays in
+the data for maintenance, but is not displayed in the reader-facing notes disclaimer.

@@ -988,3 +988,11 @@
   .catalog-page .catalog-filter-panel select { max-width: 100%; }
   .catalog-page .catalog-filter-panel > div > div { min-width: 0; max-width: 100%; }
 }
+
+.discovery-suggestions > li { padding-top: 0; }
+.discovery-suggestions .discovery-result-link { display: block; height: 100%; padding: 1rem .75rem; border-radius: 4px; text-decoration: none; font-family: inherit; }
+.discovery-result-link:hover { background: var(--surface-2); }
+.discovery-result-link:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.discovery-result-title { font-family: 'Playfair Display', serif; color: var(--text); line-height: 1.4; }
+.discovery-result-link:hover .discovery-result-title { color: var(--gold); }
+.discovery-result-action { display: inline-block; color: var(--gold); font-size: .75rem; margin-top: .85rem; }

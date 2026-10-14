@@ -114,7 +114,7 @@ export default function DiscoveryPanel({ index, filters }) {
           <small>
             {storageFailed
               ? 'Preferences work for this visit; your browser could not save them.'
-              : 'Preferences stay in this browser. They are not added to your account.'}
+              : 'Preferences stay in this browser.'}
           </small>
           <button
             type="button"
@@ -126,27 +126,30 @@ export default function DiscoveryPanel({ index, filters }) {
         </div>
         <div aria-live="polite" aria-atomic="true" className="discovery-help">
           {!hasPreferences
-            ? 'Choose an interest to see suggestions.'
+            ? 'Choose an interest, setting, or favorite DVD to see suggestions.'
             : recommendations.length
-              ? `${recommendations.length} suggestions. Preferences are ranking hints; check each description for suitability.`
-              : 'No supported suggestions match these preferences and filters. Try another interest or relax a catalog filter.'}
+              ? `${recommendations.length} suggestions. Categories and notes have not been independently verified.`
+              : 'No suggestions match yet. Try a broader subject or setting, or clear a catalog filter.'}
         </div>
         {recommendations.length > 0 && (
           <ul className="discovery-suggestions">
             {recommendations.map((dvd) => (
               <li key={dvd.id}>
                 <Link
+                  className="discovery-result-link"
+                  aria-label={dvd.title}
                   to={`/dvd/${dvd.id}`}
                   state={{ from: `${location.pathname}${location.search}` }}
                 >
-                  {dvd.title}
-                </Link>
+                  <span className="discovery-result-title">{dvd.title}</span>
                 <p>{dvd.magician.join(', ')}</p>
                 <ul>
                   {dvd.recommendationReasons.map((reason) => (
                     <li key={reason}>{reason}</li>
                   ))}
                 </ul>
+                <span className="discovery-result-action">View DVD <span aria-hidden="true">→</span></span>
+                </Link>
               </li>
             ))}
           </ul>
