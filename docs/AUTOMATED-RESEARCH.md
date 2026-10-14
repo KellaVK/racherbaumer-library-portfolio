@@ -59,3 +59,13 @@ The seven existing reviewed entries remain intact, including searchable named tr
 The deterministic retailer parser supports explicit contents lists in product-description markup. Arbitrary prose, PDF catalogs and changed markup may yield no structured contents; it intentionally does not invent them. Conjuring Archive rows exclude reviews. Discovery checks up to 100 sitemap pages per run and records remaining work if that ceiling is reached. Existing cached successful pages are reused; failed pages are cached for a day and host denials persist until `--retry-failed`. The archive index is reconsidered after 30 days, using cached pages where available.
 
 The input snapshot is a fixed catalog export; new DVDs require `--refresh-catalog` or an updated snapshot. Optional Claude extraction elsewhere in this repository is separate and is not invoked by this unattended pipeline.
+
+## Source-coverage follow-up
+
+Checked the public homepage and FAQ on October 14, 2026:
+
+- https://www.conjuringarchive.com/ reports 3,738 publications, exactly matching the pipeline's 3,738 unique publication URLs. The downloaded index classifies 3,581 as books and 157 as magazines. This corroborates full public-index discovery; it does not prove that private or future DVD records do not exist.
+- https://www.conjuringarchive.com/faqs states that no public API or database export is currently available. Kella's reported explicit permission remains the basis for the authorized archive access; the general public policy is not being treated as revoking that permission.
+- A special dataset or access arrangement from the permission contact remains unconfirmed. Standard public API integration is therefore not an available next implementation step.
+
+The outstanding requirement is successful DVD-source acquisition, followed by real-data validation of extracted contents and cross-source comparison. Green tests and an all-row outcome report do not prove that requirement complete. The draft PR is intentionally not deployed as a completed enrichment release.
