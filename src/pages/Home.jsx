@@ -1,3 +1,4 @@
+import CollectionSearchResults from '../components/dvds/CollectionSearchResults';
 import CollectionBrowse from '../components/dvds/CollectionBrowse';
 import { useState, useEffect } from 'react';
 import { collection, onSnapshot, query, orderBy } from 'firebase/firestore';
@@ -67,6 +68,7 @@ export default function Home() {
     state.magician,
     state.letter,
     state.sort,
+    state.collection,
   ]);
 
   const showShelves = !state.query.trim() && !activeFilterCount && !state.collection && state.view !== 'list' && state.sort === 'discovery';
@@ -110,6 +112,8 @@ export default function Home() {
         setView={setView}
         setSort={setSort}
       />
+
+      {!loading && !loadError && !state.collection && <CollectionSearchResults index={discoveryIndex} state={state} />}
 
       {!loading && !loadError && <DiscoveryPanel index={discoveryIndex} filters={state} />}
 

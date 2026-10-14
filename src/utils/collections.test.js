@@ -15,3 +15,18 @@ it('uses stable browse ordering without mutating input and excludes self from re
  expect(JSON.stringify(dvds)).toBe(original);
  expect(relatedTitles(index,index.docs[0].dvd).every(d=>d.id!=='a')).toBe(true);
 });
+
+import { searchCollections } from './collections';
+it('searches topic aliases and creators outside featured shelves',()=>{
+ const many = createDiscoveryIndex([...dvds,{id:'e',title:'Rare One',magician:['Zelda'],notes:'Ropes'},{id:'f',title:'Rare Two',magician:['Zelda'],notes:'Ropes'}]);
+ expect(buildCollections(many).some(g=>g.title==='Zelda')).toBe(false);
+ expect(searchCollections(many,'Zelda collection')[0].key).toBe('magician:Zelda');
+ expect(searchCollections(many,'deck collection')[0].key).toBe('cards');
+ expect(searchCollections(many,'coin magic')[0].key).toBe('coins');
+ expect(searchCollections(many,'nonsense')).toEqual([]);
+ expect(searchCollections(many,'')).toEqual([]);
+});
+it('collection counts respect structured filters',()=>{
+ const idx=createDiscoveryIndex([{id:'a',title:'Coin A',magician:['A'],checkedOutBy:'borrower'},{id:'b',title:'Coin B',magician:['A']}]);
+ expect(searchCollections(idx,'coins',{availability:'available'})[0].items.map(d=>d.id)).toEqual(['b']);
+});

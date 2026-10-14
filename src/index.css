@@ -1037,3 +1037,9 @@
 .external-evidence { margin: 1.5rem 0; color: var(--text-muted); font-size: .85rem; line-height: 1.7; }
 .external-evidence p { margin: .75rem 0; }
 .external-evidence a { color: var(--gold); }
+
+.collection-search-results { margin: 1rem 0; }
+.collection-search-results h2 { color: var(--text-muted); font-size: .75rem; margin-bottom: .3rem; }
+.collection-search-results .collection-shortcuts { gap: .25rem 1.5rem; }
+.collection-search-results a { display: inline-flex; flex-wrap: wrap; align-items: center; gap: .4rem; min-height: 44px; }
+.collection-search-results a span { color: var(--text-muted); }

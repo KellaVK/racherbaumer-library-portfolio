@@ -1,4 +1,5 @@
 import { recommendCatalog } from './discovery';
+import { filterDVDs } from './dvd';
 const hash = text => [...text].reduce((n, c) => (Math.imul(n, 31) + c.charCodeAt(0)) >>> 0, 7);
 export function browseOrder(dvds, seed = 'library') {
   return [...dvds].sort((a,b) => hash(seed + a.id) - hash(seed + b.id));
@@ -8,7 +9,7 @@ export function collectionItems(index, key) {
   if (key === 'collaborations') return index.docs.filter(d => d.dvd.magician.length > 1).map(d => d.dvd);
   return index.docs.filter(d => d.fields.some(f => f.source !== 'AI description' && f.concepts.has(key))).map(d => d.dvd);
 }
-export function buildCollections(index) {
+export function buildCollections(index, { creatorLimit = 5, minimumTitles = 3 } = {}) {
   const groups = [
     ['cards', 'Card magic', 'Explore sleights, routines, and effects with a deck.'],
     ['coins', 'Coin magic', 'From pocket-sized miracles to coin technique.'],
@@ -19,7 +20,7 @@ export function buildCollections(index) {
   for (const {dvd} of index.docs) for (const name of dvd.magician) {
     if (!/^(various|unknown|not listed)$/i.test(name)) counts.set(name,(counts.get(name)||0)+1);
   }
-  const creators = [...counts].filter(([,count]) => count >= 3).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).slice(0,5);
+  const creators = [...counts].filter(([,count]) => count >= minimumTitles).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).slice(0,creatorLimit);
   for (const [name] of creators) {
     const key = `magician:${name}`;
     groups.push({key,title:name,description:'Explore this magician’s work in the collection.',items:browseOrder(collectionItems(index,key),key)});
@@ -31,4 +32,29 @@ export function relatedTitles(index, dvd, limit=6) {
   const ids = new Set([dvd.id,...similar.map(d=>d.id)]);
   const sameCreator = index.docs.map(d=>d.dvd).filter(d=>!ids.has(d.id)&&d.magician.some(n=>dvd.magician.includes(n)));
   return [...similar,...browseOrder(sameCreator,dvd.id)].slice(0,limit);
+}
+
+const searchWords = text => String(text).normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim().split(/\s+/).filter(Boolean);
+const TOPIC_ALIASES = {
+  cards: 'card cards deck decks playing cards', coins: 'coin coins coinage',
+  mentalism: 'mentalism mental mind reading predictions prediction',
+  collaborations: 'collaboration collaborations compilation compilations multiple performers',
+};
+export function searchCollections(index, query, filters = {}, limit = 4) {
+  if (!query.trim()) return [];
+  const words = searchWords(query).filter(word => !['collection', 'collections', 'magic', 'magician', 'magicians', 'dvd', 'dvds', 'of', 'by', 'the'].includes(word));
+  // A bare request for collections shows a small selection, rather than every creator.
+  if (!words.length && !/\bcollections?\b/i.test(query)) return [];
+  return buildCollections(index, {creatorLimit: Infinity, minimumTitles: 2})
+    .map(group => {
+      const titleWords = searchWords(group.title);
+      const vocabulary = [...titleWords, ...searchWords(TOPIC_ALIASES[group.key] || '')];
+      const matches = words.every(word => vocabulary.some(term => term.startsWith(word)));
+      const items = filterDVDs(group.items, {...filters, query: '', collection: ''});
+      const score = words.reduce((n,word) => n + (titleWords.includes(word) ? 2 : 1), 0);
+      return {...group, items, matches, score};
+    })
+    .filter(group => group.matches && group.items.length)
+    .sort((a,b) => b.score-a.score || b.items.length-a.items.length || a.title.localeCompare(b.title))
+    .slice(0,limit);
 }

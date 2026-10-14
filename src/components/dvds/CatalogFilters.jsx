@@ -35,7 +35,7 @@ export default function CatalogFilters({
             type="text"
             value={state.query}
             onChange={e => setSearch(e.target.value)}
-            placeholder="Search titles, magicians, or tricks…"
+            placeholder="Search DVDs, collections, or tricks…"
             className="input"
             style={{ paddingLeft: '2.5rem', paddingRight: state.query ? '2.5rem' : '1rem', fontSize: '0.875rem' }}
           />
