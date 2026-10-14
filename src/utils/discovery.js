@@ -325,7 +325,7 @@ export function recommendCatalog(
   index,
   preferences = {},
   filters = {},
-  limit = 6,
+  limit = 3,
 ) {
   const wanted = [
     ...(preferences.interests || []),
@@ -345,20 +345,17 @@ export function recommendCatalog(
   const labels = Object.fromEntries([...INTERESTS, ...LEVELS, ...SETTINGS]);
   return index.docs
     .filter((d) => allowed.has(d.dvd.id) && d.dvd.id !== reference?.dvd.id)
-    .filter((doc) => {
-      // Subject and venue define the task; skill level only refines the ranking.
-      const hasConcept = (key) => doc.fields.some((field) => field.concepts.has(key));
-      const interests = (preferences.interests || []).filter((key) => CONCEPTS[key]);
-      return (!interests.length || interests.some(hasConcept)) &&
-        (!CONCEPTS[preferences.setting] || hasConcept(preferences.setting));
-    })
     .map((doc) => {
       let score = 0;
       const reasons = [];
+      let subjectMatch = false;
+      let settingMatch = false;
       for (const key of wanted) {
         const field = doc.fields.find((f) => f.concepts.has(key));
         if (!field) continue;
-        const weight = key === preferences.level ? 2 : 3;
+        subjectMatch ||= (preferences.interests || []).includes(key);
+        settingMatch ||= key === preferences.setting;
+        const weight = key === preferences.level ? 1 : 3;
         score += weight * (field.source === 'AI description' ? 0.4 : 1);
         reasons.push(
           `${labels[key]} · ${field.source === 'AI description' ? 'mentioned in AI description' : 'catalog match'}`,
@@ -374,12 +371,15 @@ export function recommendCatalog(
       return {
         ...doc.dvd,
         recommendationScore: score,
+        // Prefer broad task fit before evidence strength; missing metadata is not a veto.
+        recommendationFit: Number(subjectMatch) + Number(settingMatch),
         recommendationReasons: reasons.slice(0, 3),
       };
     })
     .filter((d) => d.recommendationScore > 0)
     .sort(
       (a, b) =>
+        b.recommendationFit - a.recommendationFit ||
         b.recommendationScore - a.recommendationScore ||
         a.title.localeCompare(b.title),
     )

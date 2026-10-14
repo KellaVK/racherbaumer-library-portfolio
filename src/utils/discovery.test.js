@@ -121,12 +121,16 @@ describe('preference suggestions', () => {
   });
 });
 
- it('keeps experience preferences from introducing unrelated subjects or settings', () => {
-   const idx = createDiscoveryIndex([
-     { id: 'family', title: 'Family Magic', notes: 'Magic for children and family audiences' },
-     { id: 'coin', title: 'Coin Course', notes: 'Beginner coin magic' },
-     { id: 'card', title: 'Card Course', notes: 'Beginner card magic' },
-   ]);
-   expect(recommendCatalog(idx, { setting: 'children', level: 'beginner' }).map(d => d.id)).toEqual(['family']);
-   expect(recommendCatalog(idx, { interests: ['coins'], level: 'beginner' }).map(d => d.id)).toEqual(['coin']);
- });
+it('ranks task matches first, fills with partial matches, and returns only three', () => {
+  const idx = createDiscoveryIndex([
+    { id: 'both', title: 'Family Coins', notes: 'Coin magic for children' },
+    { id: 'family', title: 'Family Magic', notes: 'Magic for children' },
+    { id: 'coin', title: 'Coin Course', notes: 'Beginner coin magic' },
+    { id: 'card', title: 'Card Course', notes: 'Beginner card magic' },
+  ]);
+  const results = recommendCatalog(idx, { interests: ['coins'], setting: 'children', level: 'beginner' });
+  expect(results.map(d => d.id)).toEqual(['both', 'coin', 'family']);
+  const sparse = recommendCatalog(idx, { interests: ['ropes'], setting: 'children' });
+  expect(sparse.map(d => d.id)).toEqual(['both', 'family']);
+  expect(sparse.every(d => d.recommendationReasons.every(reason => !reason.includes('Ropes')))).toBe(true);
+});

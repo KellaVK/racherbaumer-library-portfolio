@@ -40,7 +40,7 @@ export default function DiscoveryPanel({ index, filters }) {
       <summary>Find something for you</summary>
       <div className="discovery-body">
         <p className="discovery-help">
-          Choose an interest or a favorite DVD for suggestions from the collection.
+          Pick what interests you for up to three suggestions. Close matches come first; partial matches help you explore.
         </p>
         <fieldset className="discovery-interests">
           <legend>What would you like to explore?</legend>
@@ -129,7 +129,7 @@ export default function DiscoveryPanel({ index, filters }) {
             ? 'Choose an interest, setting, or favorite DVD to see suggestions.'
             : recommendations.length
               ? `${recommendations.length} suggestions. Categories and notes have not been independently verified.`
-              : 'No suggestions match yet. Try a broader subject or setting, or clear a catalog filter.'}
+              : 'No matches found in the available descriptions. Try another interest or favorite DVD, or clear a catalog filter.'}
         </div>
         {recommendations.length > 0 && (
           <ul className="discovery-suggestions">

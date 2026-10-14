@@ -129,9 +129,9 @@ See [the verification record](DISCOVERY-VERIFICATION.md) for requirement-by-requ
 ### Suggestion browsing
 
 Each suggestion is a full clickable link to its DVD detail page, including its
-performer and match explanations. Selected subjects (any selected interest) and
-performance setting require matching catalog or AI-description evidence. Experience
-level refines ranking; it does not introduce unrelated DVDs. Sparse catalog evidence
-can mean fewer suggestions. Categories and notes remain unverified, so matches are
+performer and match explanations. The panel shows up to three suggestions. Subject and setting are soft preferences:
+matching both ranks ahead of matching one, then evidence strength breaks ties.
+Experience level carries less weight and can supply partial matches when metadata
+is sparse. Hard catalog filters such as availability still apply. Categories and notes remain unverified, so matches are
 browsing aids rather than guarantees of suitability. Source row provenance stays in
 the data for maintenance, but is not displayed in the reader-facing notes disclaimer.

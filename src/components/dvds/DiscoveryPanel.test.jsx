@@ -22,7 +22,7 @@ it('lets visitors choose interests, see reasons, and reset stored preferences', 
     '/dvd/a',
   );
   expect(screen.getByRole('link', { name: 'Coin Course' })).toContainElement(screen.getByText('Coins · catalog match'));
-  expect(screen.getByRole('link', { name: 'Coin Course' })).toContainElement(screen.getByText('View DVD')); 
+  expect(screen.getByRole('link', { name: 'Coin Course' })).toContainElement(screen.getByText('View DVD'));
   await user.click(screen.getByRole('button', { name: 'Reset preferences' }));
   expect(screen.getByRole('checkbox', { name: 'Coins' })).not.toBeChecked();
   expect(
