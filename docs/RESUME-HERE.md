@@ -1,3 +1,5 @@
+> **Update (October 14):** The whole-catalog command is implemented. See [Automatic research](AUTOMATED-RESEARCH.md) for operation and the verified coverage limits. The first full pass accounted for all 637 DVDs but added no new reliable matches because matching DVD sources were unavailable.
+
 # Current checkpoint — source-comparison pilot
 
 The first ten-DVD batch is in `data/research/batches/pilot-01.json`: seven reviewed matches, 53 named contents and three held records (Magic Farm and Extreme Dean volumes 1/2). Conjuring Archive has no usable DVD contents in this pilot; magazine review references are not contents evidence. No paid AI calls or neural embeddings were generated.

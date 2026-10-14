@@ -1,3 +1,5 @@
+> **Update (October 14):** The whole-catalog command is implemented. See [Automatic research](AUTOMATED-RESEARCH.md) for operation and the verified coverage limits. The first full pass accounted for all 637 DVDs but added no new reliable matches because matching DVD sources were unavailable.
+
 # Source research and extraction
 
 The research pipeline enriches DVD discovery without making AI calls during browsing. Code handles identity checks, structured extraction, caching and validation. An optional Claude call handles unstructured text. Every result requires human review before publication.

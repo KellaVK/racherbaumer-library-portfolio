@@ -85,10 +85,10 @@ export function prepareEmbeddingCatalog(catalog, source, aliases = {}, external 
       ...rawCategories.map(text => ({ field: 'source.category', text }))];
     const candidate = external[dvd.id];
     const same = (a, b) => cleanText(a).toLowerCase() === cleanText(b).toLowerCase();
-    const reviewed = candidate?.status === 'reviewed_source_match' && same(candidate.title, title)
+    const eligible = ['reviewed_source_match', 'machine_matched_source'].includes(candidate?.status) && same(candidate.title, title)
       && list(candidate.creators).some(name => list(dvd.magician).some(creator => same(name, creator)));
-    const evidence = reviewed ? {
-      summary: cleanText(candidate.summary), props: list(candidate.props), subjects: list(candidate.subjects),
+    const evidence = eligible ? {
+      status: candidate.status, matchedAt: cleanText(candidate.matchedAt), summary: cleanText(candidate.summary), props: list(candidate.props), subjects: list(candidate.subjects),
       tricks: (candidate.tricks || []).map(trick => ({ name: cleanText(trick.name), creator: cleanText(trick.creator), description: cleanText(trick.description) })),
       sources: (candidate.sources || []).map(s => ({ label: cleanText(s.label), url: cleanText(s.url), scope: cleanText(s.scope) })),
       url: cleanText(candidate.url), sourceLabel: cleanText(candidate.sourceLabel),
