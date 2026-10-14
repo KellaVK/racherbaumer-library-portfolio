@@ -1,3 +1,15 @@
+# Current checkpoint — source-comparison pilot
+
+The first ten-DVD batch is in `data/research/batches/pilot-01.json`: seven reviewed matches, 53 named contents and three held records (Magic Farm and Extreme Dean volumes 1/2). Conjuring Archive has no usable DVD contents in this pilot; magazine review references are not contents evidence. No paid AI calls or neural embeddings were generated.
+
+Run `npm run catalog:research` to regenerate the readable `data/research/compiled/review.html`, comparison JSON and 53 trick-level embedding documents. Use `-- --publish` only after review to update the website overlay, then regenerate catalog embeddings. A saved-page HTML importer now preserves product-section list boundaries without executing scripts or fetching remote pages. See `docs/SOURCE-RESEARCH.md` for commands and limitations.
+
+Reviewed trick names/descriptions feed ordinary search and the existing Contents & props disclosure, including multiple source links. Reviewed source URLs override known-wrong legacy vendor URLs (the original Mirage Et Trois previously linked to 2.0). No production deployment has been performed.
+
+Next: finish edition checks for the three held DVDs, obtain permitted source acquisition access before adding bulk fetching, then extend in small reviewed batches. Physical disc completeness, local props, and potentially stale legacy producer/AI-summary fields still need checking. Do not infer prop requirements from visible effect counts or publisher contents from creator reputation. Current acquisition uses indexed-page research or permitted saved HTML; fully automatic network scraping is not implemented.
+
+---
+
 # Stopping point — October 14, 2026
 
 Paused at the user's request to conserve usage. Changes are on `feat/catalog-discovery`. The user subsequently requested this checkpoint be committed and pushed to the existing PR; merging and deployment remain pending. Existing PR: https://github.com/KellaVK/racherbaumer-library-portfolio/pull/1.

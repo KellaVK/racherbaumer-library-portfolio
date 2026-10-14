@@ -89,12 +89,13 @@ export function prepareEmbeddingCatalog(catalog, source, aliases = {}, external 
       && list(candidate.creators).some(name => list(dvd.magician).some(creator => same(name, creator)));
     const evidence = reviewed ? {
       summary: cleanText(candidate.summary), props: list(candidate.props), subjects: list(candidate.subjects),
-      tricks: (candidate.tricks || []).map(trick => ({ name: cleanText(trick.name), creator: cleanText(trick.creator) })),
+      tricks: (candidate.tricks || []).map(trick => ({ name: cleanText(trick.name), creator: cleanText(trick.creator), description: cleanText(trick.description) })),
+      sources: (candidate.sources || []).map(s => ({ label: cleanText(s.label), url: cleanText(s.url), scope: cleanText(s.scope) })),
       url: cleanText(candidate.url), sourceLabel: cleanText(candidate.sourceLabel),
       reviewedAt: cleanText(candidate.reviewedAt), editionNote: cleanText(candidate.editionNote), independentlyVerified: false,
     } : null;
     const researchText = evidence ? [evidence.summary, ...evidence.props, ...evidence.subjects,
-      ...evidence.tricks.map(t => `${t.name}${t.creator ? ` (${t.creator})` : ''}`)].filter(Boolean).join('; ') : '';
+      ...evidence.tricks.map(t => `${t.name}${t.creator ? ` (${t.creator})` : ''}${t.description ? `: ${t.description}` : ''}`)].filter(Boolean).join('; ') : '';
     if (researchText) fields.push({ field: 'published.notes', text: researchText });
     const tags = classify(fields);
     const seriesMatch = title.match(/\bvol(?:ume)?s?\.?\s*(\d+(?:\s*[&–-]\s*\d+)?)/i);

@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import { captureHtml } from './captureHtml.js';
+import { captureHash } from './extraction.js';
+const [htmlFile,metadataFile]=process.argv.slice(2);
+if (!htmlFile || !metadataFile) throw new Error('Usage: node scripts/research/importHtml.js saved-page.html metadata.json');
+const capture=captureHtml(fs.readFileSync(htmlFile,'utf8'),JSON.parse(fs.readFileSync(metadataFile,'utf8')));
+const dir='.cache/catalog-research/captures';fs.mkdirSync(dir,{recursive:true});
+const output=path.join(dir,captureHash(capture)+'.json');
+fs.writeFileSync(output,JSON.stringify(capture,null,2)+'\n');
+console.log(output);

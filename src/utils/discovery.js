@@ -129,7 +129,7 @@ function fieldsFor(dvd) {
       [dvd.producer, join(dvd.catalogProducers)].filter(Boolean).join('; '),
       3,
     ],
-    ['Published source notes', dvd.externalEvidence ? [dvd.externalEvidence.summary, ...dvd.externalEvidence.subjects, ...dvd.externalEvidence.props, ...dvd.externalEvidence.tricks.map(t => `${t.name} ${t.creator || ''}`)].join('; ') : '', 6],
+    ['Published source notes', dvd.externalEvidence ? [dvd.externalEvidence.summary, ...dvd.externalEvidence.subjects, ...dvd.externalEvidence.props, ...dvd.externalEvidence.tricks.map(t => `${t.name} ${t.creator || ''} ${t.description || ''}`)].join('; ') : '', 6],
     ['AI description', dvd.aiSummary, 1.2],
   ]
     .filter(([, text]) => text && plain(text))

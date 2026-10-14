@@ -1,0 +1,2507 @@
+{
+  "reviewedAt": "2026-10-14",
+  "results": [
+    {
+      "dvdId": "QZ6zSJ3GUSoRxPZfAxZt",
+      "title": "Easy to Master Card Miracles Vol.1",
+      "creators": [
+        "Michael Ammar"
+      ],
+      "status": "reviewed_source_match",
+      "summary": "Volume 1 of Michael Ammar’s card-magic teaching series.",
+      "subjects": [
+        "cards"
+      ],
+      "editionNote": "Retailer-listed contents, including the bonus effect; the physical disc and accompanying props have not been checked. Online-instruction releases were excluded.",
+      "sources": [
+        {
+          "id": "vi",
+          "label": "Vanishing Inc.",
+          "url": "https://www.vanishingincmagic.com/card-magic/easy-to-master-card-miracles-volumes-1-3/",
+          "status": "reviewed_match",
+          "scope": "Volume 1 subsection of DVD volumes 1–3 listing",
+          "tricks": [
+            {
+              "name": "8 Card Brainwave",
+              "creator": "Nick Trost",
+              "description": ""
+            },
+            {
+              "name": "Red Hot Mama",
+              "creator": "Ryan / Everhart / Leech",
+              "description": ""
+            },
+            {
+              "name": "Acrobatic Aces",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "The Secret To A Perfect Royal Flush",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Triumph",
+              "creator": "Dai Vernon",
+              "description": ""
+            },
+            {
+              "name": "Further Than That",
+              "creator": "Stewart James",
+              "description": ""
+            },
+            {
+              "name": "Las Vegas Leaper",
+              "creator": "Paul Harris",
+              "description": ""
+            },
+            {
+              "name": "Cannibal Cards",
+              "creator": "Lin Searles",
+              "description": ""
+            },
+            {
+              "name": "Card Thru Table",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "A Night at the Improv...",
+              "creator": "Eric Mead",
+              "description": ""
+            },
+            {
+              "name": "The Insurance Policy",
+              "creator": "Tommy Wonder",
+              "description": ""
+            }
+          ],
+          "props": [
+            "Playing cards"
+          ],
+          "notes": "Contents list is volume-specific; general marketing and customer reviews excluded.",
+          "access": "indexed_page_research_notes"
+        },
+        {
+          "id": "penguin",
+          "label": "Penguin Magic",
+          "url": "https://www.penguinmagic.com/es/p/106",
+          "status": "reviewed_match",
+          "scope": "DVD product listing",
+          "tricks": [
+            {
+              "name": "8 Card Brainwave",
+              "creator": "Nick Trost",
+              "description": ""
+            },
+            {
+              "name": "Red Hot Mama",
+              "creator": "Ryan / Everhart / Leech",
+              "description": ""
+            },
+            {
+              "name": "Acrobatic Aces",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "The Secret To A Perfect Royal Flush",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Triumph",
+              "creator": "Dai Vernon",
+              "description": ""
+            },
+            {
+              "name": "Further Than That",
+              "creator": "Stewart James",
+              "description": ""
+            },
+            {
+              "name": "Las Vegas Leaper",
+              "creator": "Paul Harris",
+              "description": ""
+            },
+            {
+              "name": "Cannibal Cards",
+              "creator": "Lin Searles",
+              "description": ""
+            },
+            {
+              "name": "Card Thru Table",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "A Night at the Improv...",
+              "creator": "Eric Mead",
+              "description": ""
+            },
+            {
+              "name": "The Insurance Policy",
+              "creator": "Tommy Wonder",
+              "description": ""
+            }
+          ],
+          "props": [
+            "Playing cards"
+          ],
+          "notes": "",
+          "access": "indexed_page_research_notes"
+        },
+        {
+          "id": "ca",
+          "label": "Conjuring Archive",
+          "url": "",
+          "status": "no_indexed_contents_found",
+          "scope": "",
+          "tricks": [],
+          "props": [],
+          "notes": "Indexed results were magazine review references, not a contents listing for this DVD. Not used to establish contents.",
+          "access": "indexed_page_research_notes"
+        }
+      ],
+      "tricks": [
+        {
+          "name": "8 Card Brainwave",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "Nick Trost",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "Nick Trost",
+              "description": ""
+            }
+          ],
+          "creator": "Nick Trost",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Red Hot Mama",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "Ryan / Everhart / Leech",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "Ryan / Everhart / Leech",
+              "description": ""
+            }
+          ],
+          "creator": "Ryan / Everhart / Leech",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Acrobatic Aces",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "creator": "",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "The Secret To A Perfect Royal Flush",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "creator": "",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Triumph",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "Dai Vernon",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "Dai Vernon",
+              "description": ""
+            }
+          ],
+          "creator": "Dai Vernon",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Further Than That",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "Stewart James",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "Stewart James",
+              "description": ""
+            }
+          ],
+          "creator": "Stewart James",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Las Vegas Leaper",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "Paul Harris",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "Paul Harris",
+              "description": ""
+            }
+          ],
+          "creator": "Paul Harris",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Cannibal Cards",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "Lin Searles",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "Lin Searles",
+              "description": ""
+            }
+          ],
+          "creator": "Lin Searles",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Card Thru Table",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "creator": "",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "A Night at the Improv...",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "Eric Mead",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "Eric Mead",
+              "description": ""
+            }
+          ],
+          "creator": "Eric Mead",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "The Insurance Policy",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "Tommy Wonder",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "Tommy Wonder",
+              "description": ""
+            }
+          ],
+          "creator": "Tommy Wonder",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        }
+      ],
+      "props": [
+        {
+          "value": "Playing cards",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ]
+        }
+      ],
+      "conflicts": [],
+      "independentlyVerified": false,
+      "comparisonNote": "Missing entries are not contradictions. Retailers may reuse publisher copy; multiple listings are not independent verification."
+    },
+    {
+      "dvdId": "Q4VOWSSY04JrOCzfWrtl",
+      "title": "Easy to Master Card Miracles Vol.2",
+      "creators": [
+        "Michael Ammar"
+      ],
+      "status": "reviewed_source_match",
+      "summary": "Volume 2 of Michael Ammar’s card-magic teaching series.",
+      "subjects": [
+        "cards"
+      ],
+      "editionNote": "Retailer-listed contents, including the bonus effect; the physical disc and accompanying props have not been checked. Online-instruction releases were excluded.",
+      "sources": [
+        {
+          "id": "vi",
+          "label": "Vanishing Inc.",
+          "url": "https://www.vanishingincmagic.com/card-magic/easy-to-master-card-miracles-volumes-1-3/",
+          "status": "reviewed_match",
+          "scope": "Volume 2 subsection of DVD volumes 1–3 listing",
+          "tricks": [
+            {
+              "name": "Twisting The Aces",
+              "creator": "Dai Vernon",
+              "description": ""
+            },
+            {
+              "name": "Daley's Last Trick",
+              "creator": "Dr. Jacob Daley",
+              "description": ""
+            },
+            {
+              "name": "Card Warp",
+              "creator": "Roy Walton",
+              "description": ""
+            },
+            {
+              "name": "Poker Routine",
+              "creator": "Dai Vernon",
+              "description": ""
+            },
+            {
+              "name": "Poker Face",
+              "creator": "Al Baker",
+              "description": ""
+            },
+            {
+              "name": "Overkill",
+              "creator": "Harris / Ackerman / Emberg",
+              "description": ""
+            },
+            {
+              "name": "Card Through Handkerchief",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Card Penetration Change",
+              "creator": "Cy Endfield",
+              "description": ""
+            },
+            {
+              "name": "The Ambitious Card",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "MacDonald's Aces",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "props": [
+            "Playing cards"
+          ],
+          "notes": "Contents list is volume-specific; general marketing and customer reviews excluded.",
+          "access": "indexed_page_research_notes"
+        },
+        {
+          "id": "penguin",
+          "label": "Penguin Magic",
+          "url": "https://www.penguinmagic.com/product.php?ID=107",
+          "status": "reviewed_match",
+          "scope": "DVD product listing",
+          "tricks": [
+            {
+              "name": "Twisting The Aces",
+              "creator": "Dai Vernon",
+              "description": ""
+            },
+            {
+              "name": "Daley's Last Trick",
+              "creator": "Dr. Jacob Daley",
+              "description": ""
+            },
+            {
+              "name": "Card Warp",
+              "creator": "Roy Walton",
+              "description": ""
+            },
+            {
+              "name": "Poker Routine",
+              "creator": "Dai Vernon",
+              "description": ""
+            },
+            {
+              "name": "Poker Face",
+              "creator": "Al Baker",
+              "description": ""
+            },
+            {
+              "name": "Overkill",
+              "creator": "Harris / Ackerman / Emberg",
+              "description": ""
+            },
+            {
+              "name": "Card Through Handkerchief",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Card Penetration Change",
+              "creator": "Cy Endfield",
+              "description": ""
+            },
+            {
+              "name": "The Ambitious Card",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "MacDonald's Aces",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "props": [
+            "Playing cards"
+          ],
+          "notes": "",
+          "access": "indexed_page_research_notes"
+        },
+        {
+          "id": "ca",
+          "label": "Conjuring Archive",
+          "url": "",
+          "status": "no_indexed_contents_found",
+          "scope": "",
+          "tricks": [],
+          "props": [],
+          "notes": "Indexed results were magazine review references, not a contents listing for this DVD. Not used to establish contents.",
+          "access": "indexed_page_research_notes"
+        }
+      ],
+      "tricks": [
+        {
+          "name": "Twisting The Aces",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "Dai Vernon",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "Dai Vernon",
+              "description": ""
+            }
+          ],
+          "creator": "Dai Vernon",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Daley's Last Trick",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "Dr. Jacob Daley",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "Dr. Jacob Daley",
+              "description": ""
+            }
+          ],
+          "creator": "Dr. Jacob Daley",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Card Warp",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "Roy Walton",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "Roy Walton",
+              "description": ""
+            }
+          ],
+          "creator": "Roy Walton",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Poker Routine",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "Dai Vernon",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "Dai Vernon",
+              "description": ""
+            }
+          ],
+          "creator": "Dai Vernon",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Poker Face",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "Al Baker",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "Al Baker",
+              "description": ""
+            }
+          ],
+          "creator": "Al Baker",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Overkill",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "Harris / Ackerman / Emberg",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "Harris / Ackerman / Emberg",
+              "description": ""
+            }
+          ],
+          "creator": "Harris / Ackerman / Emberg",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Card Through Handkerchief",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "creator": "",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Card Penetration Change",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "Cy Endfield",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "Cy Endfield",
+              "description": ""
+            }
+          ],
+          "creator": "Cy Endfield",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "The Ambitious Card",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "creator": "",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "MacDonald's Aces",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "creator": "",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        }
+      ],
+      "props": [
+        {
+          "value": "Playing cards",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ]
+        }
+      ],
+      "conflicts": [],
+      "independentlyVerified": false,
+      "comparisonNote": "Missing entries are not contradictions. Retailers may reuse publisher copy; multiple listings are not independent verification."
+    },
+    {
+      "dvdId": "9lTtHUuAUHH43Gy7Dzgi",
+      "title": "Easy to Master Card Miracles Vol.3",
+      "creators": [
+        "Michael Ammar"
+      ],
+      "status": "reviewed_source_match",
+      "summary": "Volume 3 of Michael Ammar’s card-magic teaching series.",
+      "subjects": [
+        "cards"
+      ],
+      "editionNote": "Retailer-listed contents, including the bonus effect; the physical disc and accompanying props have not been checked. Online-instruction releases were excluded.",
+      "sources": [
+        {
+          "id": "vi",
+          "label": "Vanishing Inc.",
+          "url": "https://www.vanishingincmagic.com/card-magic/easy-to-master-card-miracles-volumes-1-3/",
+          "status": "reviewed_match",
+          "scope": "Volume 3 subsection of DVD volumes 1–3 listing",
+          "tricks": [
+            {
+              "name": "Haunted Pack",
+              "creator": "Al Baker",
+              "description": ""
+            },
+            {
+              "name": "Between The Palms",
+              "creator": "Alex Elmsley",
+              "description": ""
+            },
+            {
+              "name": "Twins",
+              "creator": "Brother John Hamman",
+              "description": ""
+            },
+            {
+              "name": "Title Bout",
+              "creator": "Martin Nash",
+              "description": ""
+            },
+            {
+              "name": "Opening Stab",
+              "creator": "Nate Leipzig",
+              "description": ""
+            },
+            {
+              "name": "Card In Wine Glass",
+              "creator": "Navio Martini / Michael Ammar",
+              "description": ""
+            },
+            {
+              "name": "Jazz Aces",
+              "creator": "Darwin Ortiz / Peter Kane",
+              "description": ""
+            },
+            {
+              "name": "Card In Wallet",
+              "creator": "Gary Plants / Michael Ammar",
+              "description": ""
+            },
+            {
+              "name": "Color-Changing Deck",
+              "creator": "Dai Vernon",
+              "description": ""
+            },
+            {
+              "name": "Xeroxed Deck",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "props": [
+            "Playing cards"
+          ],
+          "notes": "Contents list is volume-specific; general marketing and customer reviews excluded.",
+          "access": "indexed_page_research_notes"
+        },
+        {
+          "id": "penguin",
+          "label": "Penguin Magic",
+          "url": "https://www.penguinmagic.com/pl/p/108",
+          "status": "reviewed_match",
+          "scope": "DVD product listing",
+          "tricks": [
+            {
+              "name": "Haunted Pack",
+              "creator": "Al Baker",
+              "description": ""
+            },
+            {
+              "name": "Between The Palms",
+              "creator": "Alex Elmsley",
+              "description": ""
+            },
+            {
+              "name": "Twins",
+              "creator": "Brother John Hamman",
+              "description": ""
+            },
+            {
+              "name": "Title Bout",
+              "creator": "Martin Nash",
+              "description": ""
+            },
+            {
+              "name": "Opening Stab",
+              "creator": "Nate Leipzig",
+              "description": ""
+            },
+            {
+              "name": "Card In Wine Glass",
+              "creator": "Navio Martini / Michael Ammar",
+              "description": ""
+            },
+            {
+              "name": "Jazz Aces",
+              "creator": "Darwin Ortiz / Peter Kane",
+              "description": ""
+            },
+            {
+              "name": "Card In Wallet",
+              "creator": "Gary Plants / Michael Ammar",
+              "description": ""
+            },
+            {
+              "name": "Color-Changing Deck",
+              "creator": "Dai Vernon",
+              "description": ""
+            },
+            {
+              "name": "Xeroxed Deck",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "props": [
+            "Playing cards"
+          ],
+          "notes": "",
+          "access": "indexed_page_research_notes"
+        },
+        {
+          "id": "ca",
+          "label": "Conjuring Archive",
+          "url": "",
+          "status": "no_indexed_contents_found",
+          "scope": "",
+          "tricks": [],
+          "props": [],
+          "notes": "Indexed results were magazine review references, not a contents listing for this DVD. Not used to establish contents.",
+          "access": "indexed_page_research_notes"
+        }
+      ],
+      "tricks": [
+        {
+          "name": "Haunted Pack",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "Al Baker",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "Al Baker",
+              "description": ""
+            }
+          ],
+          "creator": "Al Baker",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Between The Palms",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "Alex Elmsley",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "Alex Elmsley",
+              "description": ""
+            }
+          ],
+          "creator": "Alex Elmsley",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Twins",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "Brother John Hamman",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "Brother John Hamman",
+              "description": ""
+            }
+          ],
+          "creator": "Brother John Hamman",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Title Bout",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "Martin Nash",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "Martin Nash",
+              "description": ""
+            }
+          ],
+          "creator": "Martin Nash",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Opening Stab",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "Nate Leipzig",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "Nate Leipzig",
+              "description": ""
+            }
+          ],
+          "creator": "Nate Leipzig",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Card In Wine Glass",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "Navio Martini / Michael Ammar",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "Navio Martini / Michael Ammar",
+              "description": ""
+            }
+          ],
+          "creator": "Navio Martini / Michael Ammar",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Jazz Aces",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "Darwin Ortiz / Peter Kane",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "Darwin Ortiz / Peter Kane",
+              "description": ""
+            }
+          ],
+          "creator": "Darwin Ortiz / Peter Kane",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Card In Wallet",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "Gary Plants / Michael Ammar",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "Gary Plants / Michael Ammar",
+              "description": ""
+            }
+          ],
+          "creator": "Gary Plants / Michael Ammar",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Color-Changing Deck",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "Dai Vernon",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "Dai Vernon",
+              "description": ""
+            }
+          ],
+          "creator": "Dai Vernon",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Xeroxed Deck",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "creator": "",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        }
+      ],
+      "props": [
+        {
+          "value": "Playing cards",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ]
+        }
+      ],
+      "conflicts": [],
+      "independentlyVerified": false,
+      "comparisonNote": "Missing entries are not contradictions. Retailers may reuse publisher copy; multiple listings are not independent verification."
+    },
+    {
+      "dvdId": "NwkyoMReFjmGv2kt92Qi",
+      "title": "An Extension of Me",
+      "creators": [
+        "Eric Jones"
+      ],
+      "status": "reviewed_source_match",
+      "summary": "A teaching collection covering card, coin, and sponge-ball magic.",
+      "subjects": [
+        "cards",
+        "coins",
+        "sponge balls"
+      ],
+      "editionNote": "The source describes a three-DVD set; the completeness of the local copy has not been checked. Retailer text appears shared; this is not independent verification.",
+      "sources": [
+        {
+          "id": "vi",
+          "label": "Vanishing Inc.",
+          "url": "https://www.vanishingincmagic.com/magic-dvds/an-extension-of-me/",
+          "status": "reviewed_match",
+          "scope": "Three-DVD set",
+          "tricks": [
+            {
+              "name": "SpeedFly",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Impossible Production",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Eye Candy",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Trip.Rev",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Impossible Coins Across",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Hellbound Remix",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Ambitious",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "El Cambio Nada",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Swirl Production",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Standing Room Only Collectors",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Elevator Cut",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Oxy-Clean Coin Routine",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Flash Coins Re-Lit",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "G.O.D.H.A.N.D. Move",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Peregrination",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Ishkibble Sandwich",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Tai Chi Penetration",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Ambitious Force",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "props": [
+            "Playing cards",
+            "Coins",
+            "Sponge balls"
+          ],
+          "notes": "",
+          "access": "indexed_page_research_notes"
+        },
+        {
+          "id": "penguin",
+          "label": "Penguin Magic",
+          "url": "https://www.penguinmagic.com/de/p/20170",
+          "status": "reviewed_match",
+          "scope": "An Extension of Me section only, within bundle with Mirage Et Trois",
+          "tricks": [
+            {
+              "name": "SpeedFly",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Impossible Production",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Eye Candy",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Trip.Rev",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Impossible Coins Across",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Hellbound Remix",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Ambitious",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "El Cambio Nada",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Swirl Production",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Standing Room Only Collectors",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Elevator Cut",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Oxy-Clean Coin Routine",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Flash Coins Re-Lit",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "G.O.D.H.A.N.D. Move",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Peregrination",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Ishkibble Sandwich",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Tai Chi Penetration",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Ambitious Force",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "props": [
+            "Playing cards",
+            "Coins",
+            "Sponge balls"
+          ],
+          "notes": "Bundle heading ambiguously assigns disc counts; body explicitly identifies Extension as the three-DVD set. Mirage contents excluded.",
+          "access": "indexed_page_research_notes"
+        },
+        {
+          "id": "ca",
+          "label": "Conjuring Archive",
+          "url": "",
+          "status": "no_indexed_contents_found",
+          "scope": "",
+          "tricks": [],
+          "props": [],
+          "notes": "No matching DVD contents located in the targeted indexed search. Catalog crawling not attempted.",
+          "access": "indexed_page_research_notes"
+        }
+      ],
+      "tricks": [
+        {
+          "name": "SpeedFly",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "creator": "",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Impossible Production",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "creator": "",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Eye Candy",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "creator": "",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Trip.Rev",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "creator": "",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Impossible Coins Across",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "creator": "",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Hellbound Remix",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "creator": "",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Ambitious",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "creator": "",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "El Cambio Nada",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "creator": "",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Swirl Production",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "creator": "",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Standing Room Only Collectors",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "creator": "",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Elevator Cut",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "creator": "",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Oxy-Clean Coin Routine",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "creator": "",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Flash Coins Re-Lit",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "creator": "",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "G.O.D.H.A.N.D. Move",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "creator": "",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Peregrination",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "creator": "",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Ishkibble Sandwich",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "creator": "",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Tai Chi Penetration",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "creator": "",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "Ambitious Force",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "creator": "",
+          "description": "",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        }
+      ],
+      "props": [
+        {
+          "value": "Playing cards",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ]
+        },
+        {
+          "value": "Coins",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ]
+        },
+        {
+          "value": "Sponge balls",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ]
+        }
+      ],
+      "conflicts": [],
+      "independentlyVerified": false,
+      "comparisonNote": "Missing entries are not contradictions. Retailers may reuse publisher copy; multiple listings are not independent verification."
+    },
+    {
+      "dvdId": "ubkZqjDXmOVcCup3CKQY",
+      "title": "Three Ring Concerto",
+      "creators": [
+        "Aldo Colombini"
+      ],
+      "status": "reviewed_source_match",
+      "summary": "A linking-ring routine using three rings, with rope incorporated into some sequences.",
+      "subjects": [
+        "linking rings",
+        "ropes"
+      ],
+      "editionNote": "Only one source provided usable information. No individually named sections were established.",
+      "sources": [
+        {
+          "id": "penguin",
+          "label": "Penguin Magic",
+          "url": "https://www.penguinmagic.com/ja/p/S9748",
+          "status": "reviewed_match",
+          "scope": "DVD product listing",
+          "tricks": [],
+          "props": [
+            "Three linking rings",
+            "Rope for some sequences"
+          ],
+          "notes": "Previously reviewed product page research notes retained.",
+          "access": "indexed_page_research_notes"
+        },
+        {
+          "id": "vi",
+          "label": "Vanishing Inc.",
+          "url": "",
+          "status": "no_indexed_contents_found",
+          "scope": "",
+          "tricks": [],
+          "props": [],
+          "notes": "Exact title query returned no result.",
+          "access": "indexed_page_research_notes"
+        },
+        {
+          "id": "ca",
+          "label": "Conjuring Archive",
+          "url": "",
+          "status": "no_indexed_contents_found",
+          "scope": "",
+          "tricks": [],
+          "props": [],
+          "notes": "No matching DVD contents located in the targeted indexed search. Catalog crawling not attempted.",
+          "access": "indexed_page_research_notes"
+        }
+      ],
+      "tricks": [],
+      "props": [
+        {
+          "value": "Three linking rings",
+          "sourceIds": [
+            "penguin"
+          ]
+        },
+        {
+          "value": "Rope for some sequences",
+          "sourceIds": [
+            "penguin"
+          ]
+        }
+      ],
+      "conflicts": [],
+      "independentlyVerified": false,
+      "comparisonNote": "Missing entries are not contradictions. Retailers may reuse publisher copy; multiple listings are not independent verification."
+    },
+    {
+      "dvdId": "r0rO0tvtNFONd1tmVBWG",
+      "title": "Mirage Et Trois",
+      "creators": [
+        "Eric Jones"
+      ],
+      "status": "reviewed_source_match",
+      "summary": "Three connected coin effects: appearance, travel between hands, and disappearance.",
+      "subjects": [
+        "coins"
+      ],
+      "editionNote": "Original release only; Mirage Et Trois 2.0 and bundle contents were excluded. Visible coin count is not a complete prop requirement.",
+      "sources": [
+        {
+          "id": "vi",
+          "label": "Vanishing Inc.",
+          "url": "https://www.vanishingincmagic.com/magic-dvds/mirage-et-trois/",
+          "status": "reviewed_match",
+          "scope": "DVD product listing",
+          "tricks": [
+            {
+              "name": "Out With Three",
+              "creator": "",
+              "description": "Three coins appear in succession."
+            },
+            {
+              "name": "S.V.C.A. (Spectator’s Visible Coins Across)",
+              "creator": "",
+              "description": "Three coins travel between the hands."
+            },
+            {
+              "name": "KKK (Three Klan Vanish)",
+              "creator": "",
+              "description": "A sequence in which three coins disappear."
+            }
+          ],
+          "props": [
+            "Three coins in the described effect"
+          ],
+          "notes": "",
+          "access": "indexed_page_research_notes"
+        },
+        {
+          "id": "penguin",
+          "label": "Penguin Magic",
+          "url": "https://www.penguinmagic.com/fr/p/20994",
+          "status": "reviewed_match",
+          "scope": "Original release; product body and DVD references",
+          "tricks": [
+            {
+              "name": "Out With Three",
+              "creator": "",
+              "description": "Three coins appear in succession."
+            },
+            {
+              "name": "S.V.C.A. (Spectator’s Visible Coins Across)",
+              "creator": "",
+              "description": "Three coins travel between the hands."
+            },
+            {
+              "name": "KKK (Three Klan Vanish)",
+              "creator": "",
+              "description": "A sequence in which three coins disappear."
+            }
+          ],
+          "props": [
+            "Three coins in the described effect"
+          ],
+          "notes": "",
+          "access": "indexed_page_research_notes"
+        },
+        {
+          "id": "ca",
+          "label": "Conjuring Archive",
+          "url": "",
+          "status": "no_indexed_contents_found",
+          "scope": "",
+          "tricks": [],
+          "props": [],
+          "notes": "No matching DVD contents located in the targeted indexed search. Catalog crawling not attempted.",
+          "access": "indexed_page_research_notes"
+        }
+      ],
+      "tricks": [
+        {
+          "name": "Out With Three",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "",
+              "description": "Three coins appear in succession."
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "",
+              "description": "Three coins appear in succession."
+            }
+          ],
+          "creator": "",
+          "description": "Three coins appear in succession.",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "S.V.C.A. (Spectator’s Visible Coins Across)",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "",
+              "description": "Three coins travel between the hands."
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "",
+              "description": "Three coins travel between the hands."
+            }
+          ],
+          "creator": "",
+          "description": "Three coins travel between the hands.",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        },
+        {
+          "name": "KKK (Three Klan Vanish)",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "",
+              "description": "A sequence in which three coins disappear."
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "",
+              "description": "A sequence in which three coins disappear."
+            }
+          ],
+          "creator": "",
+          "description": "A sequence in which three coins disappear.",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        }
+      ],
+      "props": [
+        {
+          "value": "Three coins in the described effect",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ]
+        }
+      ],
+      "conflicts": [],
+      "independentlyVerified": false,
+      "comparisonNote": "Missing entries are not contradictions. Retailers may reuse publisher copy; multiple listings are not independent verification."
+    },
+    {
+      "dvdId": "tqNSlahPG0r9hYdI8e80",
+      "title": "Charming Chinese Challenge",
+      "creators": [
+        "Troy Hooser"
+      ],
+      "status": "reviewed_source_match",
+      "summary": "A coin-and-ribbon routine with alternate handlings and guest contributions.",
+      "subjects": [
+        "coins"
+      ],
+      "editionNote": "DVD edition. The later 2024 product and online-instruction packages were excluded. Props supplied with the local copy are unknown.",
+      "sources": [
+        {
+          "id": "vi",
+          "label": "Vanishing Inc.",
+          "url": "https://www.vanishingincmagic.com/money-magic/a-charming-chinese-challenge-dvd/",
+          "status": "reviewed_match",
+          "scope": "DVD product listing",
+          "tricks": [
+            {
+              "name": "Charming Chinese Challenge",
+              "creator": "",
+              "description": "Coins visibly link onto and escape from a ribbon."
+            }
+          ],
+          "props": [
+            "Four Chinese coins (retailer-stated requirement)",
+            "Silk ribbon"
+          ],
+          "notes": "Effect displays three coins, but the explicit requirement says four. These are different quantities, not a contradiction.",
+          "access": "indexed_page_research_notes"
+        },
+        {
+          "id": "penguin",
+          "label": "Penguin Magic",
+          "url": "https://www.penguinmagic.com/zh/p/9842",
+          "status": "reviewed_match",
+          "scope": "DVD product listing",
+          "tricks": [
+            {
+              "name": "Charming Chinese Challenge",
+              "creator": "",
+              "description": "Coins visibly link onto and escape from a ribbon."
+            }
+          ],
+          "props": [
+            "Four Chinese coins (retailer-stated requirement)",
+            "Silk ribbon"
+          ],
+          "notes": "",
+          "access": "indexed_page_research_notes"
+        },
+        {
+          "id": "ca",
+          "label": "Conjuring Archive",
+          "url": "",
+          "status": "no_indexed_contents_found",
+          "scope": "",
+          "tricks": [],
+          "props": [],
+          "notes": "No matching DVD contents located in the targeted indexed search. Catalog crawling not attempted.",
+          "access": "indexed_page_research_notes"
+        }
+      ],
+      "tricks": [
+        {
+          "name": "Charming Chinese Challenge",
+          "evidence": [
+            {
+              "sourceId": "vi",
+              "creator": "",
+              "description": "Coins visibly link onto and escape from a ribbon."
+            },
+            {
+              "sourceId": "penguin",
+              "creator": "",
+              "description": "Coins visibly link onto and escape from a ribbon."
+            }
+          ],
+          "creator": "",
+          "description": "Coins visibly link onto and escape from a ribbon.",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ],
+          "creditConflict": false,
+          "agreement": "listed_by_multiple_sources"
+        }
+      ],
+      "props": [
+        {
+          "value": "Four Chinese coins (retailer-stated requirement)",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ]
+        },
+        {
+          "value": "Silk ribbon",
+          "sourceIds": [
+            "vi",
+            "penguin"
+          ]
+        }
+      ],
+      "conflicts": [],
+      "independentlyVerified": false,
+      "comparisonNote": "Missing entries are not contradictions. Retailers may reuse publisher copy; multiple listings are not independent verification."
+    },
+    {
+      "dvdId": "ZLW3JixsRBZp0jaq2hn2",
+      "title": "Magic Farm",
+      "creators": [
+        "David Williamson"
+      ],
+      "status": "needs_review",
+      "summary": "",
+      "subjects": [],
+      "editionNote": "Hold until DVD-specific contents can be checked.",
+      "sources": [
+        {
+          "id": "vi",
+          "label": "Vanishing Inc.",
+          "url": "https://www.vanishingincmagic.com/card-magic-downloads/magic-farm-download/",
+          "status": "edition_review_required",
+          "scope": "Download, not DVD",
+          "tricks": [
+            {
+              "name": "Liar's Poker",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Funner Color Stunner",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "props": [],
+          "notes": "Do not automatically transfer contents from download to DVD.",
+          "access": "indexed_page_research_notes"
+        },
+        {
+          "id": "penguin",
+          "label": "Penguin Magic",
+          "url": "https://www.penguinmagic.com/de/p/4981",
+          "status": "contents_review_required",
+          "scope": "DVD product listing",
+          "tricks": [],
+          "props": [],
+          "notes": "DVD identity found, but full contents not recovered in this batch.",
+          "access": "indexed_page_research_notes"
+        },
+        {
+          "id": "ca",
+          "label": "Conjuring Archive",
+          "url": "",
+          "status": "no_indexed_contents_found",
+          "scope": "",
+          "tricks": [],
+          "props": [],
+          "notes": "No matching DVD contents located in the targeted indexed search. Catalog crawling not attempted.",
+          "access": "indexed_page_research_notes"
+        }
+      ],
+      "tricks": [],
+      "props": [],
+      "conflicts": [],
+      "independentlyVerified": false,
+      "comparisonNote": "Missing entries are not contradictions. Retailers may reuse publisher copy; multiple listings are not independent verification."
+    },
+    {
+      "dvdId": "HssuH3uTMapIP6awsLOc",
+      "title": "Extreme Dean - Vol. 1 - Coin Magic",
+      "creators": [
+        "Dean Dill"
+      ],
+      "status": "needs_review",
+      "summary": "",
+      "subjects": [],
+      "editionNote": "Catalog volume identified, but source edition and contents need review.",
+      "sources": [
+        {
+          "id": "vi",
+          "label": "Vanishing Inc.",
+          "url": "https://www.vanishingincmagic.com/close-up-magic/all/newest/257/",
+          "status": "contents_review_required",
+          "scope": "Volume 1 section on category page",
+          "tricks": [
+            {
+              "name": "Call Shot",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Call Shot Instant",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Isolation",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "The Dinner Napkin Pt. 1",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "The Dinner Napkin Pt. 2",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Vanishing Matrix",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Swirl Assembly",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Simple Matrix with Backfire",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "props": [],
+          "notes": "Flattened text makes section boundaries uncertain; obtain product page before publication.",
+          "access": "indexed_page_research_notes"
+        },
+        {
+          "id": "penguin",
+          "label": "Penguin Magic",
+          "url": "https://www.penguinmagic.com/p/5368",
+          "status": "edition_review_required",
+          "scope": "Download listing",
+          "tricks": [],
+          "props": [],
+          "notes": "Exact DVD product contents not verified in this batch.",
+          "access": "indexed_page_research_notes"
+        },
+        {
+          "id": "ca",
+          "label": "Conjuring Archive",
+          "url": "",
+          "status": "no_indexed_contents_found",
+          "scope": "",
+          "tricks": [],
+          "props": [],
+          "notes": "No matching DVD contents located in the targeted indexed search. Catalog crawling not attempted.",
+          "access": "indexed_page_research_notes"
+        }
+      ],
+      "tricks": [],
+      "props": [],
+      "conflicts": [],
+      "independentlyVerified": false,
+      "comparisonNote": "Missing entries are not contradictions. Retailers may reuse publisher copy; multiple listings are not independent verification."
+    },
+    {
+      "dvdId": "pf2UwE5YbCaO4hKL0FyA",
+      "title": "Extreme Dean - Vol. 2 - Coin Magic",
+      "creators": [
+        "Dean Dill"
+      ],
+      "status": "needs_review",
+      "summary": "",
+      "subjects": [],
+      "editionNote": "Catalog volume identified, but source edition and contents need review.",
+      "sources": [
+        {
+          "id": "vi",
+          "label": "Vanishing Inc.",
+          "url": "https://www.vanishingincmagic.com/close-up-magic/all/newest/257/",
+          "status": "contents_review_required",
+          "scope": "Volume 2 section on category page",
+          "tricks": [
+            {
+              "name": "No Extra’s",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "No Extra’s Instant Assembly",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Coins, Glass, & Silk",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "The Power of 3",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "81 Cents",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Translocated",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "Coins Thru Table",
+              "creator": "",
+              "description": ""
+            },
+            {
+              "name": "The Tonight Show Matrix",
+              "creator": "",
+              "description": ""
+            }
+          ],
+          "props": [],
+          "notes": "Flattened text makes section boundaries uncertain; obtain product page before publication.",
+          "access": "indexed_page_research_notes"
+        },
+        {
+          "id": "penguin",
+          "label": "Penguin Magic",
+          "url": "https://www.penguinmagic.com/magician/dean-dill",
+          "status": "edition_review_required",
+          "scope": "Creator listing",
+          "tricks": [],
+          "props": [],
+          "notes": "Exact DVD product contents not verified in this batch.",
+          "access": "indexed_page_research_notes"
+        },
+        {
+          "id": "ca",
+          "label": "Conjuring Archive",
+          "url": "",
+          "status": "no_indexed_contents_found",
+          "scope": "",
+          "tricks": [],
+          "props": [],
+          "notes": "No matching DVD contents located in the targeted indexed search. Catalog crawling not attempted.",
+          "access": "indexed_page_research_notes"
+        }
+      ],
+      "tricks": [],
+      "props": [],
+      "conflicts": [],
+      "independentlyVerified": false,
+      "comparisonNote": "Missing entries are not contradictions. Retailers may reuse publisher copy; multiple listings are not independent verification."
+    }
+  ]
+}

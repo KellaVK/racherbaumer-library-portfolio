@@ -7004,7 +7004,84 @@
       "Michael Ammar"
     ],
     "titleAliases": [],
-    "externalEvidence": null,
+    "externalEvidence": {
+      "summary": "Volume 3 of Michael Ammar’s card-magic teaching series.",
+      "props": [
+        "Playing cards"
+      ],
+      "subjects": [
+        "cards"
+      ],
+      "tricks": [
+        {
+          "name": "Haunted Pack",
+          "creator": "Al Baker",
+          "description": ""
+        },
+        {
+          "name": "Between The Palms",
+          "creator": "Alex Elmsley",
+          "description": ""
+        },
+        {
+          "name": "Twins",
+          "creator": "Brother John Hamman",
+          "description": ""
+        },
+        {
+          "name": "Title Bout",
+          "creator": "Martin Nash",
+          "description": ""
+        },
+        {
+          "name": "Opening Stab",
+          "creator": "Nate Leipzig",
+          "description": ""
+        },
+        {
+          "name": "Card In Wine Glass",
+          "creator": "Navio Martini / Michael Ammar",
+          "description": ""
+        },
+        {
+          "name": "Jazz Aces",
+          "creator": "Darwin Ortiz / Peter Kane",
+          "description": ""
+        },
+        {
+          "name": "Card In Wallet",
+          "creator": "Gary Plants / Michael Ammar",
+          "description": ""
+        },
+        {
+          "name": "Color-Changing Deck",
+          "creator": "Dai Vernon",
+          "description": ""
+        },
+        {
+          "name": "Xeroxed Deck",
+          "creator": "",
+          "description": ""
+        }
+      ],
+      "sources": [
+        {
+          "label": "Vanishing Inc.",
+          "url": "https://www.vanishingincmagic.com/card-magic/easy-to-master-card-miracles-volumes-1-3/",
+          "scope": "Volume 3 subsection of DVD volumes 1–3 listing"
+        },
+        {
+          "label": "Penguin Magic",
+          "url": "https://www.penguinmagic.com/pl/p/108",
+          "scope": "DVD product listing"
+        }
+      ],
+      "url": "https://www.vanishingincmagic.com/card-magic/easy-to-master-card-miracles-volumes-1-3/",
+      "sourceLabel": "Vanishing Inc.",
+      "reviewedAt": "2026-10-14",
+      "editionNote": "Retailer-listed contents, including the bonus effect; the physical disc and accompanying props have not been checked. Online-instruction releases were excluded.",
+      "independentlyVerified": false
+    },
     "notes": [],
     "descriptionGroups": [],
     "rawCategories": [],
@@ -7018,12 +7095,51 @@
             {
               "field": "catalog.title",
               "phrase": "Card"
+            },
+            {
+              "field": "published.notes",
+              "phrase": "card"
+            },
+            {
+              "field": "published.notes",
+              "phrase": "Playing cards"
+            },
+            {
+              "field": "published.notes",
+              "phrase": "cards"
+            },
+            {
+              "field": "published.notes",
+              "phrase": "Card"
+            },
+            {
+              "field": "published.notes",
+              "phrase": "Card"
+            },
+            {
+              "field": "published.notes",
+              "phrase": "Deck"
+            },
+            {
+              "field": "published.notes",
+              "phrase": "Deck"
             }
           ]
         }
       ],
       "settings": [],
-      "formats": [],
+      "formats": [
+        {
+          "label": "tutorial",
+          "status": "unverified_source_mention",
+          "evidence": [
+            {
+              "field": "published.notes",
+              "phrase": "teaching"
+            }
+          ]
+        }
+      ],
       "levels": []
     },
     "publishers": [],
@@ -7050,8 +7166,8 @@
       "includedInDefaultEmbeddings": false
     },
     "originalNotes": [],
-    "embeddingText": "Title: Easy to Master Card Miracles Vol.3\nMagicians: Michael Ammar\nsubjects: cards",
-    "contentHash": "64d777e89a6d9acdb507329a33f44246b21325e0665ab46f3a4dab115a777f86"
+    "embeddingText": "Title: Easy to Master Card Miracles Vol.3\nMagicians: Michael Ammar\nPublished source notes (not independently verified): Volume 3 of Michael Ammar’s card-magic teaching series.; Playing cards; cards; Haunted Pack (Al Baker); Between The Palms (Alex Elmsley); Twins (Brother John Hamman); Title Bout (Martin Nash); Opening Stab (Nate Leipzig); Card In Wine Glass (Navio Martini / Michael Ammar); Jazz Aces (Darwin Ortiz / Peter Kane); Card In Wallet (Gary Plants / Michael Ammar); Color-Changing Deck (Dai Vernon); Xeroxed Deck\nsubjects: cards\nformats: tutorial",
+    "contentHash": "c6b315b61d26c8e8df7534c132e7051eb47d2db50419d395b55d72fbb7064e97"
   },
   {
     "schemaVersion": "1.2",
@@ -28214,11 +28330,114 @@
         "coins",
         "sponge balls"
       ],
-      "tricks": [],
+      "tricks": [
+        {
+          "name": "SpeedFly",
+          "creator": "",
+          "description": ""
+        },
+        {
+          "name": "Impossible Production",
+          "creator": "",
+          "description": ""
+        },
+        {
+          "name": "Eye Candy",
+          "creator": "",
+          "description": ""
+        },
+        {
+          "name": "Trip.Rev",
+          "creator": "",
+          "description": ""
+        },
+        {
+          "name": "Impossible Coins Across",
+          "creator": "",
+          "description": ""
+        },
+        {
+          "name": "Hellbound Remix",
+          "creator": "",
+          "description": ""
+        },
+        {
+          "name": "Ambitious",
+          "creator": "",
+          "description": ""
+        },
+        {
+          "name": "El Cambio Nada",
+          "creator": "",
+          "description": ""
+        },
+        {
+          "name": "Swirl Production",
+          "creator": "",
+          "description": ""
+        },
+        {
+          "name": "Standing Room Only Collectors",
+          "creator": "",
+          "description": ""
+        },
+        {
+          "name": "Elevator Cut",
+          "creator": "",
+          "description": ""
+        },
+        {
+          "name": "Oxy-Clean Coin Routine",
+          "creator": "",
+          "description": ""
+        },
+        {
+          "name": "Flash Coins Re-Lit",
+          "creator": "",
+          "description": ""
+        },
+        {
+          "name": "G.O.D.H.A.N.D. Move",
+          "creator": "",
+          "description": ""
+        },
+        {
+          "name": "Peregrination",
+          "creator": "",
+          "description": ""
+        },
+        {
+          "name": "Ishkibble Sandwich",
+          "creator": "",
+          "description": ""
+        },
+        {
+          "name": "Tai Chi Penetration",
+          "creator": "",
+          "description": ""
+        },
+        {
+          "name": "Ambitious Force",
+          "creator": "",
+          "description": ""
+        }
+      ],
+      "sources": [
+        {
+          "label": "Vanishing Inc.",
+          "url": "https://www.vanishingincmagic.com/magic-dvds/an-extension-of-me/",
+          "scope": "Three-DVD set"
+        },
+        {
+          "label": "Penguin Magic",
+          "url": "https://www.penguinmagic.com/de/p/20170",
+          "scope": "An Extension of Me section only, within bundle with Mirage Et Trois"
+        }
+      ],
       "url": "https://www.vanishingincmagic.com/magic-dvds/an-extension-of-me/",
       "sourceLabel": "Vanishing Inc.",
       "reviewedAt": "2026-10-14",
-      "editionNote": "The source describes a three-DVD set; the completeness of the local copy has not been checked.",
+      "editionNote": "The source describes a three-DVD set; the completeness of the local copy has not been checked. Retailer text appears shared; this is not independent verification.",
       "independentlyVerified": false
     },
     "notes": [
@@ -28281,6 +28500,18 @@
             {
               "field": "published.notes",
               "phrase": "coins"
+            },
+            {
+              "field": "published.notes",
+              "phrase": "Coins"
+            },
+            {
+              "field": "published.notes",
+              "phrase": "Coin"
+            },
+            {
+              "field": "published.notes",
+              "phrase": "Coins"
             }
           ]
         },
@@ -28320,6 +28551,26 @@
               "phrase": "Effects"
             }
           ]
+        },
+        {
+          "label": "routine",
+          "status": "unverified_source_mention",
+          "evidence": [
+            {
+              "field": "published.notes",
+              "phrase": "Routine"
+            }
+          ]
+        },
+        {
+          "label": "techniques",
+          "status": "unverified_source_mention",
+          "evidence": [
+            {
+              "field": "published.notes",
+              "phrase": "Move"
+            }
+          ]
         }
       ],
       "levels": []
@@ -28347,8 +28598,8 @@
     "originalNotes": [
       "Cards and Coins Galore"
     ],
-    "embeddingText": "Title: An Extension of Me\nMagicians: Eric Jones\nPublished source notes (not independently verified): A teaching collection covering card, coin, and sponge-ball magic.; Playing cards; Coins; Sponge balls; cards; coins; sponge balls\nCollection notes: Cards and Coins Galore\nCategories: Effects\nsubjects: cards; coins; sponge balls\nformats: tutorial; effects",
-    "contentHash": "070cefea9a77cc9c56325b01e9b88d17eb6a622c9e2bdb277b9087b56853fb7c"
+    "embeddingText": "Title: An Extension of Me\nMagicians: Eric Jones\nPublished source notes (not independently verified): A teaching collection covering card, coin, and sponge-ball magic.; Playing cards; Coins; Sponge balls; cards; coins; sponge balls; SpeedFly; Impossible Production; Eye Candy; Trip.Rev; Impossible Coins Across; Hellbound Remix; Ambitious; El Cambio Nada; Swirl Production; Standing Room Only Collectors; Elevator Cut; Oxy-Clean Coin Routine; Flash Coins Re-Lit; G.O.D.H.A.N.D. Move; Peregrination; Ishkibble Sandwich; Tai Chi Penetration; Ambitious Force\nCollection notes: Cards and Coins Galore\nCategories: Effects\nsubjects: cards; coins; sponge balls\nformats: tutorial; effects; routine; techniques",
+    "contentHash": "0caf1101448abbfecc30d8993ef216c715cadfff5ec18beb781ef55a2fefdbe9"
   },
   {
     "schemaVersion": "1.2",
@@ -31572,7 +31823,84 @@
       "Michael Ammar"
     ],
     "titleAliases": [],
-    "externalEvidence": null,
+    "externalEvidence": {
+      "summary": "Volume 2 of Michael Ammar’s card-magic teaching series.",
+      "props": [
+        "Playing cards"
+      ],
+      "subjects": [
+        "cards"
+      ],
+      "tricks": [
+        {
+          "name": "Twisting The Aces",
+          "creator": "Dai Vernon",
+          "description": ""
+        },
+        {
+          "name": "Daley's Last Trick",
+          "creator": "Dr. Jacob Daley",
+          "description": ""
+        },
+        {
+          "name": "Card Warp",
+          "creator": "Roy Walton",
+          "description": ""
+        },
+        {
+          "name": "Poker Routine",
+          "creator": "Dai Vernon",
+          "description": ""
+        },
+        {
+          "name": "Poker Face",
+          "creator": "Al Baker",
+          "description": ""
+        },
+        {
+          "name": "Overkill",
+          "creator": "Harris / Ackerman / Emberg",
+          "description": ""
+        },
+        {
+          "name": "Card Through Handkerchief",
+          "creator": "",
+          "description": ""
+        },
+        {
+          "name": "Card Penetration Change",
+          "creator": "Cy Endfield",
+          "description": ""
+        },
+        {
+          "name": "The Ambitious Card",
+          "creator": "",
+          "description": ""
+        },
+        {
+          "name": "MacDonald's Aces",
+          "creator": "",
+          "description": ""
+        }
+      ],
+      "sources": [
+        {
+          "label": "Vanishing Inc.",
+          "url": "https://www.vanishingincmagic.com/card-magic/easy-to-master-card-miracles-volumes-1-3/",
+          "scope": "Volume 2 subsection of DVD volumes 1–3 listing"
+        },
+        {
+          "label": "Penguin Magic",
+          "url": "https://www.penguinmagic.com/product.php?ID=107",
+          "scope": "DVD product listing"
+        }
+      ],
+      "url": "https://www.vanishingincmagic.com/card-magic/easy-to-master-card-miracles-volumes-1-3/",
+      "sourceLabel": "Vanishing Inc.",
+      "reviewedAt": "2026-10-14",
+      "editionNote": "Retailer-listed contents, including the bonus effect; the physical disc and accompanying props have not been checked. Online-instruction releases were excluded.",
+      "independentlyVerified": false
+    },
     "notes": [],
     "descriptionGroups": [],
     "rawCategories": [],
@@ -31586,12 +31914,71 @@
             {
               "field": "catalog.title",
               "phrase": "Card"
+            },
+            {
+              "field": "published.notes",
+              "phrase": "card"
+            },
+            {
+              "field": "published.notes",
+              "phrase": "Playing cards"
+            },
+            {
+              "field": "published.notes",
+              "phrase": "cards"
+            },
+            {
+              "field": "published.notes",
+              "phrase": "Card"
+            },
+            {
+              "field": "published.notes",
+              "phrase": "Card"
+            },
+            {
+              "field": "published.notes",
+              "phrase": "Card"
+            },
+            {
+              "field": "published.notes",
+              "phrase": "Card"
             }
           ]
         }
       ],
       "settings": [],
-      "formats": [],
+      "formats": [
+        {
+          "label": "tutorial",
+          "status": "unverified_source_mention",
+          "evidence": [
+            {
+              "field": "published.notes",
+              "phrase": "teaching"
+            }
+          ]
+        },
+        {
+          "label": "effects",
+          "status": "unverified_source_mention",
+          "evidence": [
+            {
+              "field": "published.notes",
+              "phrase": "Trick"
+            }
+          ]
+        },
+        {
+          "label": "routine",
+          "status": "unverified_source_mention",
+          "evidence": [
+            {
+              "field": "published.notes",
+              "phrase": "Routine"
+            }
+          ]
+        }
+      ],
       "levels": []
     },
     "publishers": [],
@@ -31618,8 +32005,8 @@
       "includedInDefaultEmbeddings": false
     },
     "originalNotes": [],
-    "embeddingText": "Title: Easy to Master Card Miracles Vol.2\nMagicians: Michael Ammar\nsubjects: cards",
-    "contentHash": "da4311ec3cf24c3714c1baf55a745cd1e07318cbc621d26e02773903624d14dc"
+    "embeddingText": "Title: Easy to Master Card Miracles Vol.2\nMagicians: Michael Ammar\nPublished source notes (not independently verified): Volume 2 of Michael Ammar’s card-magic teaching series.; Playing cards; cards; Twisting The Aces (Dai Vernon); Daley's Last Trick (Dr. Jacob Daley); Card Warp (Roy Walton); Poker Routine (Dai Vernon); Poker Face (Al Baker); Overkill (Harris / Ackerman / Emberg); Card Through Handkerchief; Card Penetration Change (Cy Endfield); The Ambitious Card; MacDonald's Aces\nsubjects: cards\nformats: tutorial; effects; routine",
+    "contentHash": "84698588ed92abd00e07dd61e52cfe7a3de0599d59c4d295e13a232a7098e3e6"
   },
   {
     "schemaVersion": "1.2",
@@ -32682,7 +33069,7 @@
     ],
     "titleAliases": [],
     "externalEvidence": {
-      "summary": "A card-magic teaching collection featuring material credited to several creators.",
+      "summary": "Volume 1 of Michael Ammar’s card-magic teaching series.",
       "props": [
         "Playing cards"
       ],
@@ -32692,25 +33079,76 @@
       "tricks": [
         {
           "name": "8 Card Brainwave",
-          "creator": "Nick Trost"
+          "creator": "Nick Trost",
+          "description": ""
         },
         {
           "name": "Red Hot Mama",
-          "creator": "Ryan / Everhart / Leech"
+          "creator": "Ryan / Everhart / Leech",
+          "description": ""
+        },
+        {
+          "name": "Acrobatic Aces",
+          "creator": "",
+          "description": ""
+        },
+        {
+          "name": "The Secret To A Perfect Royal Flush",
+          "creator": "",
+          "description": ""
         },
         {
           "name": "Triumph",
-          "creator": "Dai Vernon"
+          "creator": "Dai Vernon",
+          "description": ""
+        },
+        {
+          "name": "Further Than That",
+          "creator": "Stewart James",
+          "description": ""
         },
         {
           "name": "Las Vegas Leaper",
-          "creator": "Paul Harris"
+          "creator": "Paul Harris",
+          "description": ""
+        },
+        {
+          "name": "Cannibal Cards",
+          "creator": "Lin Searles",
+          "description": ""
+        },
+        {
+          "name": "Card Thru Table",
+          "creator": "",
+          "description": ""
+        },
+        {
+          "name": "A Night at the Improv...",
+          "creator": "Eric Mead",
+          "description": ""
+        },
+        {
+          "name": "The Insurance Policy",
+          "creator": "Tommy Wonder",
+          "description": ""
         }
       ],
-      "url": "https://www.penguinmagic.com/ja/p/106",
-      "sourceLabel": "Penguin Magic",
+      "sources": [
+        {
+          "label": "Vanishing Inc.",
+          "url": "https://www.vanishingincmagic.com/card-magic/easy-to-master-card-miracles-volumes-1-3/",
+          "scope": "Volume 1 subsection of DVD volumes 1–3 listing"
+        },
+        {
+          "label": "Penguin Magic",
+          "url": "https://www.penguinmagic.com/es/p/106",
+          "scope": "DVD product listing"
+        }
+      ],
+      "url": "https://www.vanishingincmagic.com/card-magic/easy-to-master-card-miracles-volumes-1-3/",
+      "sourceLabel": "Vanishing Inc.",
       "reviewedAt": "2026-10-14",
-      "editionNote": "Selected contents only; this is not a complete inventory of the DVD.",
+      "editionNote": "Retailer-listed contents, including the bonus effect; the physical disc and accompanying props have not been checked. Online-instruction releases were excluded.",
       "independentlyVerified": false
     },
     "notes": [],
@@ -32738,6 +33176,14 @@
             {
               "field": "published.notes",
               "phrase": "cards"
+            },
+            {
+              "field": "published.notes",
+              "phrase": "Card"
+            },
+            {
+              "field": "published.notes",
+              "phrase": "Cards"
             },
             {
               "field": "published.notes",
@@ -32785,8 +33231,8 @@
       "includedInDefaultEmbeddings": false
     },
     "originalNotes": [],
-    "embeddingText": "Title: Easy to Master Card Miracles Vol.1\nMagicians: Michael Ammar\nPublished source notes (not independently verified): A card-magic teaching collection featuring material credited to several creators.; Playing cards; cards; 8 Card Brainwave (Nick Trost); Red Hot Mama (Ryan / Everhart / Leech); Triumph (Dai Vernon); Las Vegas Leaper (Paul Harris)\nsubjects: cards\nformats: tutorial",
-    "contentHash": "460dd92562aeab38a79c4a54028f3005cd31c2c9d03e347fc485f556952a4d39"
+    "embeddingText": "Title: Easy to Master Card Miracles Vol.1\nMagicians: Michael Ammar\nPublished source notes (not independently verified): Volume 1 of Michael Ammar’s card-magic teaching series.; Playing cards; cards; 8 Card Brainwave (Nick Trost); Red Hot Mama (Ryan / Everhart / Leech); Acrobatic Aces; The Secret To A Perfect Royal Flush; Triumph (Dai Vernon); Further Than That (Stewart James); Las Vegas Leaper (Paul Harris); Cannibal Cards (Lin Searles); Card Thru Table; A Night at the Improv... (Eric Mead); The Insurance Policy (Tommy Wonder)\nsubjects: cards\nformats: tutorial",
+    "contentHash": "dff39f892abd6765c79623433d4f5998bb203bdb62eef75843e6f597f27f8f32"
   },
   {
     "schemaVersion": "1.2",
@@ -32796,7 +33242,49 @@
       "Eric Jones"
     ],
     "titleAliases": [],
-    "externalEvidence": null,
+    "externalEvidence": {
+      "summary": "Three connected coin effects: appearance, travel between hands, and disappearance.",
+      "props": [
+        "Three coins in the described effect"
+      ],
+      "subjects": [
+        "coins"
+      ],
+      "tricks": [
+        {
+          "name": "Out With Three",
+          "creator": "",
+          "description": "Three coins appear in succession."
+        },
+        {
+          "name": "S.V.C.A. (Spectator’s Visible Coins Across)",
+          "creator": "",
+          "description": "Three coins travel between the hands."
+        },
+        {
+          "name": "KKK (Three Klan Vanish)",
+          "creator": "",
+          "description": "A sequence in which three coins disappear."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Vanishing Inc.",
+          "url": "https://www.vanishingincmagic.com/magic-dvds/mirage-et-trois/",
+          "scope": "DVD product listing"
+        },
+        {
+          "label": "Penguin Magic",
+          "url": "https://www.penguinmagic.com/fr/p/20994",
+          "scope": "Original release; product body and DVD references"
+        }
+      ],
+      "url": "https://www.vanishingincmagic.com/magic-dvds/mirage-et-trois/",
+      "sourceLabel": "Vanishing Inc.",
+      "reviewedAt": "2026-10-14",
+      "editionNote": "Original release only; Mirage Et Trois 2.0 and bundle contents were excluded. Visible coin count is not a complete prop requirement.",
+      "independentlyVerified": false
+    },
     "notes": [
       "Coins Galore",
       "Weird Sexual Theme"
@@ -32830,6 +33318,34 @@
             {
               "field": "spreadsheet.notes",
               "phrase": "Coins"
+            },
+            {
+              "field": "published.notes",
+              "phrase": "coin"
+            },
+            {
+              "field": "published.notes",
+              "phrase": "coins"
+            },
+            {
+              "field": "published.notes",
+              "phrase": "coins"
+            },
+            {
+              "field": "published.notes",
+              "phrase": "coins"
+            },
+            {
+              "field": "published.notes",
+              "phrase": "Coins"
+            },
+            {
+              "field": "published.notes",
+              "phrase": "coins"
+            },
+            {
+              "field": "published.notes",
+              "phrase": "coins"
             }
           ]
         }
@@ -32843,6 +33359,14 @@
             {
               "field": "source.category",
               "phrase": "Effects"
+            },
+            {
+              "field": "published.notes",
+              "phrase": "effects"
+            },
+            {
+              "field": "published.notes",
+              "phrase": "effect"
             }
           ]
         }
@@ -32873,8 +33397,8 @@
     "originalNotes": [
       "Coins Galore; Weird Sexual Theme"
     ],
-    "embeddingText": "Title: Mirage Et Trois\nMagicians: Eric Jones\nCollection notes: Coins Galore; Weird Sexual Theme\nCategories: Effects\nsubjects: coins\nformats: effects",
-    "contentHash": "08fc0d0e1241ccbae573b1ab05b343cecf586a2394690201ce4959c3e36e0837"
+    "embeddingText": "Title: Mirage Et Trois\nMagicians: Eric Jones\nPublished source notes (not independently verified): Three connected coin effects: appearance, travel between hands, and disappearance.; Three coins in the described effect; coins; Out With Three: Three coins appear in succession.; S.V.C.A. (Spectator’s Visible Coins Across): Three coins travel between the hands.; KKK (Three Klan Vanish): A sequence in which three coins disappear.\nCollection notes: Coins Galore; Weird Sexual Theme\nCategories: Effects\nsubjects: coins\nformats: effects",
+    "contentHash": "a4ea728515242440b38627aece80073d0df9952fb2a9f66f53e0eb7431445249"
   },
   {
     "schemaVersion": "1.2",
@@ -37451,7 +37975,40 @@
       "Troy Hooser"
     ],
     "titleAliases": [],
-    "externalEvidence": null,
+    "externalEvidence": {
+      "summary": "A coin-and-ribbon routine with alternate handlings and guest contributions.",
+      "props": [
+        "Four Chinese coins (retailer-stated requirement)",
+        "Silk ribbon"
+      ],
+      "subjects": [
+        "coins"
+      ],
+      "tricks": [
+        {
+          "name": "Charming Chinese Challenge",
+          "creator": "",
+          "description": "Coins visibly link onto and escape from a ribbon."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Vanishing Inc.",
+          "url": "https://www.vanishingincmagic.com/money-magic/a-charming-chinese-challenge-dvd/",
+          "scope": "DVD product listing"
+        },
+        {
+          "label": "Penguin Magic",
+          "url": "https://www.penguinmagic.com/zh/p/9842",
+          "scope": "DVD product listing"
+        }
+      ],
+      "url": "https://www.vanishingincmagic.com/money-magic/a-charming-chinese-challenge-dvd/",
+      "sourceLabel": "Vanishing Inc.",
+      "reviewedAt": "2026-10-14",
+      "editionNote": "DVD edition. The later 2024 product and online-instruction packages were excluded. Props supplied with the local copy are unknown.",
+      "independentlyVerified": false
+    },
     "notes": [
       "Charming Chinese Challenge"
     ],
@@ -37470,7 +38027,30 @@
       "Routine"
     ],
     "categories": {
-      "subjects": [],
+      "subjects": [
+        {
+          "label": "coins",
+          "status": "unverified_source_mention",
+          "evidence": [
+            {
+              "field": "published.notes",
+              "phrase": "coin"
+            },
+            {
+              "field": "published.notes",
+              "phrase": "coins"
+            },
+            {
+              "field": "published.notes",
+              "phrase": "coins"
+            },
+            {
+              "field": "published.notes",
+              "phrase": "Coins"
+            }
+          ]
+        }
+      ],
       "settings": [],
       "formats": [
         {
@@ -37480,6 +38060,10 @@
             {
               "field": "source.category",
               "phrase": "Routine"
+            },
+            {
+              "field": "published.notes",
+              "phrase": "routine"
             }
           ]
         }
@@ -37511,8 +38095,8 @@
     "originalNotes": [
       "Charming Chinese Challenge"
     ],
-    "embeddingText": "Title: Charming Chinese Challenge\nMagicians: Troy Hooser\nCollection notes: Charming Chinese Challenge\nCategories: Routine\nformats: routine\nAdditional contributors or features: Shoot Ogawa, Apollo, Thomas Wayne",
-    "contentHash": "f6d8305ef814a85bcfde6e7a0258e3f420145d5002707df43bd5d86bbce2e45a"
+    "embeddingText": "Title: Charming Chinese Challenge\nMagicians: Troy Hooser\nPublished source notes (not independently verified): A coin-and-ribbon routine with alternate handlings and guest contributions.; Four Chinese coins (retailer-stated requirement); Silk ribbon; coins; Charming Chinese Challenge: Coins visibly link onto and escape from a ribbon.\nCollection notes: Charming Chinese Challenge\nCategories: Routine\nsubjects: coins\nformats: routine\nAdditional contributors or features: Shoot Ogawa, Apollo, Thomas Wayne",
+    "contentHash": "1ee140880c4922cd531d3b29ef5fe02930e58ecef63adb82e45ce10cebc387a5"
   },
   {
     "schemaVersion": "1.2",
@@ -38803,10 +39387,17 @@
         "ropes"
       ],
       "tricks": [],
+      "sources": [
+        {
+          "label": "Penguin Magic",
+          "url": "https://www.penguinmagic.com/ja/p/S9748",
+          "scope": "DVD product listing"
+        }
+      ],
       "url": "https://www.penguinmagic.com/ja/p/S9748",
       "sourceLabel": "Penguin Magic",
       "reviewedAt": "2026-10-14",
-      "editionNote": "Source describes the DVD edition.",
+      "editionNote": "Only one source provided usable information. No individually named sections were established.",
       "independentlyVerified": false
     },
     "notes": [

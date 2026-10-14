@@ -4,7 +4,7 @@ The research pipeline enriches DVD discovery without making AI calls during brow
 
 ## Current coverage
 
-The lookup inventory tracks all 637 catalog titles. Initial indexed searches covered 192 titles; 445 remain unsearched. Search candidates are not verified matches. Three reviewed source matches demonstrate the full workflow: Three Ring Concerto, An Extension of Me, and Easy to Master Card Miracles Vol.1. This is a pilot, not complete catalog enrichment.
+The lookup inventory tracks all 637 catalog titles. Initial indexed searches covered 192 titles; 445 remain unsearched. Search candidates are not verified matches. The initial three examples have been expanded into a ten-DVD comparison pilot: seven reviewed catalog matches, 53 named contents, and three held records. See the DVD-by-DVD pilot section below. This is not complete catalog enrichment.
 
 Conjuring Archive disallows automated access to its catalog for relevant crawlers. Retailer bulk requests were rejected during research. The program does not fetch pages or bypass restrictions. Supply permitted exports, manually captured permitted material, or concise research notes from accessible sources. A future acquisition adapter needs an allowed API/export or permission from the source.
 
@@ -55,3 +55,31 @@ Embedding files retain source provenance and exclude unreviewed AI summaries by 
 ## Next batches
 
 Prioritize titles with sparse descriptions and popular creators. Work in small reviewed batches, record unresolved editions in the lookup inventory, and expand trick-level coverage before paying for embeddings. Add a permitted acquisition adapter when source access allows it, then a review interface if the JSON queue becomes cumbersome. Evaluate search against known trick/title queries before introducing a vector service.
+
+## DVD-by-DVD comparison pilot
+
+`data/research/batches/pilot-01.json` is the reviewed input for the first ten DVDs. It keeps each source's scope, access method, named contents, props and lookup outcome separately. Seven records have usable reviewed matches; three remain on hold. The batch includes 53 named contents. Conjuring Archive searches returned no usable DVD contents for this batch (Ammar results were magazine-review references). No Archive catalog scraping was performed.
+
+```sh
+npm run catalog:research
+# After factual and edition review, explicitly update the website overlay:
+npm run catalog:research -- --publish
+npm run catalog:prepare-embeddings
+```
+
+The default comparison run writes `data/research/compiled/comparison.json`, `review.html`, and `trick-documents.jsonl`. It does not publish. The HTML is a readable source-comparison report. The JSON retains the source evidence. The 53 trick documents are ready for future embeddings, each carrying a DVD ID, source URLs and a content hash; no embedding service is called. Description text remains blank when a listing only supplies a name. DVD-level prop mentions are not assigned to every trick.
+
+The compiler deduplicates names conservatively, retains source-specific credits and holds conflicting creator credits for review. Missing entries are not contradictions. Two retailer URLs can repeat the same publisher description; their agreement does not establish independent accuracy. The publication flag updates only eligible records and preserves unrelated existing records. A newly held record does not remove an older published record automatically; inspect and remove outdated evidence explicitly when required.
+
+### Import a saved product page
+
+A local HTML importer is available for pages obtained through permitted access. It parses one explicitly chosen product section, strips scripts/navigation/forms, preserves list boundaries and executes no page scripts. It does not fetch pages, bypass restrictions, or select product facts automatically.
+
+```sh
+npm run catalog:import-html -- /path/to/saved-page.html /path/to/metadata.json
+npm run catalog:extract -- .cache/catalog-research/captures
+```
+
+Metadata must contain `dvdId`, `url`, `pageTitle`, `creator`, `format`, and a `selector` identifying exactly one product-description section. Keep the original source heading in `pageTitle`; do not replace it with the desired catalog title to force a match. Captures stay in ignored cache storage. Extraction output still requires review into the batch schema; it is not an automatic source of approved website facts.
+
+Automated network acquisition remains unfinished because the requested sites restricted direct scraping. Next work should obtain an allowed export/API or permission, then add a slow cached acquisition adapter. Until then, use targeted indexed product-page research or permitted saved HTML, and record every missing or ambiguous source. Do not present this ten-DVD pilot as a complete research pass over 637 DVDs.

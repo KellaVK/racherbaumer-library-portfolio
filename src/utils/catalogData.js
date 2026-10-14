@@ -10,8 +10,15 @@ export function enrichCatalogDVD(raw, overlay = {}) {
       : {};
   const research = external[dvd.id];
   const externalEvidence = research?.status === 'reviewed_source_match' && normalizeTitle(research.title) === normalizeTitle(dvd.title) && research.creators.some(name => dvd.magician.some(creator => normalizeTitle(creator) === normalizeTitle(name))) ? research : null;
+  const reviewedLinks = {};
+  for (const source of externalEvidence?.sources || []) {
+    const host = new URL(source.url).hostname.replace(/^www\./, '');
+    const field = { 'vanishingincmagic.com': 'vanishingIncUrl', 'penguinmagic.com': 'penguinUrl', 'conjuringarchive.com': 'conjuringArchiveUrl' }[host];
+    if (field) reviewedLinks[field] = source.url;
+  }
   return {
     ...dvd,
+    ...reviewedLinks,
     externalEvidence,
     catalogNotes: data.notes || [],
     catalogAliases: data.aliases || [],
