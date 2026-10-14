@@ -1,4 +1,5 @@
-import { useMemo, useState } from 'react';
+import { useMemo, useState, useEffect } from 'react';
+import { useLibrary } from '../../contexts/LibraryContext';
 import { Link, useLocation } from 'react-router-dom';
 import {
   INTERESTS,
@@ -16,9 +17,17 @@ export default function DiscoveryPanel({ index, filters }) {
   const [preferences, setPreferences] = useState(readPreferences);
   const [storageFailed, setStorageFailed] = useState(false);
   const location = useLocation();
+  const { entries, setFlag, pending, error } = useLibrary();
+  const [seen, setSeen] = useState([]);
+  const [hideWatched, setHideWatched] = useState(true);
+  const [lastHidden, setLastHidden] = useState(null);
+  const similarId = new URLSearchParams(location.search).get('similar');
+  useEffect(() => { if (similarId) setPreferences({ ...cleanPreferences(), referenceId: similarId }); }, [similarId]);
+  const favoriteIds = Object.keys(entries).filter(id => entries[id].favorite);
+  const excluded = Object.keys(entries).filter(id => entries[id].dismissed || (hideWatched && entries[id].watched));
   const recommendations = useMemo(
-    () => recommendCatalog(index, preferences, filters),
-    [index, preferences, filters],
+    () => recommendCatalog(index, preferences, filters, 3, { favoriteIds, excludeIds: [...excluded, ...seen] }),
+    [index, preferences, filters, entries, hideWatched, seen],
   );
   const titles = useMemo(
     () =>
@@ -29,14 +38,15 @@ export default function DiscoveryPanel({ index, filters }) {
     preferences.interests.length ||
     preferences.level ||
     preferences.setting ||
-    preferences.referenceId;
+    preferences.referenceId || favoriteIds.length;
   function update(next) {
     const value = cleanPreferences({ ...preferences, ...next });
+    setSeen([]);
     setPreferences(value);
     setStorageFailed(!writePreferences(value));
   }
   return (
-    <details className="discovery-panel">
+    <details className="discovery-panel" open={similarId ? true : undefined}>
       <summary>Find something for you</summary>
       <div className="discovery-body">
         <p className="discovery-help">
@@ -111,6 +121,10 @@ export default function DiscoveryPanel({ index, filters }) {
           </label>
         </div>
         <div className="discovery-actions">
+          <label><input type="checkbox" checked={hideWatched} onChange={e => { setHideWatched(e.target.checked); setSeen([]); }} /> Hide watched DVDs</label>
+          <small>Starred favorites also help shape suggestions.</small>
+        </div>
+        <div className="discovery-actions">
           <small>
             {storageFailed
               ? 'Preferences work for this visit; your browser could not save them.'
@@ -150,10 +164,18 @@ export default function DiscoveryPanel({ index, filters }) {
                 </ul>
                 <span className="discovery-result-action">View DVD <span aria-hidden="true">→</span></span>
                 </Link>
+                <div className="suggestion-feedback">
+                  <button className="btn-ghost" onClick={() => update({ ...cleanPreferences(), referenceId: dvd.id })}>More like this</button>
+                  <button className="btn-ghost" disabled={pending} onClick={async () => { if (await setFlag(dvd.id, 'dismissed', true)) setLastHidden(dvd.id); }}>Not for me</button>
+                </div>
               </li>
             ))}
           </ul>
         )}
+        {recommendations.length > 0 && <button className="btn-secondary" onClick={() => setSeen(ids => [...ids, ...recommendations.map(d => d.id)])}>Show three more</button>}
+        {seen.length > 0 && <button className="btn-ghost" onClick={() => setSeen([])}>Start over</button>}
+        {lastHidden && <p role="status">Suggestion hidden. <button className="btn-ghost" disabled={pending} onClick={async () => { if (await setFlag(lastHidden, 'dismissed', false)) setLastHidden(null); }}>Undo</button></p>}
+        {error && <p role="alert">{error}</p>}
       </div>
     </details>
   );

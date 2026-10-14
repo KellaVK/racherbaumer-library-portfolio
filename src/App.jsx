@@ -2,6 +2,7 @@ import { lazy, Suspense } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { AuthProvider } from './contexts/AuthContext';
 import { ProtectedRoute, AdminRoute } from './components/ProtectedRoute';
+import { LibraryProvider } from './contexts/LibraryContext';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import AppErrorBoundary from './components/AppErrorBoundary';
@@ -9,6 +10,7 @@ import { ToastProvider } from './contexts/ToastContext';
 import ToastViewport from './components/ui/ToastViewport';
 
 // Code-split heavier and secondary routes to reduce initial landing bundle size
+const MyLibrary = lazy(() => import('./pages/MyLibrary'));
 const Login = lazy(() => import('./pages/Login'));
 const DVDDetail = lazy(() => import('./pages/DVDDetail'));
 const Profile = lazy(() => import('./pages/Profile'));
@@ -41,6 +43,7 @@ export default function App() {
     <AppErrorBoundary>
       <ToastProvider>
         <AuthProvider>
+          <LibraryProvider>
           <BrowserRouter>
             <div className="min-h-screen flex flex-col">
               <Navbar />
@@ -49,6 +52,7 @@ export default function App() {
                   <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/dvd/:id" element={<DVDDetail />} />
+                    <Route path="/library" element={<MyLibrary />} />
                     <Route path="/login" element={<Login />} />
                     <Route path="/pending" element={<Pending />} />
                     <Route
@@ -121,6 +125,7 @@ export default function App() {
               </footer>
             </div>
           </BrowserRouter>
+          </LibraryProvider>
         </AuthProvider>
         <ToastViewport />
       </ToastProvider>

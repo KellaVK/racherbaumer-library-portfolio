@@ -326,6 +326,7 @@ export function recommendCatalog(
   preferences = {},
   filters = {},
   limit = 3,
+  options = {},
 ) {
   const wanted = [
     ...(preferences.interests || []),
@@ -335,7 +336,9 @@ export function recommendCatalog(
   const reference = index.docs.find(
     (d) => d.dvd.id === preferences.referenceId,
   );
-  if (!wanted.length && !reference) return [];
+  const references = reference ? [reference] : index.docs.filter(d => (options.favoriteIds || []).includes(d.dvd.id));
+  const excluded = new Set([...(options.excludeIds || []), ...references.map(d => d.dvd.id)]);
+  if (!wanted.length && !references.length) return [];
   const allowed = new Set(
     filterDVDs(
       index.docs.map((d) => d.dvd),
@@ -343,8 +346,8 @@ export function recommendCatalog(
     ).map((d) => d.id),
   );
   const labels = Object.fromEntries([...INTERESTS, ...LEVELS, ...SETTINGS]);
-  return index.docs
-    .filter((d) => allowed.has(d.dvd.id) && d.dvd.id !== reference?.dvd.id)
+  const ranked = index.docs
+    .filter((d) => allowed.has(d.dvd.id) && !excluded.has(d.dvd.id))
     .map((doc) => {
       let score = 0;
       const reasons = [];
@@ -361,12 +364,11 @@ export function recommendCatalog(
           `${labels[key]} · ${field.source === 'AI description' ? 'mentioned in AI description' : 'catalog match'}`,
         );
       }
-      if (reference) {
-        const similarity = cosine(doc, reference);
-        if (similarity >= 0.12) {
-          score += similarity * 8;
-          reasons.push(`Related catalog content to “${reference.dvd.title}”`);
-        }
+      const related = references.map(seed => ({ seed, similarity: cosine(doc, seed) }))
+        .sort((a, b) => b.similarity - a.similarity)[0];
+      if (related?.similarity >= 0.12) {
+        score += related.similarity * 8;
+        reasons.push(`Related catalog content to “${related.seed.dvd.title}”`);
       }
       return {
         ...doc.dvd,
@@ -382,6 +384,20 @@ export function recommendCatalog(
         b.recommendationFit - a.recommendationFit ||
         b.recommendationScore - a.recommendationScore ||
         a.title.localeCompare(b.title),
-    )
-    .slice(0, limit);
+    );
+  const selected = [];
+  const performers = new Set();
+  const series = new Set();
+  while (ranked.length && selected.length < limit) {
+    const top = ranked[0];
+    const seriesKey = dvd => dvd.title.toLowerCase().replace(/\bvol(?:ume)?s?\.?\s*\d+.*$/i, '').trim();
+    const fresh = ranked.findIndex(d => d.recommendationFit === top.recommendationFit &&
+      d.recommendationScore >= top.recommendationScore * .8 &&
+      !d.magician.some(name => performers.has(name.toLowerCase())) && !series.has(seriesKey(d)));
+    const [next] = ranked.splice(fresh < 0 ? 0 : fresh, 1);
+    selected.push(next);
+    next.magician.forEach(name => performers.add(name.toLowerCase()));
+    series.add(seriesKey(next));
+  }
+  return selected;
 }

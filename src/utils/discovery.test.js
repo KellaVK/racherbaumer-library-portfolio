@@ -134,3 +134,16 @@ it('ranks task matches first, fills with partial matches, and returns only three
   expect(sparse.map(d => d.id)).toEqual(['both', 'family']);
   expect(sparse.every(d => d.recommendationReasons.every(reason => !reason.includes('Ropes')))).toBe(true);
 });
+
+it('uses favorites as seeds, excludes hidden titles, and diversifies comparable results', () => {
+  const idx = createDiscoveryIndex([
+    { id: 'seed', title: 'Coin Course Vol.1', magician: ['One'], notes: 'coin vanish palm transfer' },
+    { id: 'same', title: 'Coin Course Vol.2', magician: ['One'], notes: 'coin vanish palm transfer' },
+    { id: 'other', title: 'Coin Workshop', magician: ['Two'], notes: 'coin vanish palm transfer' },
+    { id: 'third', title: 'Coin Lessons', magician: ['Three'], notes: 'coin vanish palm transfer' },
+  ]);
+  const personalized = recommendCatalog(idx, {}, {}, 3, { favoriteIds: ['seed'], excludeIds: ['same'] });
+  expect(personalized.map(d => d.id).sort()).toEqual(['other', 'third']);
+  const varied = recommendCatalog(idx, { interests: ['coins'] });
+  expect(new Set(varied.map(d => d.magician[0])).size).toBe(3);
+});

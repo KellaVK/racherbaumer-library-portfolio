@@ -7,6 +7,7 @@ import { requestCheckout } from '../services/checkouts'
 import { displayValue } from '../utils/dvd'
 import { enrichCatalogDVD } from '../utils/catalogData'
 import enrichment from '../data/catalog-enrichment.json'
+import LibraryActions from '../components/dvds/LibraryActions'
 import CatalogEvidence from '../components/dvds/CatalogEvidence'
 import StatusBadge from '../components/ui/StatusBadge'
 
@@ -249,6 +250,7 @@ export default function DVDDetail() {
         </details>
       )}
 
+      <LibraryActions dvd={dvd} />
       <CatalogEvidence dvd={dvd} />
 
       {/* Collapsible: AI Summary */}

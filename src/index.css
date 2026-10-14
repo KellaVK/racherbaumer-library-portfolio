@@ -996,3 +996,21 @@
 .discovery-result-title { font-family: 'Playfair Display', serif; color: var(--text); line-height: 1.4; }
 .discovery-result-link:hover .discovery-result-title { color: var(--gold); }
 .discovery-result-action { display: inline-block; color: var(--gold); font-size: .75rem; margin-top: .85rem; }
+
+.library-actions { margin: 1.25rem 0; }
+.library-action-buttons, .library-tabs { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
+.library-actions small { display: block; color: var(--text-muted); line-height: 1.6; margin-top: .75rem; }
+.library-actions button[aria-pressed="true"], .library-tabs button[aria-pressed="true"] { color: var(--gold); border-color: var(--gold); }
+.personal-shelf { list-style: none; padding: 0; max-width: 48rem; }
+.personal-shelf > li { padding: 1.5rem 0; border-top: 1px solid var(--border); }
+.personal-shelf > li > a { font-family: 'Playfair Display', serif; color: var(--text); font-size: 1.15rem; }
+.suggestion-feedback { display: flex; justify-content: space-between; gap: .5rem; }
+.discovery-suggestions .discovery-result-link { height: auto; }
+
+.meeting-print-area { margin: 1rem 0; line-height: 1.8; }
+@media print {
+  body:has(.meeting-print-area) * { visibility: hidden; }
+  body:has(.meeting-print-area) .meeting-print-area, body:has(.meeting-print-area) .meeting-print-area * { visibility: visible; color: #000; background: #fff; }
+  .meeting-print-area { position: absolute; inset: 0; padding: 1rem; }
+  .meeting-print-area .no-print { display: none; }
+}

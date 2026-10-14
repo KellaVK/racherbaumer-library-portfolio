@@ -103,3 +103,31 @@ Adopt embeddings only if the improvement is worth the operational cost.
 
 Defer public ratings, social feeds, badges, and elaborate recommendation settings until
 members demonstrate a need. They add clutter and have weak signal with a small user base.
+
+## Implementation update — October 14, 2026
+
+Implemented in the feature branch:
+- My Library with want-to-watch, favorites, watched, and reversible hidden-suggestion shelves.
+- Browser-local guest saves; owner-only Firestore account saves with merge writes.
+  Guest saves are intentionally not uploaded on sign-in. They reappear on sign-out.
+- Small detail-page controls; catalog result cards are unchanged. My Library replaces
+  the separate checkout navigation link and links to the existing loan/request page.
+- Favorites as similarity seeds, watched exclusion, More like this, Not for me/Undo,
+  and Show three more/Start over.
+- Diversity selection among comparably scored candidates, retaining stronger task matches.
+- Collapsible admin meeting pickup/return checklist with print styling.
+- Offline recommendation coverage script: 36 subject/setting combinations each return
+  three distinct results against the catalog fixture. This is coverage, not a relevance score.
+
+Cost and rollout:
+- No new AI API calls, subscriptions, model downloads, or external recommendation services.
+- Recommendations use the existing local lexical/concept index and cached descriptive data.
+- Account shelves use ordinary Firestore reads/writes; those follow the existing project's billing.
+- Deploy the new Firestore rules before enabling the new frontend for signed-in members.
+  Current production rules will reject the new shelf path; errors are shown without claiming
+  a failed write was saved. Rules were tested against an isolated local Firestore emulator.
+- Neural embeddings, notifications, public reviews, new-title purchase requests, and digital
+  playback remain deferred. Next step for embeddings is a local/offline quality benchmark,
+  with no per-click paid inference. Keep it only if measured relevance improves.
+- Guest browser flows were exercised locally. Real-account cross-device sync still needs
+  staging verification with the new rules; production was not changed.
